@@ -5,37 +5,41 @@ format di esecuzione (concept != format). E ricorda la producibilita': non
 scegliere un format che la produzione non puo' realizzare bene.
 
 Il dettaglio completo di ogni format (Cos'e', Perche' funziona, Come funziona,
-Struttura, Esempio di script, Do's & Don'ts) e' in `references/formats-guide.md`,
-Parte 4. Qui c'e' la mappa di selezione.
+Struttura, Esempio di script, Do's & Don'ts) e' in `references/formats/`, un
+file per format. Qui c'e' la mappa di selezione.
+
+> **Regola di lettura.** Non caricare tutti i format. Usa la mappa qui sotto per
+> scegliere UNO (o due) format candidati; poi apri SOLO il file corrispondente in
+> `formats/`. Questo mantiene il context leggero.
 
 > Il "chi interpreta" deriva dalla natura del format descritta nella guida. Se in
 > un caso specifico non e' chiaro, chiedilo all'utente invece di assumere.
 
 ---
 
-## Mappa rapida (da guida 4.1)
+## Mappa rapida
 
-| Format | Quando usarlo | Chi interpreta | Costo | Durata | Sezione guida |
+| Format | Quando usarlo | Chi interpreta | Costo | Durata | File dettaglio |
 |---|---|---|---|---|---|
-| Mashup Ads | Qualsiasi brand consumer | Piu' clip/creator montati | 0 EUR | 45-90s | 4.2 |
-| Narrator / Story Ads | Prodotti che richiedono spiegazione | 2 attori | 100-500 EUR | 60-120s | 4.3 |
-| POV Ads | Engagement immediato | 1 creator, prima persona | 0-100 EUR | 15-45s | 4.4 |
-| Educational VSL | Prodotti complessi (salute, tech, finanza) | Voce narrante / spokesperson autorevole | 200-1000 EUR | 90-180s | 4.5 |
+| Mashup Ads | Qualsiasi brand consumer | Piu' clip/creator montati | 0 EUR | 45-90s | `formats/01-mashup-ads.md` |
+| Narrator / Story Ads | Prodotti che richiedono spiegazione | 2 attori | 100-500 EUR | 60-120s | `formats/02-narrator-story.md` |
+| POV Ads | Engagement immediato | 1 creator, prima persona | 0-100 EUR | 15-45s | `formats/03-pov.md` |
+| Educational VSL | Prodotti complessi (salute, tech, finanza) | Voce narrante / spokesperson autorevole | 200-1000 EUR | 90-180s | `formats/04-educational-vsl.md` |
 | Non-Narrated Ads | Prodotti visivi (fashion, beauty, gadget) | Solo visual, no voce narrante | 0-100 EUR | 15-60s | (vedi nota) |
-| Podcast Ads (reale) | Costruire fiducia, traffico freddo | 2 speaker, formato podcast | 100-300 EUR | 60-90s | 4.7.1 |
-| Fake Podcast Ads | Nativo social, alta riconoscibilita' | 2 attori che simulano un podcast | 100-300 EUR | 45-90s | 4.7.2 |
-| Skit Conversation | Identificazione, aspirazione | 2 attori (conversazione sceneggiata) | 100-500 EUR | 45-90s | 4.6 |
-| Street Interviews | Autenticita', reazioni genuine | Intervistatore + intervistati | 50-200 EUR | 30-60s | 4.9 |
-| UGC Tradizionale | Demo prodotto dirette | 1 creator | 50-200 EUR | 30-60s | 4.8.1 |
-| Story UGC | Engagement, storytelling naturale | 1 creator | 100-300 EUR | 45-90s | 4.8.2 |
-| UGC Mashup | Prova sociale massiccia | Piu' clip UGC | 0 EUR | 30-60s | 4.8.3 |
-| Founder Ads | Connessione personale, trust | Il fondatore | 0-100 EUR | 60-120s | 4.10 |
-| Ugly Ads | Pattern interrupt, autenticita' | 1 creator, low-fi (screenshot, notes app, selfie) | 0 EUR | 15-30s | 4.11 |
-| Us vs. Them | Differenziazione, decisione semplificata | 1 creator/voce + confronto visivo | 0-100 EUR | 30-60s | 4.12 |
+| Skit Conversation | Identificazione, aspirazione | 2 attori (conversazione sceneggiata) | 100-500 EUR | 45-90s | `formats/05-skit-conversation.md` |
+| Podcast Ads (reale) | Costruire fiducia, traffico freddo | 2 speaker, formato podcast | 100-300 EUR | 60-90s | `formats/06-podcast-reale.md` |
+| Fake Podcast Ads | Nativo social, alta riconoscibilita' | 2 attori che simulano un podcast | 100-300 EUR | 45-90s | `formats/07-podcast-fake.md` |
+| UGC Tradizionale | Demo prodotto dirette | 1 creator | 50-200 EUR | 30-60s | `formats/08-ugc-tradizionale.md` |
+| Story UGC | Engagement, storytelling naturale | 1 creator | 100-300 EUR | 45-90s | `formats/09-ugc-story.md` |
+| UGC Mashup | Prova sociale massiccia | Piu' clip UGC | 0 EUR | 30-60s | `formats/10-ugc-mashup.md` |
+| Street Interviews | Autenticita', reazioni genuine | Intervistatore + intervistati | 50-200 EUR | 30-60s | `formats/11-street-interviews.md` |
+| Founder Ads | Connessione personale, trust | Il fondatore | 0-100 EUR | 60-120s | `formats/12-founder-ads.md` |
+| Ugly Ads | Pattern interrupt, autenticita' | 1 creator, low-fi (screenshot, notes app, selfie) | 0 EUR | 15-30s | `formats/13-ugly-ads.md` |
+| Us vs. Them | Differenziazione, decisione semplificata | 1 creator/voce + confronto visivo | 0-100 EUR | 30-60s | `formats/14-us-vs-them.md` |
 
-> **Nota su Non-Narrated Ads.** E' nella mappa 4.1 ma la guida non ha una sezione
-> dedicata. Non invento la struttura: se serve questo format, chiedi all'utente i
-> dettagli o aggiungiamo una sezione apposita.
+> **Nota su Non-Narrated Ads.** E' nella mappa ma la guida non ha un file
+> dedicato. Non invento la struttura: se serve questo format, chiedi all'utente i
+> dettagli o aggiungiamo un file apposta.
 
 ---
 

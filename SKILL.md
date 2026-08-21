@@ -1,18 +1,12 @@
 ---
 name: video-ads-script-writer
 description: >
-  Scrive script e brief per VIDEO ADS performanti (italiano e inglese US nativo)
-  da un concept/angle assegnato, con il framework di Matteo Landi: hook system
-  multi-layer, selling blocks, scrittura parlata anti-AI, output tabellare Notion
-  pronto per creator ed editor. USA SEMPRE questa skill quando l'utente vuole
-  lavorare su uno script o brief per un video pubblicitario, anche senza
-  nominarla e con richieste brevi o vaghe. Trigger espliciti e affini (solo
-  VIDEO): "scrivi uno script", "script video", "script per video", "scrivi un
-  video", "brief video", "sceneggiatura", "hook per il video", "genera gli
-  hook", "UGC script", "VSL", "podcast ad", "founder ad", "skit", "street
-  interview", "mashup ad", "us vs them", "video ads", "adatta lo script",
-  "varianti dello script", "traduci lo script in inglese US", oltre ai nomi dei
-  format. NON usarla per copy statici, caption, email o testi non-video.
+  Scrive script e brief per video ads (IT + EN US) da concept/angle assegnato,
+  con framework Matteo Landi: hook multi-layer, selling blocks, scrittura
+  parlata anti-AI, output tabellare pronto per creator ed editor. Attiva su
+  richieste di script, hook, brief video, sceneggiatura, varianti, traduzione EN,
+  o nomi dei 14 format supportati (UGC, VSL, founder, skit, street interview,
+  mashup, us vs them, ecc.). NON usare per copy statici, caption, email.
 ---
 
 # Video Ads Script Writer
@@ -72,11 +66,12 @@ Esegui in ordine. Ogni passo rimanda al reference file che contiene le regole.
    guidalo nella scelta di angle, buyer persona e format (vedi
    `references/05-format-selector.md`), poi procedi.
 
-4. **Scegli il format.** Seleziona tra i 15 format in
+4. **Scegli il format.** Seleziona tra i 14 format in
    `references/05-format-selector.md` in base a obiettivo, awareness e
    soprattutto **producibilita'** (regola "Never write production-blind" in
    `references/02-writing-principles.md`). Il dettaglio completo di ogni format
-   e' in `references/formats-guide.md`.
+   e' in `references/formats/<nome-format>.md` — carica SOLO il file del format
+   scelto, non tutti.
 
 5. **Genera i 3 hook.** Applica il sistema completo in
    `references/01-hook-system.md`: layer WHO + WHAT STAGE + HOW-Copy + HOW-Visual,
@@ -87,8 +82,8 @@ Esegui in ordine. Ogni passo rimanda al reference file che contiene le regole.
 6. **Scrivi il body.** Usa i selling blocks e i principi di scrittura parlata di
    `references/02-writing-principles.md`. Distingui sempre **script parlato** da
    **testo on-screen** (le regole sono nel contratto di output). Per la sintassi
-   e lo stile italiano profondi, appoggiati a `references/formats-guide.md`
-   (Parti 2, 3, 5).
+   italiana profonda, i selling blocks avanzati e i pattern di scrittura,
+   appoggiati a `references/formats-guide.md` (Parti 2, 3, 5).
 
 7. **Formatta l'output.** Applica `references/03-output-contract.md` (3 tabelle
    Notion: Hooks, Scene Script, Broll on richiesta). B-roll: se richiesto, come
@@ -182,14 +177,16 @@ sociale, CTA, Sintassi italiana, Generale).
 | `references/02-writing-principles.md` | Scrittura parlata, anti-AI, script vs on-screen, scoring E-R-C, producibilita', concept!=format, verbatim-first |
 | `references/03-output-contract.md` | Formato di output tabellare (3 tabelle Notion), colonne, selling block, note editor vs visual creator, override per-format |
 | `references/04-bilingual-it-us.md` | Regole italiano nativo + inglese US nativo (keyword, unita', phrasal verb, slang, modali) |
-| `references/05-format-selector.md` | I 15 format: quando usarli, obiettivo, chi interpreta, durata, costo, dove approfondire |
+| `references/05-format-selector.md` | I 14 format: quando usarli, obiettivo, chi interpreta, durata, costo, dove approfondire |
 | `references/06-broll-generation.md` | B-roll on richiesta: indicazioni semplici per creator oppure prompt AI |
 | `references/07-review-gates.md` | **Enforcement**: catena 4 gate (Format/Hook/Voice/Grounding), soglie, lista pattern voice-lint, regola fact-vs-flavor, upgrade advisory→bloccante |
-| `references/formats-guide.md` | La guida completa (strategia, stile, sintassi, 15 format, selling blocks, framework operativo, checklist) |
+| `references/formats-guide.md` | Strategia, stile, sintassi italiana, selling blocks avanzati, framework operativo, checklist. **Non contiene piu' i format** (spostati in `formats/`). |
+| `references/formats/*.md` | Un file per format (14 file): Cos'e', Perche' funziona, Come funziona, Struttura, Esempio, Do's & Don'ts. Carica SOLO il file del format scelto. |
+| `references/hook-types-library.md` | Libreria dei 20 tipi di hook (preset di apertura) |
 
 Vedi anche `UPDATE-MAP.md` per sapere quale file modificare quando vuoi
-aggiornare qualcosa, e `PORTABLE-master-prompt.md` per la versione da incollare
-su ChatGPT / Gemini / Custom GPT.
+aggiornare qualcosa. Per usare la skill su ChatGPT/Gemini, genera il bundle
+con lo script `scripts/bundle-skill.sh` dal brain landi-brain.
 
 ---
 
