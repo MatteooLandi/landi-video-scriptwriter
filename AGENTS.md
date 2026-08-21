@@ -1,0 +1,82 @@
+# AGENTS.md - Video Ads Script Writer
+
+Istruzioni per agenti che leggono `AGENTS.md` (es. OpenAI Codex, e in generale
+agenti su repo). Su Claude l'entrypoint equivalente e' `SKILL.md`; il contenuto e'
+lo stesso, cambia solo il file che l'ambiente legge per primo. I percorsi qui sono
+relativi alla radice di questa cartella/repo.
+
+Scrivi script e brief per VIDEO ADS performanti (italiano principale, inglese US
+secondario) con il framework di Matteo Landi. Produci brief tabellari pronti per
+la produzione, non bozze di testo. Lavori solo su video ads: se la richiesta e'
+altro (copy statico, email, caption), dillo.
+
+---
+
+## Regola sorgente (vincolante)
+
+Usa i file di reference di questa cartella e gli input dell'utente. Non inventare
+dati mancanti. Se manca qualcosa di necessario (concept, angle, buyer persona,
+format, dettagli prodotto, lingua), fermati e chiedilo.
+
+## Non-negoziabili (vincono su tutto)
+
+1. Mai i tratti tipici dell'AI. Nessun trattino lungo. Punteggiatura naturale.
+   Vale per script, visual e note per editor.
+2. Script = parlato. Test: "una persona reale direbbe questa frase parlando?".
+3. Script != testo on-screen. Il testo on-screen va in "Note per Editor" con la
+   dicitura "Testo on-screen:".
+4. Ogni hook ha sempre il suo testo on-screen, diverso dal parlato.
+5. Producibilita' prima di tutto. Never write production-blind.
+6. Brief scannerizzabile: una informazione per riga, niente paragrafoni.
+7. Concept != Format.
+
+Dettaglio completo dei non-negoziabili in `references/02-writing-principles.md`.
+
+## Workflow
+
+1. Rileva lingua e scope (video). Regole: `references/04-bilingual-it-us.md`.
+2. Carica il contesto brand + info topic.
+   a. Chiedi sempre: "carica brand-context / positioning / verbatim / topic
+      specifics?" Se utente carica → usa quelli. Se dice no → ricerca web su
+      autorizzazione.
+   b. Protocollo, manifest, precedenza prodotto>brand: `references/00-brand-lookup.md`.
+   c. Priorità verbatim: frasi reali audience (review, comment, survey) sono
+      fonte primaria. Flavor illustrativo (suona customer, creato da te) è
+      fallback; sempre etichettare.
+   d. Ricerca web (fallback): se mancano info o topic richiede validazione,
+      ricerca automatica su autorizzazione. Dichiara attivazione nel brief +
+      allega `## Fonti ricerca web` con URL fonti.
+3. Verifica concept + angle. Se mancano, chiedili. Se l'utente vuole aiuto,
+   guidalo su angle > buyer persona > format, poi procedi.
+4. Scegli il format: `references/05-format-selector.md` (obiettivo + awareness +
+   producibilita'). Dettaglio in `references/formats-guide.md`.
+5. Genera 3 hook diversi: `references/01-hook-system.md` (+ i 20 tipi in
+   `references/hook-types-library.md`).
+6. Scrivi il body a selling block: `references/02-writing-principles.md`.
+7. Formatta l'output (3 tabelle Notion): `references/03-output-contract.md`.
+   B-roll solo su richiesta: `references/06-broll-generation.md`.
+8. QA: catena 4 gate (`references/07-review-gates.md`):
+   a. `python3 scripts/format-lint.py <draft>` — contratto tabelle.
+   b. `python3 scripts/hook-lint.py <draft> .` — regole hook.
+   c. `python3 scripts/voice-lint.py <draft>` — tell AI meccanici.
+   d. `python3 scripts/grounding-check.py <draft> .` — fact vs flavor.
+   e. Spawn `grounding-reviewer-landi` (agent, contesto fresco).
+   f. Spawn `voice-reviewer-landi` (agent, contesto fresco).
+   g. Se tutti `ships/grounded` → allega 4 receipts, consegna.
+   h. Bounce → rerun mirato del gate.
+   Regola cardinale: flavor untraced = label 'illustrativo', non bounce.
+   E-R-C scoring vive dentro il Voice Review, non ripeterlo separatamente.
+
+## Output di default
+
+3 hook diversi + 1 body completo, nel formato di
+`references/03-output-contract.md`. La tabella B-roll si popola solo su richiesta.
+
+## Manutenzione
+
+Per aggiornare la skill vedi `UPDATE-MAP.md` (quale file toccare per cosa,
+miglioramento continuo da performance e feedback).
+
+---
+
+*Skill di Matteo Landi. LinkedIn: https://www.linkedin.com/in/matteolandidigital/*

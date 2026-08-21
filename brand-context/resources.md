@@ -1,0 +1,3 @@
+# resources - {Nome Brand}
+
+(compilare)
