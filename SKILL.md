@@ -37,6 +37,44 @@ B-roll si popola **solo se richiesta**.
 
 ---
 
+## Quando NON usare questa skill
+
+Questa skill genera **script/brief per video ads short-form** (UGC, VSL, Founder
+Ad, Skit, Mashup, Us-vs-Them, ecc., 15-90s). NON attivarla quando la richiesta
+riguarda:
+
+- **Blog post, articoli, contenuti long-form scritti** — questa skill assume
+  cadenza parlata, non prosa scritta.
+- **Copy statici per ad** (headline + subhead, senza script) — craft diverso,
+  nessun hook system, nessun B-roll.
+- **Email marketing / sequenze DM** — struttura e pacing diversi.
+- **Landing page SEO / product description e-commerce** — scritte per la
+  ricerca, non per il parlato.
+- **Caption organiche non-ad** (post social organici puri) — intent diverso, no
+  framing direct-response.
+- **Script video long-form > 90s** (documentario, tutorial, podcast, webinar) —
+  la format library di questa skill copre solo ads short-form.
+- **Lingue diverse da IT o US-EN** — `references/04-bilingual-it-us.md` copre
+  solo queste due.
+- **Post-production / editing brief timeline** — la skill produce script +
+  hint B-roll, non timeline editoriali.
+- **Strategia ads / media planning / segmentazione audience** — la skill
+  esegue su un angle gia' definito, non pianifica la campagna.
+
+**Se la richiesta rientra qui:** rispondi in chiaro "questa non e' una task da
+video-ads-script-writer, la skill non aiuta" e suggerisci l'approccio giusto
+(altra skill, lavoro manuale, altro tool). Non forzare il contratto di output
+della skill sul tipo di contenuto sbagliato.
+
+**Edge case — attiva con warning:**
+- Script video 90-180s → attiva ma nota che la format library punta a durate
+  minori, alcune sezioni possono non tornare.
+- Script per contenuto organic-looking ma pagato → attiva (e' ancora un ad).
+- Rewrite di script esistente → attiva, tratta l'input come draft e applica i
+  review gate.
+
+---
+
 ## Workflow
 
 Esegui in ordine. Ogni passo rimanda al reference file che contiene le regole.
