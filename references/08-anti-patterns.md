@@ -10,18 +10,23 @@ di regressione in `fixtures/`.
 
 ---
 
-## AP-01: Trattino lungo (em-dash)
+## AP-01: Trattino lungo o medio (em-dash / en-dash)
 
 **❌ Sbagliato**
 > Ho passato tre anni — davvero, tre anni — a coprire le occhiaie ogni mattina.
+> Testo on-screen: "Cedolare sul NETTO – legale, previsto dalla normativa"
 
 **✅ Giusto**
 > Ho passato tre anni a coprire le occhiaie ogni mattina. Tre anni.
+> Testo on-screen: "Cedolare sul NETTO. Legale, previsto dalla normativa"
 
 **🔍 Perche'**
-L'em-dash e' il tell piu' affidabile di scrittura AI. Nel parlato reale nessuno
-pausa cosi'. `voice-lint.py` lo blocca. Sostituire con virgola, punto, o frase
-spezzata. Regola in `references/02-writing-principles.md`.
+Em-dash e en-dash sono i tell piu' affidabili di scrittura AI. Nel parlato reale
+nessuno pausa cosi', e nei testi on-screen creano lo stesso pattern riconoscibile.
+`voice-lint.py` li blocca entrambi. Sostituire con virgola, punto, due punti, o
+frase spezzata. Vale per ogni campo dell'output: script, testi on-screen,
+indicazioni visual, note per editor. Regola in
+`references/02-writing-principles.md`.
 
 ---
 

@@ -29,9 +29,11 @@ Elimina:
 
 Vale per script, visual (cosa far vedere) e note per editor / testi on-screen.
 
-- **Nessun trattino lungo (—).** Sostituisci con punteggiatura naturale: virgole,
-  punti, due punti, parentesi tonde, punto e virgola, oppure spezza in frasi
-  separate.
+- **Nessun trattino lungo (—), nessun trattino medio (–).** Mai, in nessun campo
+  dell'output: script, testi on-screen, indicazioni visual, note per editor. Sono
+  i tell piu' riconoscibili della scrittura AI. Sostituisci con punteggiatura
+  naturale: virgole, punti, due punti, parentesi tonde, punto e virgola, oppure
+  spezza in frasi separate.
 - Niente simmetrie perfette, elenchi troppo bilanciati, cadenze da modello.
 - **Italiano nativo.** Usa espressioni coerenti con la lingua. Esempio: "soldi
   veri", non "euro veri".

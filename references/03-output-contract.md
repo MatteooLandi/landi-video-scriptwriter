@@ -111,11 +111,11 @@ Esempi:
 
 | Elemento | Dove va | Perche' |
 |---|---|---|
-| Talent indica una lavagna con due colonne scritte a mano | Cosa far vedere | Lo fa il creator in ripresa |
+| Creator indica una lavagna con due colonne scritte a mano | Cosa far vedere | Lo fa il creator in ripresa |
 | Barra animata che cresce da "3%" a "15,5%" a lato dello schermo | Note per Editor | E' motion graphic in post |
-| Screenshot mostrato sul laptop del talent (schermo acceso in ripresa) | Cosa far vedere | Il laptop c'e' sul set |
+| Screenshot mostrato sul laptop del creator (schermo acceso in ripresa) | Cosa far vedere | Il laptop c'e' sul set |
 | Screenshot messo in overlay dall'editor sopra la clip | Note per Editor | E' composizione in post |
-| Talent scrive numeri a mano su un blocco, zoom sui numeri | Cosa far vedere | Ripresa reale, lo zoom e' movimento camera |
+| Creator scrive numeri a mano su un blocco, zoom sui numeri | Cosa far vedere | Ripresa reale, lo zoom e' movimento camera |
 | Numeri che pulsano in bold on-screen | Note per Editor | E' motion in post |
 
 ---

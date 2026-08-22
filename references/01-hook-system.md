@@ -95,6 +95,9 @@ Il testo on-screen dell'hook serve a uno o piu' di questi obiettivi:
   commento di un utente, reale o costruito ma credibile. Si usa per comunicare
   frustrazione (sul mercato, sulle alternative, sul problema), diffidenza,
   sorpresa positiva / recensione, oppure per lanciare una sfida.
+  **Durata sticker domanda:** per video da 15s lo sticker resta visibile per
+  tutta la durata. Per video piu' lunghi resta visibile almeno 6-10 secondi, in
+  base all'importanza del commento per il messaggio del video.
 - **Testo su sfondo.** Un'affermazione forte, un dato o una domanda su schermo
   (es. una percentuale, un costo nascosto, un rischio) mentre il parlato dice
   altro.

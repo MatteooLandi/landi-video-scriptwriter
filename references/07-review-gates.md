@@ -94,7 +94,7 @@ non ha scritto il draft).
 
 ### Bounce (reviewer verdict `flagged`):
 
-- Trattino lungo `—` (non-negoziabile)
+- Trattino lungo `—` o trattino medio `–` (non-negoziabile)
 - Cluster di tell in un hook
 - Pattern "non è solo X, è Y" e varianti
 - Domande retoriche auto-poste
