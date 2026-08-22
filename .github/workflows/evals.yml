@@ -1,0 +1,44 @@
+name: Skill Evals
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+      - 'fixtures/**'
+      - 'evals/**'
+      - 'references/**'
+      - 'SKILL.md'
+      - '.github/workflows/evals.yml'
+  pull_request:
+    paths:
+      - 'scripts/**'
+      - 'fixtures/**'
+      - 'evals/**'
+      - 'references/**'
+      - 'SKILL.md'
+  workflow_dispatch:
+
+jobs:
+  evals:
+    name: Run linter regression suite
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Verify linter scripts exist
+        run: |
+          test -f scripts/format-lint.py
+          test -f scripts/hook-lint.py
+          test -f scripts/voice-lint.py
+          test -f scripts/grounding-check.py
+          test -f evals/run.py
+
+      - name: Run evals
+        run: python3 evals/run.py
