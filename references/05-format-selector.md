@@ -43,6 +43,25 @@ file per format. Qui c'e' la mappa di selezione.
 
 ---
 
+## Densita visuale e B-roll
+
+Il format decide quante clip separate servono. Non assegnare un B-roll a ogni
+blocco per abitudine.
+
+| Famiglia | Format indicativi | Densita B-roll di partenza | Regola |
+|---|---|---|---|
+| **Raw o camera-led** | Founder, Podcast reale/fake, Street Interview, Ugly Ads | assente o bassa | La take principale e il visual. Aggiungi B-roll solo se chiarisce prodotto, prova o contesto. |
+| **Conversazionale o recitato** | Story UGC, Skit Conversation | bassa | Mantieni la scena e la relazione tra personaggi. Non spezzare il flusso con inserti inutili. |
+| **Demo naturale** | UGC Tradizionale, POV | bassa o media | Usa clip separate per utilizzo, dettaglio prodotto o problema difficile da mostrare parlando. |
+| **Costruito o esplicativo** | Narrator, Educational VSL, Us vs. Them | media o alta | Visualizza causa, meccanismo, confronto e prova. Ogni clip deve aggiungere informazione. |
+| **Montaggio visuale** | Mashup, UGC Mashup, Non-Narrated | alta per natura | Le clip sono il format, ma devono seguire l'arco narrativo e non essere riempitivi. |
+
+Questa e una base, non una quota. Concept, budget, materiale disponibile e ritmo
+possono cambiare la densita. Nei format con creator on-camera, il B-roll non
+dovrebbe superare il 60% della durata salvo scelta esplicita.
+
+---
+
 ## Come scegliere (in pratica)
 
 1. **Awareness dell'audience.** Unaware/Problem-Aware favoriscono Story, Founder,

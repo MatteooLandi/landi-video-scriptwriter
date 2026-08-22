@@ -16,6 +16,7 @@ Quando modifichi un reference file, questi file dipendenti devono essere aggiorn
 | `references/05-format-selector.md` | SKILL.md (step 4), PORTABLE-BUNDLE.md, PORTABLE-master-prompt.md, UPDATE-MAP.md | 15 format, quando usare, durata, costo |
 | `references/06-broll-generation.md` | SKILL.md (step 7), PORTABLE-BUNDLE.md, PORTABLE-master-prompt.md, UPDATE-MAP.md | Indicazioni B-roll, prompt AI |
 | `references/07-review-gates.md` | SKILL.md (step 8), PORTABLE-BUNDLE.md, PORTABLE-master-prompt.md, UPDATE-MAP.md, scripts/format-lint.py, scripts/hook-lint.py, scripts/voice-lint.py, scripts/grounding-check.py, .claude/agents/voice-reviewer-landi.md, .claude/agents/grounding-reviewer-landi.md, .claude/hooks/gate-check.py | Gate regole, soglie, pattern voice-lint, fact-vs-flavor |
+| `references/09-standard-broll-library.md` | SKILL.md (modalita library), AGENTS.md, UPDATE-MAP.md, `build-broll-library` | Libreria standard senza concept, naming e priorita freestyle |
 | `references/formats-guide.md` | PORTABLE-BUNDLE.md (se appendice completa), PORTABLE-master-prompt.md (se appendice) | Guida strategia/stile per i 15 format (file esterno, NON incluso nei PORTABLE per size) |
 
 ---

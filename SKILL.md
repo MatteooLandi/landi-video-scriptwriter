@@ -3,10 +3,11 @@ name: video-ads-script-writer
 description: >
   Scrive script e brief per video ads (IT + EN US) da concept/angle assegnato,
   con framework Matteo Landi: hook multi-layer, selling blocks, scrittura
-  parlata anti-AI, output tabellare pronto per creator ed editor. Attiva su
-  richieste di script, hook, brief video, sceneggiatura, varianti, traduzione EN,
-  o nomi dei 14 format supportati (UGC, VSL, founder, skit, street interview,
-  mashup, us vs them, ecc.). NON usare per copy statici, caption, email.
+  parlata anti-AI, output tabellare pronto per creator ed editor. Genera anche
+  librerie B-roll standard quando richieste da build-broll-library. Attiva su
+  richieste di script, hook, brief video, scene creator, shot list B-roll,
+  sceneggiatura, varianti, traduzione EN o nomi dei 14 format supportati. NON
+  usare per copy statici, caption o email.
 ---
 
 # Video Ads Script Writer
@@ -22,18 +23,22 @@ tabellari pronti per la produzione, non semplici bozze di testo.
 
 ---
 
-## Cosa fa (in una riga)
+## Modalita
 
-Prende un **concept + angle già definiti** e li trasforma in uno **script/brief
-video completo**: 3 hook diversi (con testo on-screen), un body a selling
-blocks, indicazioni visive per il creator e note per l'editor, nel contratto di
-output tabellare della sezione dedicata.
+1. **Script video** (default): prende un concept + angle gia definiti e li
+   trasforma in 3 hook, un body completo e indicazioni produttive.
+2. **Libreria B-roll standard**: costruisce la footage library permanente del
+   brand, indipendente da un concept, con almeno cinque scene per categoria
+   narrativa. Si usa quando la invoca `build-broll-library`.
 
 ## Output di default
 
 Salvo diversa richiesta: **3 varianti di Hook diverse + 1 Body completo**,
 pronto all'uso, nel formato di `references/03-output-contract.md`. La tabella
 B-roll si popola **solo se richiesta**.
+
+Eccezione: in modalita `libreria B-roll standard`, applica esclusivamente
+`references/09-standard-broll-library.md`.
 
 ---
 
@@ -61,6 +66,9 @@ riguarda:
 - **Strategia ads / media planning / segmentazione audience** — la skill
   esegue su un angle gia' definito, non pianifica la campagna.
 
+La generazione della libreria scene per un brief prodotto finale e un'eccezione
+esplicita: resta lavoro video-produttivo e segue il contratto dedicato.
+
 **Se la richiesta rientra qui:** rispondi in chiaro "questa non e' una task da
 video-ads-script-writer, la skill non aiuta" e suggerisci l'approccio giusto
 (altra skill, lavoro manuale, altro tool). Non forzare il contratto di output
@@ -79,9 +87,16 @@ della skill sul tipo di contenuto sbagliato.
 
 Esegui in ordine. Ogni passo rimanda al reference file che contiene le regole.
 
+0. **Rileva la modalita.** Se la richiesta arriva da `build-broll-library` o
+   chiede la footage library standard del brand, leggi
+   `references/09-standard-broll-library.md`, produci quel solo output e salta i
+   passaggi 3-8 del workflow script. Concept, angle e format non sono necessari
+   in questa modalita.
+
 1. **Rileva lingua e scope.** Italiano di default; se il brand/richiesta e' US
    passa in modalita' inglese nativo. Regole in `references/04-bilingual-it-us.md`.
-   Se la richiesta non riguarda un video, non usare questa skill.
+   Se la richiesta non riguarda video o scene da registrare, non usare questa
+   skill.
 
 2. **Carica il contesto brand + info topic.** 
    a. Chiedi sempre: "carica brand-context / positioning / verbatim / topic
@@ -184,6 +199,9 @@ prodotto/claim, lingua di output, elementi obbligatori vs interpretabili.
 Se l'utente chiede aiuto a scegliere, guidalo (angle, persona, format) e poi
 procedi.
 
+In modalita `libreria B-roll standard`, concept, angle e format non servono.
+Sono invece obbligatori ricerca completata e brand context consolidato.
+
 ---
 
 ## Controllo qualita'
@@ -218,6 +236,7 @@ sociale, CTA, Sintassi italiana, Generale).
 | `references/05-format-selector.md` | I 14 format: quando usarli, obiettivo, chi interpreta, durata, costo, dove approfondire |
 | `references/06-broll-generation.md` | B-roll on richiesta: indicazioni semplici per creator oppure prompt AI |
 | `references/07-review-gates.md` | **Enforcement**: catena 4 gate (Format/Hook/Voice/Grounding), soglie, lista pattern voice-lint, regola fact-vs-flavor, upgrade advisory→bloccante |
+| `references/09-standard-broll-library.md` | Modalita senza concept: libreria B-roll standard permanente del brand |
 | `references/formats-guide.md` | Strategia, stile, sintassi italiana, selling blocks avanzati, framework operativo, checklist. **Non contiene piu' i format** (spostati in `formats/`). |
 | `references/formats/*.md` | Un file per format (14 file): Cos'e', Perche' funziona, Come funziona, Struttura, Esempio, Do's & Don'ts. Carica SOLO il file del format scelto. |
 | `references/hook-types-library.md` | Libreria dei 20 tipi di hook (preset di apertura) |

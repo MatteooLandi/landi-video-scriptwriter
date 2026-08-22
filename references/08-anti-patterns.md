@@ -17,8 +17,7 @@ di regressione in `fixtures/`.
 > Testo on-screen: "Cedolare sul NETTO – legale, previsto dalla normativa"
 
 **✅ Giusto**
-> Ho passato tre anni a coprire le occhiaie ogni mattina. Tre anni.
-> Testo on-screen: "Cedolare sul NETTO. Legale, previsto dalla normativa"
+> Pagare la cedolare sul NETTO legalmente: come farlo
 
 **🔍 Perche'**
 Em-dash e en-dash sono i tell piu' affidabili di scrittura AI. Nel parlato reale
@@ -40,7 +39,7 @@ indicazioni visual, note per editor. Regola in
 **✅ Giusto**
 > Hook 1: "Sei stanca della pelle spenta?" *(domanda diretta)*
 > Hook 2: "Il 73% delle donne over 40 lo scopre troppo tardi." *(dato / curiosity gap)*
-> Hook 3: "Ho smesso di fare il tonico. Ecco cosa e' successo." *(contrarian / storia)*
+> Hook 3: "Ho smesso di usare il tonico. Ecco cosa e' successo." *(contrarian / storia)*
 
 **🔍 Perche'**
 Tre hook servono a testare tre leve psicologiche diverse. Se sono varianti
@@ -107,7 +106,7 @@ keyword, cifre. `format-lint.py` controlla che non sia copia letterale.
 > "Sblocca il potere della tua pelle e trasforma la tua routine skincare."
 
 **✅ Giusto**
-> "Cambi una cosa nella routine, la pelle cambia. Fine."
+> "Cambi una sola cosa nella tua routine, e la pelle inizia a cambiare davvero."
 
 **🔍 Perche'**
 "Sblocca / trasforma / svela / eleva" sono parole da ChatGPT default. Un
@@ -122,7 +121,7 @@ con verbi concreti dell'italiano parlato.
 > "La nostra crema rivoluzionaria e' l'unica sul mercato che davvero funziona."
 
 **✅ Giusto**
-> "Non uso piu' il fondotinta. Prima ne mettevo due strati. Oggi zero."
+> "Non uso piu' il fondotinta. Prima ne mettevo due strati, mentre ora sono riuscito ad evitarlo totalmente."
 > *(dimostrazione via cambio comportamento, non aggettivo)*
 
 **🔍 Perche'**
@@ -156,8 +155,7 @@ specificity.
 > *(chi e' "noi"? nessun nome, nessun volto, nessuna storia personale)*
 
 **✅ Giusto**
-> "Sono Maria, ho fondato Acme dopo che mia madre a 45 anni ha smesso di uscire
-> di casa per le rughe."
+> "Sono Maria, ho fondato Acme dopo che mia madre a 45 anni ha smesso di uscire di casa per le rughe."
 > *(nome + relazione personale + trigger emotivo specifico)*
 
 **🔍 Perche'**
@@ -174,7 +172,7 @@ identificabile e' un UGC generico travestito. Vedi
 > rappresenti una soluzione ottimale."
 
 **✅ Giusto**
-> "Poi c'e' la cosa che conta davvero: funziona. Punto."
+> "Poi c'e' la cosa che conta davvero: funziona. Punto e stop."
 
 **🔍 Perche'**
 Script = testo detto ad alta voce. "Inoltre / in ultima analisi /
@@ -190,8 +188,7 @@ inceppi, riscrivi. `voice-lint.py` conta densita' connettori formali.
 > Uso nello script: "Finalmente una crema che non tira!" *(headline)*
 
 **✅ Giusto**
-> "Le clienti ci scrivono cose tipo 'finalmente non mi tira piu''. E' il
-> commento piu' frequente."
+> "Le clienti ci scrivono cose tipo 'finalmente non mi tira piu''. E' il commento piu' frequente."
 > *(verbatim citato come evidenza, non copiato come claim)*
 
 **🔍 Perche'**

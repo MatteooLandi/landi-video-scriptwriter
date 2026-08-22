@@ -26,6 +26,7 @@ Distinzione utile:
 | Regole italiano/inglese US, keyword, slang | `references/04-bilingual-it-us.md` | locale |
 | Struttura brand, manifest, learnings, priorità verbatim | `references/00-brand-lookup.md` | locale |
 | B-roll (indicazioni o prompt AI) | `references/06-broll-generation.md` | locale |
+| Libreria B-roll standard del brand | `references/09-standard-broll-library.md` | locale |
 | Ricerca web, fonte attribution, fallback info mancanti | questo file (`SKILL.md` step 2 sez. d + `AGENTS.md` mirror) | locale |
 | Gate review, lista pattern voice, soglie, fact-vs-flavor | `references/07-review-gates.md` | locale (i linter Python leggono da qui) |
 | Linter meccanici (parole flaggate, pattern regex) | `scripts/{voice,hook,format}-lint.py` — sincronizzare con `07-review-gates.md` | locale |

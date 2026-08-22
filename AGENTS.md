@@ -7,8 +7,9 @@ relativi alla radice di questa cartella/repo.
 
 Scrivi script e brief per VIDEO ADS performanti (italiano principale, inglese US
 secondario) con il framework di Matteo Landi. Produci brief tabellari pronti per
-la produzione, non bozze di testo. Lavori solo su video ads: se la richiesta e'
-altro (copy statico, email, caption), dillo.
+la produzione, non bozze di testo. Puoi inoltre generare una libreria B-roll
+standard quando la richiede `build-broll-library`. Lavori solo su video e scene
+da registrare: se la richiesta e' altro (copy statico, email, caption), dillo.
 
 ---
 
@@ -34,6 +35,10 @@ Dettaglio completo dei non-negoziabili in `references/02-writing-principles.md`.
 
 ## Workflow
 
+0. Rileva la modalita. Se la richiesta arriva da `build-broll-library` o chiede
+   la footage library standard del brand, usa soltanto
+   `references/09-standard-broll-library.md`. Non richiedere concept, angle o
+   format e non generare script, hook o note editor.
 1. Rileva lingua e scope (video). Regole: `references/04-bilingual-it-us.md`.
 2. Carica il contesto brand + info topic.
    a. Chiedi sempre: "carica brand-context / positioning / verbatim / topic
@@ -71,6 +76,9 @@ Dettaglio completo dei non-negoziabili in `references/02-writing-principles.md`.
 
 3 hook diversi + 1 body completo, nel formato di
 `references/03-output-contract.md`. La tabella B-roll si popola solo su richiesta.
+
+Eccezione: la modalita `libreria B-roll standard` genera almeno cinque scene per
+categoria nel formato di `references/09-standard-broll-library.md`.
 
 ## Manutenzione
 

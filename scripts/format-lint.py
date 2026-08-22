@@ -23,7 +23,7 @@ EXPECTED_HEADERS = {
         "Module | Selling Block | Cosa devi dire | Cosa far vedere | "
         "Note per Editor"
     ),
-    "broll": "Scene | Visual",
+    "broll": "Clip | Funzione narrativa | Indicazioni per il creator",
 }
 
 # Libreria Selling Block valida (03-output-contract.md sez "Libreria Selling Block").
@@ -162,7 +162,12 @@ def main(argv):
                 f"'{EXPECTED_HEADERS['script']}'"
             ))
             script_table = (lineno, header, rows)
-        elif kind is None and ("Scene" in h_norm or "Visual" in h_norm):
+        elif kind is None and (
+            "Funzione narrativa" in h_norm
+            or "Indicazioni per il creator" in h_norm
+            or "Scene" in h_norm
+            or "Visual" in h_norm
+        ):
             if h_norm != EXPECTED_HEADERS["broll"]:
                 findings.append((
                     lineno,

@@ -31,6 +31,7 @@ landi-video-scriptwriter/
 │   ├── 06-broll-generation.md
 │   ├── 07-review-gates.md
 │   ├── 08-anti-patterns.md     galleria di output sbagliati (do NOT ship)
+│   ├── 09-standard-broll-library.md  footage library senza concept
 │   ├── formats-guide.md        guida completa (strategia, sintassi, blocchi)
 │   ├── hook-types-library.md   20 tipi di hook
 │   └── formats/                un file per format (14 file)

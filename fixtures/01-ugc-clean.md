@@ -35,6 +35,12 @@ Target: donna 35-45, prima volta con skincare attiva
 | Body 6 | Handle objection | So cosa stai pensando: quanto costa? Poco piu' di due cappuccini a settimana. Meno di quello che spendevo in fondotinta. | Confronto visivo scontrino cappuccini vs prodotto. | |
 | CTA | Low-Friction CTA | Provala con il primo mese soddisfatti o rimborsati. Link nel primo commento. | Schermata del sito con la garanzia evidenziata. | Testo on-screen: garanzia 30 giorni |
 
+## Tabella 3 - Broll Shots
+
+| Clip | Funzione narrativa | Indicazioni per il creator |
+|---|---|---|
+| `b-roll_problema_001` | Problema | Davanti allo specchio del bagno, avvicina il viso e osserva la pelle senza trucco. |
+
 ## Fonti ricerca web
 
 Nessuna. Contenuto interamente costruito su verbatim del brand e claim in brand-context/positioning.md.

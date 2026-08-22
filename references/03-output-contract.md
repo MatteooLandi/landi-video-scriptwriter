@@ -66,10 +66,15 @@ Colonne: **Module | Selling Block | Cosa devi dire | Cosa far vedere | Note per 
 
 ## Tabella 3 - Broll Shots / Contenuti (solo su richiesta)
 
-Colonne: **Scene | Visual**
+Colonne: **Clip | Funzione narrativa | Indicazioni per il creator**
 
-- **Scene:** numero progressivo.
-- **Visual:** descrizione della clip B-roll da registrare a parte.
+- **Clip:** nome file obbligatorio per l'export del creator.
+- **Funzione narrativa:** problema, agitazione, meccanismo, beneficio, prova,
+  risultato o altra funzione svolta dalla clip nello script.
+- **Indicazioni per il creator:** descrizione concreta della clip da registrare.
+
+Se la clip proviene da `b-roll-library.md`, conserva il suo naming. Non
+esportare versione AI, evidenza o possibili riutilizzi.
 
 Si popola solo quando l'utente la richiede, in una di due modalita' (vedi
 `06-broll-generation.md`):
@@ -84,15 +89,24 @@ Il "cosa far vedere" puo' essere: una **clip B-roll** da registrare a parte
 (silenziosa, che aggancerete in editing) oppure **movenze/gesti/contesto** da
 applicare durante il parlato. In entrambi i casi:
 
+- Specifica `Camera:` quando il creator resta nella take parlata principale.
+- Specifica `B-roll separato:` quando chiedi una clip silenziosa da registrare
+  a parte.
+- Non forzare un B-roll per ogni blocco. La densita dipende dal format secondo
+  `references/05-format-selector.md` e `references/06-broll-generation.md`.
+- Nei format raw, piu blocchi consecutivi possono restare in camera. Nei format
+  costruiti, usa B-roll solo quando aggiunge una funzione narrativa.
+
 - Semplici da capire per una persona poco scolarizzata: cosa deve fare, come, in
   che contesto.
 - **Non sono indicazioni di editing.** Non spieghi come le clip si legano tra
   loro. Dai solo indicazioni al creator/attore per un output il piu' vicino
   possibile a cio' che vuoi comunicare.
 - Spiegate brevemente.
-- **Una registrazione per blocco.** Non chiedere 2 clip in contesti diversi per
-  una sola frase o un solo blocco, a meno che il blocco sia lungo e con piu'
-  step: in quel caso le clip possono aumentare leggermente.
+- **Un luogo per blocco.** Al creator puoi chiedere una o due mini clip nello
+  stesso luogo. Non chiedere mai, nello stesso blocco, riprese in due luoghi
+  diversi. Se servono altre scene, raccoglile in `B-roll utili extra` alla fine
+  del brief. Questo limite non vale per B-roll generati con AI.
 - Tutto realizzabile da una persona normale, senza budget, con doti di recitazione
   e materiali quotidiani presenti in tutte le case del target (oltre a prodotto e
   props specifici forniti dal brand). Luoghi comuni e raggiungibili: auto, parco,

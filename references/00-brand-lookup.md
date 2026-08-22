@@ -18,6 +18,9 @@ brand-context/
 ├── verbatim.md               linguaggio reale di clienti/audience
 ├── learnings.md              apprendimenti nel tempo (schema sotto)
 ├── resources.md              fonti
+├── prodotto-spiegato-semplice.md  brief creator finale (solo mono-prodotto)
+├── b-roll-library.md         footage library standard (solo mono-prodotto)
+├── brief-creators-freestyle.md  derivato creator con B-roll prioritari
 ├── angle-bank.md             solo se azienda mono-prodotto (altrimenti nel prodotto)
 └── products/
     └── {prodotto}/
@@ -25,6 +28,9 @@ brand-context/
         ├── {prodotto}-buyer-personas.md
         ├── {prodotto}-verbatim.md
         ├── {prodotto}-learnings.md
+        ├── prodotto-spiegato-semplice.md
+        ├── b-roll-library.md
+        ├── brief-creators-freestyle.md
         └── {prodotto}-angle-bank.md    banca angoli, specifica per prodotto
 ```
 
@@ -101,6 +107,17 @@ usa quello per il positioning; usa `positioning.md` brand per cio' che manca.
 - **brand-visual-dna.md:** guida le indicazioni visive e (se generi B-roll AI) lo
   stile.
 - **angle-bank.md:** angoli gia' validati da cui partire.
+- **prodotto-spiegato-semplice.md:** snapshot creator-ready generato solo dopo
+  che ricerca e brand context sono completi. Se presente, usalo come indice
+  rapido dei fatti prodotto; i file sorgente restano canonici in caso di
+  conflitto.
+- **b-roll-library.md:** banca interna di scene standard, indipendente dal
+  concept. Nel singolo brief seleziona solo le righe pertinenti e passa al
+  creator naming da usare in export, funzione narrativa e indicazioni
+  operative. Versione AI, evidenze e riutilizzi restano interni.
+- **brief-creators-freestyle.md:** derivato non canonico generato via script da
+  prodotto semplice e library. Usalo come deliverable generale per creator,
+  non come fonte per riscrivere dati prodotto o strategia.
 
 ---
 

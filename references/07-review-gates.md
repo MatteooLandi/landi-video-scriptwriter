@@ -37,7 +37,7 @@ Format → Hook → Voice → Grounding
 **Bounce (finding):**
 - Header Tabella 1 diverso da `Module | Cosa devi dire | Cosa far vedere | Note per Editor`
 - Header Tabella 2 diverso da `Module | Selling Block | Cosa devi dire | Cosa far vedere | Note per Editor`
-- Header Tabella 3 (se presente) diverso da `Scene | Visual`
+- Header Tabella 3 (se presente) diverso da `Clip | Funzione narrativa | Indicazioni per il creator`
 - CTA mancante in Tabella 2
 - Placeholder non compilati (`{compilare}`, `TBD`, `TODO`, `___`, `[insert`, `<insert`, `[nome]`, `[brand]`)
 - Sintassi `Testo on-screen:` senza contenuto dopo i due punti
