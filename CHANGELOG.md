@@ -28,6 +28,17 @@ Regola dei numeri:
 
 ---
 
+## [1.2.0] — 2026-08-27
+
+### Added
+- **`references/02-writing-principles.md` §11-14** — quattro principi nuovi:
+  - §11 Concretezza prima delle astrazioni: nomina gesto/oggetto/risultato osservabile invece di "esperienza", "trasformazione", "soluzione".
+  - §12 Chiarezza prima dell'eleganza: frasi semplici, una idea per volta, non dimostrare bravura.
+  - §13 Quota controllata di imperfezione: ripetizioni, frammenti, "quindi"/"cioe'"/"ok" deliberati rendono il parlato credibile; grammatica troppo uniforme e' segnale AI.
+  - §14 Testo pulito ma generico e' comunque un fallimento: linter misura density AI, non certifica voce; serve piu' corpus verbatim.
+
+---
+
 ## [1.1.0] — 2026-08-22
 
 ### Added
