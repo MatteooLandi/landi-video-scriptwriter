@@ -147,4 +147,40 @@ ha gia' creato interesse.
 
 ---
 
+## 11. Concretezza prima delle astrazioni
+
+Nomina una cosa reale: un gesto, una parte del corpo, un oggetto, un risultato
+osservabile. Sostituisci "esperienza", "trasformazione", "soluzione" con quello
+che si vede o si sente davvero. L'astratto non genera immagini mentali; il
+concreto si.
+
+---
+
+## 12. Chiarezza prima dell'eleganza
+
+Livello di lettura semplice: frasi comprensibili, una idea per volta. Lo script
+non deve dimostrare che il copywriter e' bravo; deve farsi capire velocemente.
+Se una frase e' piu' bella ma piu' lenta da capire, taglia la bellezza.
+
+---
+
+## 13. Quota controllata di imperfezione
+
+Ripetizioni, frammenti, piccoli cambi di direzione, "quindi", "cioe'", "ok"
+possono rendere il parlato credibile. Vanno aggiunti solo quando corrispondono
+alla voce reale del brand; non a caso. Corollario: la grammatica troppo pulita
+e troppo uniforme e' un segnale AI quanto un trattino lungo. Non inseguire la
+frase perfetta.
+
+---
+
+## 14. Testo pulito ma generico e' comunque un fallimento
+
+Rimuovere i tic dell'AI non crea automaticamente una voce. Se il testo potrebbe
+appartenere a qualsiasi brand, servono piu' script reali, verbatim e contesto,
+non un linter piu' severo. Il gate Voice segnala densita' di pattern AI; non
+certifica che il testo abbia una voce.
+
+---
+
 *Skill di Matteo Landi. LinkedIn: https://www.linkedin.com/in/matteolandidigital/*
