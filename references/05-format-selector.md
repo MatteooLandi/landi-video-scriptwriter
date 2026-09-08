@@ -27,15 +27,14 @@ file per format. Qui c'e' la mappa di selezione.
 | Educational VSL | Prodotti complessi (salute, tech, finanza) | Voce narrante / spokesperson autorevole | 200-1000 EUR | 90-180s | `formats/04-educational-vsl.md` |
 | Non-Narrated Ads | Prodotti visivi (fashion, beauty, gadget) | Solo visual, no voce narrante | 0-100 EUR | 15-60s | (vedi nota) |
 | Skit Conversation | Identificazione, aspirazione | 2 attori (conversazione sceneggiata) | 100-500 EUR | 45-90s | `formats/05-skit-conversation.md` |
-| Podcast Ads (reale) | Costruire fiducia, traffico freddo | 2 speaker, formato podcast | 100-300 EUR | 60-90s | `formats/06-podcast-reale.md` |
-| Fake Podcast Ads | Nativo social, alta riconoscibilita' | 2 attori che simulano un podcast | 100-300 EUR | 45-90s | `formats/07-podcast-fake.md` |
-| UGC Tradizionale | Demo prodotto dirette | 1 creator | 50-200 EUR | 30-60s | `formats/08-ugc-tradizionale.md` |
-| Story UGC | Engagement, storytelling naturale | 1 creator | 100-300 EUR | 45-90s | `formats/09-ugc-story.md` |
-| UGC Mashup | Prova sociale massiccia | Piu' clip UGC | 0 EUR | 30-60s | `formats/10-ugc-mashup.md` |
-| Street Interviews | Autenticita', reazioni genuine | Intervistatore + intervistati | 50-200 EUR | 30-60s | `formats/11-street-interviews.md` |
-| Founder Ads | Connessione personale, trust | Il fondatore | 0-100 EUR | 60-120s | `formats/12-founder-ads.md` |
-| Ugly Ads | Pattern interrupt, autenticita' | 1 creator, low-fi (screenshot, notes app, selfie) | 0 EUR | 15-30s | `formats/13-ugly-ads.md` |
-| Us vs. Them | Differenziazione, decisione semplificata | 1 creator/voce + confronto visivo | 0-100 EUR | 30-60s | `formats/14-us-vs-them.md` |
+| Podcast Ads (Reale/Fake) | Costruire fiducia (reale) o pattern interrupt nativo social (fake) | 2 speaker: attori reali, o soggetti AI/animati/villain nella variante fake | 0-300 EUR | 45-90s | `formats/06-podcast-ads.md` |
+| UGC Tradizionale | Demo prodotto dirette | 1 creator | 50-200 EUR | 30-60s | `formats/07-ugc-tradizionale.md` |
+| Story UGC | Engagement, storytelling naturale | 1 creator | 100-300 EUR | 45-90s | `formats/08-ugc-story.md` |
+| UGC Mashup | Prova sociale massiccia | Piu' clip UGC | 0 EUR | 30-60s | `formats/09-ugc-mashup.md` |
+| Street Interviews | Autenticita', reazioni genuine | Intervistatore + intervistati | 50-200 EUR | 30-60s | `formats/10-street-interviews.md` |
+| Founder Ads | Connessione personale, trust | Il fondatore | 0-100 EUR | 60-120s | `formats/11-founder-ads.md` |
+| Ugly Ads | Pattern interrupt, autenticita' | 1 creator, low-fi (screenshot, notes app, selfie) | 0 EUR | 15-30s | `formats/12-ugly-ads.md` |
+| Us vs. Them | Differenziazione, decisione semplificata | 1 creator/voce + confronto visivo | 0-100 EUR | 30-60s | `formats/13-us-vs-them.md` |
 
 > **Nota su Non-Narrated Ads.** E' nella mappa ma la guida non ha un file
 > dedicato. Non invento la struttura: se serve questo format, chiedi all'utente i
