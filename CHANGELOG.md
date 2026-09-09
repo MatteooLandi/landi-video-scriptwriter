@@ -21,7 +21,12 @@ Regola dei numeri:
 - —
 
 ### Changed
-- —
+- Il Voice gate ora include test del neofita, category entry point esplicito,
+  impalcatura generica, specificita' apparente e residui conversazionali.
+- La transcreation IT/US deve reggere senza l'originale e usare lessico di
+  categoria nativo, non limitarsi alla correttezza grammaticale.
+- Il trattino lungo resta sempre vietato. Il trattino medio e' vietato come
+  punteggiatura, ma ammesso in intervalli e coppie reali.
 
 ### Fixed
 - —

@@ -62,6 +62,18 @@ Leggi questi file end-to-end **prima** di aprire il draft:
    - Disfluenze mancanti dove il pensiero gira?
    - Variazione elegante dove un umano ripeterebbe la parola?
    - Astrazioni dove servirebbe una parte del corpo o cosa nominata?
+   - Category entry point lasciato implicito? Se un neofita puo' chiedere
+     "viaggio per cosa?" o "quale opzione?", manca il contesto che regge la
+     frase.
+   - Formule di servizio intercambiabili, come "buon punto di partenza",
+     "momento giusto", "dai un'occhiata" o "informazioni utili", al posto di
+     un'azione o un referente concreto?
+   - Residui della chat, come saluti automatici, "ecco le proposte" o "come
+     richiesto", dentro il deliverable?
+   - In output bilingue, la versione regge senza guardare l'originale e usa il
+     lessico con cui il target locale riconosce la categoria?
+   - Trattino lungo `—` ovunque o trattino medio ` – ` usato come pausa? Il
+     trattino medio senza spazi e' ammesso solo in intervalli e coppie reali.
    - Ogni domanda che il parlante non sta davvero facendo — la retorica
      auto-posta ("Onestamente?" "Sembra familiare?") — ammessa solo come
      question-hook in apertura, mai nel body.

@@ -94,13 +94,23 @@ non ha scritto il draft).
 
 ### Bounce (reviewer verdict `flagged`):
 
-- Trattino lungo `—` o trattino medio `–` (non-negoziabile)
+- Trattino lungo `—`, oppure trattino medio `–` usato come punteggiatura. Il
+  trattino medio resta ammesso per intervalli e coppie reali, per esempio
+  `15–20 secondi` o `origine–destinazione`.
 - Cluster di tell in un hook
 - Pattern "non è solo X, è Y" e varianti
 - Domande retoriche auto-poste
 - Puffery / brochure register
 - CTA da ad-speak
 - Ponti signposted
+- Category entry point implicito quando regge il messaggio: un neofita deve
+  capire occasione, categoria e azione senza avere il brief davanti
+- Formula generica che sostituisce l'informazione concreta, per esempio "buon
+  punto di partenza", "momento giusto", "informazioni utili" o "opzione piu'
+  adatta"
+- Residuo conversazionale dell'assistente dentro il deliverable
+- Traduzione grammaticalmente corretta ma generica o non nativa nel mercato di
+  destinazione
 - Density complessiva alta
 
 ### Warning (passa con label):
@@ -219,9 +229,39 @@ qui, non duplicare).
 - `la nostra soluzione`, `la vostra esperienza`, `il tuo percorso`,
   `il tuo viaggio` senza sostantivo concreto adiacente
 
+**Impalcatura generica / specificita' apparente:**
+- `un buon punto di partenza`
+- `questo e' il momento giusto`, `e' un buon momento`
+- `inizia a prendere forma`
+- `dai una prima occhiata`, `dai un'altra occhiata`
+- `fa parte dei tuoi programmi`
+- `aggiungilo al tuo itinerario`
+- `informazioni utili`
+- `l'opzione piu' adatta`
+- `tutto quello che ti serve`
+
+**Residui dell'assistente:**
+- `Certo, ecco...`
+- `Di seguito trovi...`
+- `Come richiesto...`
+
+**Calchi / impalcatura inglese da controllare in output US:**
+- `a good place to start`
+- `start with the...`
+- `take a first look`, `take another look`, `one more look`
+- `part of your plans`
+- `fits into your trip/journey/routine`
+- `useful information`, `useful updates`
+- `the option that fits your...`
+
 **Curly/straight quote mix:** stesso pattern Slagle.
 
 **Em-dash cadence:** stesso pattern Slagle (2+ trattini nella stessa riga).
+
+**Trattino lungo e trattino medio:**
+- `—` presente ovunque: flag
+- ` – ` tra due proposizioni: flag
+- intervalli numerici e coppie reali senza spazi: non flaggare
 
 ### Pattern da NON flaggare (falsi positivi comuni italiano)
 
@@ -229,6 +269,8 @@ qui, non duplicare).
   parlato spontaneo, flaggare solo se in cluster
 - `insomma`, `comunque` — legittimi nel parlato, warning solo se apertura hook
 - Verbatim customer che contengono parole flaggate → esente per definizione
+- Trattino medio in un intervallo o in una coppia reale (`15–20`,
+  `origine–destinazione`)
 
 ---
 

@@ -29,11 +29,12 @@ Elimina:
 
 Vale per script, visual (cosa far vedere) e note per editor / testi on-screen.
 
-- **Nessun trattino lungo (—), nessun trattino medio (–).** Mai, in nessun campo
-  dell'output: script, testi on-screen, indicazioni visual, note per editor. Sono
-  i tell piu' riconoscibili della scrittura AI. Sostituisci con punteggiatura
-  naturale: virgole, punti, due punti, parentesi tonde, punto e virgola, oppure
-  spezza in frasi separate.
+- **Nessun trattino lungo (—).** Mai, in nessun campo dell'output: script, testi
+  on-screen, indicazioni visual, note per editor. Il trattino medio (–) e'
+  vietato quando crea una pausa tra proposizioni, ma resta corretto negli
+  intervalli e nelle coppie reali, per esempio `15–20 secondi` o
+  `origine–destinazione`. Come punteggiatura usa virgole, punti, due punti,
+  parentesi tonde, punto e virgola, oppure spezza la frase.
 - Niente simmetrie perfette, elenchi troppo bilanciati, cadenze da modello.
 - **Italiano nativo.** Usa espressioni coerenti con la lingua. Esempio: "soldi
   veri", non "euro veri".
@@ -180,6 +181,42 @@ Rimuovere i tic dell'AI non crea automaticamente una voce. Se il testo potrebbe
 appartenere a qualsiasi brand, servono piu' script reali, verbatim e contesto,
 non un linter piu' severo. Il gate Voice segnala densita' di pattern AI; non
 certifica che il testo abbia una voce.
+
+---
+
+## 15. Test del neofita e category entry point
+
+Quando lo script dipende da un'occasione, un problema o un momento d'uso,
+nomina il contesto. Il lettore o viewer non ha il brief davanti.
+
+**Male:** "Sistema tutto mentre organizzi il viaggio."
+
+**Bene:** "Weekend sulla neve? Prenota il parcheggio vicino agli impianti."
+
+Chiedi: **"un neofita potrebbe domandare: viaggio per cosa?"** Se si', il
+category entry point e' rimasto implicito. Non affidare al visual un referente
+che il parlato o il testo on-screen rendono ambiguo.
+
+---
+
+## 16. Specificita' reale, non formule di servizio
+
+"Un buon punto di partenza", "questo e' il momento giusto", "dai un'occhiata",
+"informazioni utili" e "l'opzione piu' adatta" sono frasi corrette ma non
+informative. Se potrebbero vivere in dieci categorie, tagliale.
+
+Non sostituirle con un sinonimo piu' elegante. Porta in primo piano il verbo,
+l'oggetto, la condizione o il risultato concreto gia' presente nel brief.
+
+---
+
+## 17. La transcreation deve reggere senza l'originale
+
+Una versione IT o US non passa solo perche' conserva il significato ed e'
+grammaticalmente corretta. Nascondi il testo sorgente e verifica che occasione,
+categoria, lessico e livello di direttivita' suonino nativi. Se la traduzione
+mantiene l'ordine delle parole o una metafora generica dell'originale, riscrivi
+dal concept e dall'angle.
 
 ---
 

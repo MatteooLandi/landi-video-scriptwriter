@@ -17,6 +17,7 @@ Esempi sanitizzati di output "gold standard". Servono a:
 | `01-ugc-clean.md` | Brief UGC ben scritto, con 3 hook diversi, testo on-screen, receipts finali | ✓ pass | ✓ pass | ✓ pass | ✓ pass |
 | `02-vsl-slop.md` | VSL con em-dash, triplette AI, hook simili, testo on-screen mancante | ✗ fail | ✗ fail | ✗ fail | ✗ fail |
 | `03-founder-mixed.md` | Founder ad tecnicamente corretto ma con 1 flavor non tracciato + 1 tell voice | ✓ pass | ✓ pass | ⚠ warn | ⚠ warn |
+| `04-context-slop.md` | Category entry point implicito, impalcatura generica, residuo assistente, calco EN e trattino medio come punteggiatura | n/a | n/a | ✗ fail | n/a |
 
 ## Convenzione
 

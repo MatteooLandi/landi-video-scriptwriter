@@ -74,6 +74,22 @@ headline brevi:
   sintetico, l'inglese e' sintetico.
 - Stessa struttura di a capo e di bullet/emoji/check quando presenti.
 
+### Gate di transcreation
+
+La versione US non passa solo perche' e' grammaticalmente corretta. Dopo averla
+scritta, nascondi l'originale e verifica:
+
+- il category entry point resta esplicito anche per chi non conosce il brief;
+- la categoria usa il termine con cui il pubblico US la cerca e la riconosce;
+- ordine delle parole, idiomi e livello di direttivita' suonano nativi;
+- lo script conserva il significato, non la struttura della frase sorgente;
+- nessuna formula generica prende il posto di un'informazione concreta.
+
+Tratta come warning formule corrette ma intercambiabili come `a good place to
+start`, `take another look`, `part of your plans`, `fits into your trip` e
+`useful updates`. Non cercare un sinonimo piu' elegante: riscrivi dal concept,
+nominando occasione, oggetto e azione.
+
 ---
 
 *Skill di Matteo Landi. LinkedIn: https://www.linkedin.com/in/matteolandidigital/*

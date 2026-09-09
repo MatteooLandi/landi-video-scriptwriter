@@ -21,7 +21,8 @@ format, dettagli prodotto, lingua), fermati e chiedilo.
 
 ## Non-negoziabili (vincono su tutto)
 
-1. Mai i tratti tipici dell'AI. Nessun trattino lungo. Punteggiatura naturale.
+1. Mai i tratti tipici dell'AI. Il trattino lungo e' sempre vietato. Il trattino
+   medio e' ammesso solo in intervalli e coppie reali, non come punteggiatura.
    Vale per script, visual e note per editor.
 2. Script = parlato. Test: "una persona reale direbbe questa frase parlando?".
 3. Script != testo on-screen. Il testo on-screen va in "Note per Editor" con la
@@ -30,6 +31,10 @@ format, dettagli prodotto, lingua), fermati e chiedilo.
 5. Producibilita' prima di tutto. Never write production-blind.
 6. Brief scannerizzabile: una informazione per riga, niente paragrafoni.
 7. Concept != Format.
+8. Se il messaggio dipende da un'occasione o momento d'uso, esplicita il
+   category entry point. Un neofita deve capire "per cosa?" senza il brief.
+9. Niente impalcatura da assistente o specificita' apparente. Nomina occasione,
+   oggetto, criterio e azione concreta.
 
 Dettaglio completo dei non-negoziabili in `references/02-writing-principles.md`.
 

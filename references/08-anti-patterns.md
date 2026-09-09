@@ -10,7 +10,7 @@ di regressione in `fixtures/`.
 
 ---
 
-## AP-01: Trattino lungo o medio (em-dash / en-dash)
+## AP-01: Trattino lungo o trattino medio usato come punteggiatura
 
 **❌ Sbagliato**
 > Ho passato tre anni — davvero, tre anni — a coprire le occhiaie ogni mattina.
@@ -20,12 +20,12 @@ di regressione in `fixtures/`.
 > Pagare la cedolare sul NETTO legalmente: come farlo
 
 **🔍 Perche'**
-Em-dash e en-dash sono i tell piu' affidabili di scrittura AI. Nel parlato reale
-nessuno pausa cosi', e nei testi on-screen creano lo stesso pattern riconoscibile.
-`voice-lint.py` li blocca entrambi. Sostituire con virgola, punto, due punti, o
-frase spezzata. Vale per ogni campo dell'output: script, testi on-screen,
-indicazioni visual, note per editor. Regola in
-`references/02-writing-principles.md`.
+Il trattino lungo e il trattino medio usato come pausa sono tell riconoscibili.
+Nel parlato reale nessuno pausa cosi', e nei testi on-screen creano lo stesso
+pattern. `voice-lint.py` blocca sempre `—` e blocca ` – ` come punteggiatura.
+Il trattino medio senza spazi resta ammesso in intervalli e coppie reali, per
+esempio `15–20 secondi` o `origine–destinazione`. Vale per ogni campo
+dell'output. Regola in `references/02-writing-principles.md`.
 
 ---
 
@@ -212,6 +212,70 @@ fuori dal suo contesto.
 Ogni format ha una durata e un ritmo. Vedi `references/05-format-selector.md`.
 Forzare messaggio ricco in format corto = perdi il messaggio. Selezione format
 prima, scrittura dopo.
+
+---
+
+## AP-13: Category entry point lasciato nel brief
+
+**❌ Sbagliato**
+> "Sistema tutto mentre organizzi il viaggio."
+> "Aggiungilo al tuo itinerario."
+
+**✅ Giusto**
+> "Weekend sulla neve? Prenota il parcheggio vicino agli impianti."
+
+**🔍 Perche'**
+Il copywriter conosce il contesto, il viewer no. `Viaggio` e `itinerario` non
+dicono dove sta andando, perche' gli serve il prodotto o quale azione deve fare.
+Se un neofita puo' chiedere "per cosa?", il category entry point va esplicitato.
+
+---
+
+## AP-14: Impalcatura da assistente al posto del parlato
+
+**❌ Sbagliato**
+> "Un buon punto di partenza."
+> "Questo e' il momento giusto."
+> "Dai un'altra occhiata."
+
+**✅ Giusto**
+> "Controlla il costo per le date che hai scelto."
+
+**🔍 Perche'**
+Sono ponti educati ma intercambiabili. Non aggiungono informazione e rendono il
+testo levigato, anonimo e prevedibile. Taglia il ponte e nomina verbo, oggetto e
+condizione.
+
+---
+
+## AP-15: Specificita' apparente
+
+**❌ Sbagliato**
+> "Ricevi informazioni utili e trova l'opzione piu' adatta."
+
+**✅ Giusto**
+> "Ricevi disponibilita' e orari aggiornati."
+
+**🔍 Perche'**
+La frase sembra informativa, ma non dice quali informazioni o quale criterio di
+scelta. Non basta cambiare aggettivo: serve il referente concreto disponibile
+nel brief.
+
+---
+
+## AP-16: Residui della conversazione nel deliverable
+
+**❌ Sbagliato**
+> "Certo, ecco i copy richiesti."
+> "Di seguito trovi tre proposte."
+
+**✅ Giusto**
+> Il deliverable comincia direttamente dal primo hook o dalla prima sezione
+> prevista dal contratto di output.
+
+**🔍 Perche'**
+Saluti automatici, riepiloghi del compito e meta-commenti appartengono alla chat,
+non allo script o al brief consegnato.
 
 ---
 

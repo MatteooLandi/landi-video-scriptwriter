@@ -20,10 +20,12 @@ Distinzione utile:
 | Aggiungere un nuovo format | `references/formats-guide.md` + una riga in `references/05-format-selector.md` | locale |
 | Regole/logiche degli hook | `references/01-hook-system.md` (e `hook-types-library.md` per i tipi) | locale |
 | Regole di scrittura, anti-AI, scoring, produzione | `references/02-writing-principles.md` | locale |
+| Category entry point, formule generiche, residui assistente | `references/08-anti-patterns.md` | `SKILL.md`, `AGENTS.md`, `02-writing-principles.md`, `07-review-gates.md`, reviewer Voice, `scripts/voice-lint.py`, fixture |
 | Formato di output, colonne, selling block | `references/03-output-contract.md` | locale |
 | Comprensibilita' istruzioni produttive, Flesch-Vacca, regole visual/editor | `references/03-output-contract.md` sez. "Comprensibilita'" | locale |
 | Formattazione speciale per un certo format | blocco `Regole di formattazione specifiche` nel format + nota in `03-output-contract.md` | locale |
 | Regole italiano/inglese US, keyword, slang | `references/04-bilingual-it-us.md` | locale |
+| Qualita' transcreation IT/US | `references/04-bilingual-it-us.md` | `02-writing-principles.md`, `07-review-gates.md`, reviewer Voice, `scripts/voice-lint.py` per pattern ad alta precisione |
 | Struttura brand, manifest, learnings, priorità verbatim | `references/00-brand-lookup.md` | locale |
 | B-roll (indicazioni o prompt AI) | `references/06-broll-generation.md` | locale |
 | Libreria B-roll standard del brand | `references/09-standard-broll-library.md` | locale |

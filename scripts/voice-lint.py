@@ -145,6 +145,34 @@ PATTERNS = [
         r"(?!\s+(?:di|verso|per|con|nel|nell|al|alla)\s+\w+)", re.I),
      "astrazione senza sostantivo concreto — di che percorso? di che "
      "esperienza? nomina la cosa reale"),
+    ("impalcatura generica", re.compile(
+        r"\b(?:un\s+buon\s+punto\s+di\s+partenza"
+        r"|(?:questo\s+)?e['è]\s+(?:il\s+momento\s+giusto|un\s+buon\s+momento)"
+        r"|inizi(?:a|ano)\s+a\s+prendere\s+forma"
+        r"|dai\s+(?:una\s+prima|un['’]altra)\s+occhiata"
+        r"|fa\s+(?:ancora\s+)?parte\s+dei\s+tuoi\s+programmi"
+        r"|aggiung(?:i|ilo)\s+[^.\n]{0,40}\s+al\s+tuo\s+itinerario)\b", re.I),
+     "ponte generico — nomina occasione, oggetto e azione concreta"),
+    ("specificita' apparente", re.compile(
+        r"\b(?:informazioni\s+utili"
+        r"|l['’]opzione\s+piu['ù]\s+adatta"
+        r"|tutto\s+(?:quello|cio['ò])\s+che\s+ti\s+serve)\b", re.I),
+     "sembra specifico ma manca il referente — indica quali informazioni, "
+     "quale criterio o quale risultato"),
+    ("residuo assistente", re.compile(
+        r"\b(?:certo[,.:!]?(?:\s+ecco)?|ecco\s+(?:i|le)\s+"
+        r"(?:copy|proposte)|di\s+seguito\s+trovi|come\s+richiesto)\b", re.I),
+     "meta-testo della conversazione — rimuovilo dal deliverable"),
+    ("generic scaffold EN", re.compile(
+        r"\b(?:a\s+good\s+place\s+to\s+start"
+        r"|start\s+with\s+the\b"
+        r"|take\s+(?:a\s+first|another|one\s+more)\s+look"
+        r"|part\s+of\s+your\s+plans"
+        r"|fits?\s+into\s+your\s+(?:trip|journey|routine|day)"
+        r"|useful\s+(?:information|updates)"
+        r"|the\s+option\s+that\s+fits\s+your)\b", re.I),
+     "formula inglese grammaticalmente corretta ma generica — transcreate "
+     "con category entry point e azione concreti"),
 ]
 
 
@@ -172,6 +200,11 @@ def check_line(line):
     if "—" in line:
         flags.append(("em-dash", "—",
                       "trattino lungo (non-negoziabile 02-writing-principles §2)"))
+    # En-dash: ammesso in intervalli e coppie reali, vietato come pausa.
+    if " – " in line:
+        flags.append(("en-dash di punteggiatura", " – ",
+                      "usa virgola, punto o due punti; conserva l'en-dash "
+                      "solo in intervalli o coppie senza spazi"))
     # triplet bilanciato: X, Y e Z di lunghezza simile
     trip = re.search(
         r"\b([a-zà-ù]{3,13}),\s+([a-zà-ù]{3,13})\s+e\s+([a-zà-ù]{3,13})\b",

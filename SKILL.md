@@ -174,6 +174,15 @@ Questi vincono su tutto il resto. Dettaglio in `references/02-writing-principles
   punteggiatura o simmetria "da modello". Vale per script, visual e note editor.
   Usa punteggiatura naturale (virgole, punti, due punti, parentesi, frasi
   separate).
+- **Category entry point esplicito quando regge il messaggio.** Se lo script
+  dipende da un'occasione, un problema o un momento d'uso, nomina il contesto
+  che permette anche a un neofita di capire "per cosa?". `Viaggio`, `percorso`,
+  `esperienza`, `programmi`, `opzioni` e `dettagli` senza referente concreto non
+  bastano.
+- **Zero impalcatura da assistente.** Taglia formule intercambiabili come "un
+  buon punto di partenza", "e' il momento giusto", "inizia a prendere forma",
+  "dai un'occhiata" e promesse vaghe come "informazioni utili". Porta in primo
+  piano occasione, oggetto e azione concreta.
 - **Script = parlato.** Scrivi cio' che una persona reale direbbe a voce. Test:
   "una persona reale direbbe questa frase parlando?". Se no, riscrivi.
 - **Script != testo on-screen.** Sono due cose diverse, non copiare l'uno
