@@ -18,7 +18,7 @@ Regola dei numeri:
 ## [Unreleased]
 
 ### Added
-- —
+- feat(formats): unify Podcast Reale/Fake into single format
 
 ### Changed
 - Il Voice gate ora include test del neofita, category entry point esplicito,
