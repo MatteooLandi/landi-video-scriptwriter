@@ -4,11 +4,14 @@ Sistema di enforcement in 4 gate per ogni brief script consegnato. I gate girano
 in ordine, ognuno ha un linter meccanico + un reviewer che giudica. Design:
 **avvisatorio di default, bloccante solo su fabricated facts o density alta**.
 
-> **Regola cardinale del gate Grounding:** `fact` vs `flavor`. I numeri, i
-> prezzi, gli spec, i claim di prodotto devono tracciare (bounce se inventati).
-> Il linguaggio del cliente non tracciato è solo un warning con label
-> "illustrativo", **non** blocca la consegna. Una singola frase parlata non
-> perfettamente coperta da `verbatim.md` non ferma tutto.
+> **Regola cardinale del gate Grounding:** `fact` vs `flavor`. I prezzi, gli
+> spec e i claim di prodotto inventati tracciano o fanno bounce. I **numeri e le
+> percentuali senza fonte** non fanno piu' bounce silenzioso: attivano il
+> **claim flag** (due versioni, scelta a Matteo — vedi Gate 4 e
+> `docs/claim-strategy.md` del Brain). Il linguaggio del cliente non tracciato è
+> solo un warning con label "illustrativo", **non** blocca la consegna. Una
+> singola frase parlata non perfettamente coperta da `verbatim.md` non ferma
+> tutto.
 
 ---
 
@@ -278,7 +281,8 @@ qui, non duplicare).
 
 **Linter:** `scripts/grounding-check.py <draft> brand-context/`
 **Reviewer indipendente:** agent `grounding-reviewer-landi` (contesto fresco).
-**Riferimento regole:** `references/00-brand-lookup.md`, questo doc.
+**Riferimento regole:** `references/00-brand-lookup.md`, questo doc,
+`docs/claim-strategy.md` del Brain (nel cliente: `landi-system/.../docs/claim-strategy.md`).
 
 ### Regola cardinale: fact vs flavor
 
@@ -302,11 +306,40 @@ Se `brand-context/verbatim.md` (e i `products/*/verbatim.md`) hanno **meno di
 
 ### Bounce (finding fact):
 
-- Numero (percentuale, prezzo, misura) senza fonte in brand-context
 - Claim prodotto specifico senza corrispondenza in `positioning.md` o
   `{prodotto}-positioning.md`
 - Named result (nome persona + risultato) non tracciato
 - File brand-context cited che non esiste
+
+> I **numeri/percentuali senza fonte** non sono piu' qui: vanno al claim flag
+> sotto (non bounce).
+
+### Claim flag — numeri senza fonte (claim-strategy attivo)
+
+Quando un numero o una percentuale nel brief non ha fonte in `brand-context`, il
+gate **non lo spedisce in silenzio e non lo cancella**: emette un **claim flag**
+(vedi `docs/claim-strategy.md` del Brain). Per ogni claim numerico scoperto:
+
+- scrive **due versioni** della riga: quella **sicura** (qualitativa, senza il
+  numero) come default, e quella **aggressiva** con il numero, marcata;
+- se il claim regge come esperienza in prima persona, aggiunge una terza
+  versione **come testimonianza / commento cliente** — solo con verbatim reale
+  (`brand-context/verbatim.md`): un numero inventato resta inventato anche tra
+  virgolette di un cliente;
+- spiega in **una frase semplice** perche' lo segnala (niente gergo, niente
+  "tipo rischio");
+- la scelta resta a Matteo. Il flag e' **interno**, non entra mai nell'asset.
+
+**Categorie regolate** (salute, medico, finanza): flag **sempre**, default piu'
+sicuro, ma la versione aggressiva viene comunque proposta con una riga che
+ricorda che qui il rischio e' piu' alto e dipende dal brand. Nessuno stop duro.
+
+Gli altri fact non numerici inventati (nome persona, claim prodotto, file
+inesistente) restano **bounce**: il claim flag riguarda i numeri come leva
+persuasiva, non la fabbricazione di fatti verificabili di prodotto.
+
+**Ricevuta claim flag:** blocco `## Claim Flag` in coda, una voce per claim con
+le due/tre versioni e la frase di spiegazione.
 
 ### Warning (label, non bounce):
 

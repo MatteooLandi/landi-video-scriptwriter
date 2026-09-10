@@ -31,6 +31,7 @@ Distinzione utile:
 | Libreria B-roll standard del brand | `references/09-standard-broll-library.md` | locale |
 | Ricerca web, fonte attribution, fallback info mancanti | questo file (`SKILL.md` step 2 sez. d + `AGENTS.md` mirror) | locale |
 | Gate review, lista pattern voice, soglie, fact-vs-flavor | `references/07-review-gates.md` | locale (i linter Python leggono da qui) |
+| Claim flag (numeri/% senza fonte) | `references/07-review-gates.md` §Gate 4 + `docs/claim-strategy.md` (Brain) | reviewer Grounding, receipt `## Claim Flag` |
 | Linter meccanici (parole flaggate, pattern regex) | `scripts/{voice,hook,format}-lint.py` — sincronizzare con `07-review-gates.md` | locale |
 | Reviewer agent (voice/grounding) | `.claude/agents/voice-reviewer-landi.md`, `.claude/agents/grounding-reviewer-landi.md` | locale |
 | Enforcement Stop hook (advisory ↔ bloccante) | `.claude/hooks/gate-check.py` — vedi `07-review-gates.md` sez "Upgrade a bloccante" | strutturale |

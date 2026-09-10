@@ -21,6 +21,10 @@ Regola dei numeri:
 - feat(formats): unify Podcast Reale/Fake into single format
 
 ### Changed
+- Gate Grounding: i numeri/percentuali senza fonte attivano il **claim flag**
+  (scrive versione sicura + aggressiva + eventuale versione come testimonianza,
+  scelta all'utente) invece del bounce silenzioso. Categorie regolate flaggate
+  sempre, nessuno stop duro. Vedi `docs/claim-strategy.md` del Brain.
 - Il Voice gate ora include test del neofita, category entry point esplicito,
   impalcatura generica, specificita' apparente e residui conversazionali.
 - La transcreation IT/US deve reggere senza l'originale e usare lessico di
