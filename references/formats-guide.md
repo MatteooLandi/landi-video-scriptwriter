@@ -2006,7 +2006,85 @@ B: "Meno di un caffè al giorno."
 
 A: "Ok, dove lo compro?"
 
-Ho aggiunto i due concetti alla guida per scripting. Ecco come sono stati integrati:
+### Tecniche avanzate per dialoghi a botta e risposta
+
+Ogni tecnica indica il suo campo di applicazione. Non sono tutte universali:
+alcune sono strumenti di personaggio o di format comico, non regole per ogni
+script.
+
+5\. **Apri la replica con un'avversativa prima di contrattaccare.** "Sì, ma...",
+"Vabbè, però..." riconosce il colpo ricevuto prima di ribaltarlo. Rende il
+turno una vera risposta, non un monologo parallelo. *Universale nei format a
+botta e risposta* (Skit, Podcast Ads, Us vs Them).
+
+A: "Il tuo metodo perde tempo."
+
+B: "Sì, ma il mio è preciso. Il tuo tira a indovinare."
+
+6\. **Claim specifico batte claim vago, anche nell'attacco comico.** "Non è
+uniforme" batte "non è sicuro": è verificabile, non solo allarmante.
+*Attenzione all'eccezione:* se per essere specifico usi un termine più
+tecnico del normale, verifica che sia il personaggio a parlare così (una voce
+comicamente saccente o pseudo esperta), non tu copywriter che infili un
+sinonimo ricercato. Fuori da quel caso, il lessico tecnico resta il rischio
+"da copywriter" del principio 1 in `02-writing-principles.md`.
+
+7\. **Soggetto attivo e specifico, mai passivo generico.** "Il vicino gliel'ha
+riparata in due minuti" batte "è stata riparata in due minuti". Nominare chi
+fa cosa rende la scena visualizzabile per il creator. *Universale.*
+
+8\. **Le imperfezioni parlate vanno segnalate quando sono scritte foneticamente
+compresse.** Intercalari, doppioni ("sì sì"), frasi che si aggiustano a metà
+aumentano la naturalezza (vedi principio 13 in `02-writing-principles.md`). Ma
+se le scrivi come suonano ("sisì", "vabbè-dai") aggiungi una nota di delivery
+in "Note per Editor" (tono, velocità, enfasi): senza quella nota l'attore o il
+doppiatore non sa se è un refuso o una scelta, e il brief smette di essere
+eseguibile senza interpretazione (principio 8). *Universale ovunque ci sia una
+voce recitata o doppiata.*
+
+9\. **Un turno comico può chiudersi con un tag retorico sarcastico** ("Chissà
+perché!", "Certo, come no.") per dare un mini punchline alla battuta.
+*Solo per format comici, skit o personaggi con quella voce:* in un
+testimonial serio o in un educational rompe il tono e va tolto.
+
+10\. **Il lessico aggiornato o gergale deve restare coerente con come funziona
+davvero il prodotto.** Un termine da interfaccia digitale ("click") per
+descrivere un meccanismo fisico (un pulsante) è un claim implicito sbagliato,
+non solo una scelta di stile. Se non sai con certezza come funziona il
+prodotto, non modernizzare il lessico a scapito dell'accuratezza: verifica
+prima con il Gate Claim in `07-review-gates.md`.
+
+11\. **Un cambio di persona può trasformare una spiegazione in una promessa
+diretta.** Passare da "io" (il personaggio parla di sé) a "tu" (si rivolge
+allo spettatore) è un salto di qualità tipico nel blocco meccanismo/beneficio.
+Se lo fai, segnalalo anche in "Cosa far vedere" (es. "il personaggio guarda
+dritto in camera"): senza quel segnale visivo il cambio di persona sembra
+un'incoerenza, non una scelta.
+
+12\. **I dettagli numerici o anagrafici scelti per plausibilità comica vanno
+verificati contro il target dichiarato dal brand.** Un'età, una durata o una
+percentuale che "suonano bene" nella battuta possono comunque contraddire
+altri asset della stessa campagna: controlla prima di fissarli.
+
+13\. **Anche nel parlato più colloquiale, i pronomi completano la frase.**
+"L'ho capito" non "ho capito" quando manca l'oggetto. È una delle poche
+regole di correttezza che restano non negoziabili anche dentro la quota di
+imperfezione del principio 13 in `02-writing-principles.md`.
+
+### Continuità multi-speaker: chi risponde a cosa
+
+Nei format con più speaker che discutono o litigano, la continuità tra hook e
+Body 1 (vedi `01-hook-system.md` §8a) non riguarda solo il tema: riguarda
+anche **chi risponde a cosa**. Se l'hook è un attacco specifico di Speaker A
+verso Speaker B, il Body 1 deve aprire con la risposta di B a quell'attacco
+preciso, non con un nuovo attacco generico di A sullo stesso argomento.
+
+Sintomo dell'errore: il body ripete la stessa accusa con parole diverse invece
+di far avanzare il botta e risposta, e i due turni si accavallano invece di
+alternarsi.
+
+Verifica rapida: lo speaker che chiude l'hook deve essere lo speaker che apre
+(o viene chiamato in causa) nel Body 1.
 
 ## 5.8 Problem Stacking (Tecnica di Accumulo dei Problemi)
 

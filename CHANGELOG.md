@@ -19,6 +19,23 @@ Regola dei numeri:
 
 ### Added
 - feat(formats): unify Podcast Reale/Fake into single format
+- feat(hooks): nuovo `references/hook-swipe-file.md`, swipe file hook in
+  inglese (dialogo per format Podcast/Street Interview/Skit/POV/Organic +
+  ~450 formule per categoria General/Pet/Jewelry/Fashion/Home/Beauty/
+  Wellness), con sintesi dei meccanismi psicologici sottostanti per scrivere
+  hook italiani nativi (non tradotti alla lettera). Aggiunte 3 tecniche
+  nuove in `01-hook-system.md` §4: filtro esplicito come hook intero,
+  target del regalo (buyer diverso da chi usa), GRWM come veicolo per la
+  curiosita'. Mappa reference aggiornata in `SKILL.md` e `AGENTS.md`.
+- feat(dialogue): tecniche avanzate per dialoghi a botta e risposta in
+  `formats-guide.md` §5.7 (avversativa in apertura turno, claim specifico vs
+  lessico di personaggio, nota di delivery per imperfezioni fonetiche, tag
+  retorico per format comici, coerenza lessico/meccanismo reale, cambio di
+  persona segnalato nel visual, dettagli anagrafici/numerici verificati,
+  completezza dei pronomi nel parlato); regola di continuita' multi-speaker
+  hook to body in `01-hook-system.md` §8a; principi 18-19 in
+  `02-writing-principles.md` (lessico preciso come voce di personaggio,
+  delivery note per imperfezioni scritte foneticamente)
 
 ### Changed
 - Gate Grounding: i numeri/percentuali senza fonte attivano il **claim flag**

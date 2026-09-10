@@ -249,6 +249,7 @@ sociale, CTA, Sintassi italiana, Generale).
 | `references/formats-guide.md` | Strategia, stile, sintassi italiana, selling blocks avanzati, framework operativo, checklist. **Non contiene piu' i format** (spostati in `formats/`). |
 | `references/formats/*.md` | Un file per format (13 file): Cos'e', Perche' funziona, Come funziona, Struttura, Esempio, Do's & Don'ts. Carica SOLO il file del format scelto. |
 | `references/hook-types-library.md` | Libreria dei 20 tipi di hook (preset di apertura) |
+| `references/hook-swipe-file.md` | Swipe file hook in inglese (dialogo per format + ~450 formule per categoria/nicchia) + principi psicologici estratti per scrivere hook italiani nativi (non tradotti alla lettera) |
 
 Vedi anche `UPDATE-MAP.md` per sapere quale file modificare quando vuoi
 aggiornare qualcosa. Per usare la skill su ChatGPT/Gemini, genera il bundle

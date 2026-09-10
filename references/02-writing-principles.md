@@ -220,4 +220,34 @@ dal concept e dall'angle.
 
 ---
 
+## 18. Lessico preciso puo' essere lessico di personaggio, non regola universale
+
+Il principio 1 vieta il lessico "artificiosamente sofisticato". Nei format con
+personaggi dalla voce comicamente tecnica o saccente (un oggetto
+antropomorfizzato, un esperto parodiato), un termine piu' preciso del solito
+puo' restare "parlato" perche' e' in carattere, non perche' e' piu' elegante.
+Non e' un lasciapassare generale: se parla un narratore o un protagonista
+comune, il lessico tecnico resta il segnale AI del principio 1. Verifica
+sempre: e' il personaggio a parlare cosi', o sono io copywriter che sto
+infilando un sinonimo ricercato?
+
+Lo stesso vale per il lessico "aggiornato" o gergale: va scelto solo se
+coerente con come funziona davvero il prodotto. Un termine da interfaccia
+digitale per descrivere un meccanismo fisico e' un claim implicito sbagliato,
+non solo una scelta di stile. Se hai dubbi sul meccanismo reale, non
+modernizzare il lessico a scapito dell'accuratezza: verifica prima con il Gate
+Claim in `07-review-gates.md`.
+
+## 19. Le imperfezioni scritte foneticamente hanno bisogno di una nota di delivery
+
+Doppioni, contrazioni o interiezioni scritte come suonano ("sisi", "vabbe'",
+"boh") aumentano la naturalezza (principio 13) ma su carta possono sembrare un
+refuso invece di un tono voluto. Se scrivi un'imperfezione fonetica non
+standard, aggiungi una nota di delivery in "Note per Editor" (tono, velocita',
+enfasi): senza quella nota l'attore o il doppiatore deve interpretare, e il
+brief smette di essere eseguibile senza interpretazione (principio 8). E' la
+stessa regola applicata a livello di singola parola.
+
+---
+
 *Skill di Matteo Landi. LinkedIn: https://www.linkedin.com/in/matteolandidigital/*

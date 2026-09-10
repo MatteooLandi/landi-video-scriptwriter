@@ -61,7 +61,9 @@ Dettaglio completo dei non-negoziabili in `references/02-writing-principles.md`.
 4. Scegli il format: `references/05-format-selector.md` (obiettivo + awareness +
    producibilita'). Dettaglio in `references/formats-guide.md`.
 5. Genera 3 hook diversi: `references/01-hook-system.md` (+ i 20 tipi in
-   `references/hook-types-library.md`).
+   `references/hook-types-library.md` + lo swipe file in
+   `references/hook-swipe-file.md`, EN da adattare o principi da riusare in
+   italiano, non da tradurre).
 6. Scrivi il body a selling block: `references/02-writing-principles.md`.
 7. Formatta l'output (3 tabelle Notion): `references/03-output-contract.md`.
    B-roll solo su richiesta: `references/06-broll-generation.md`.

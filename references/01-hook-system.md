@@ -101,6 +101,24 @@ Il testo on-screen dell'hook serve a uno o piu' di questi obiettivi:
 - **Testo su sfondo.** Un'affermazione forte, un dato o una domanda su schermo
   (es. una percentuale, un costo nascosto, un rischio) mentre il parlato dice
   altro.
+- **Filtro esplicito come hook intero.** L'apertura e' un appello diretto e
+  dichiarato all'audience ("se sei [tratto/situazione specifica], fermati"),
+  non solo un ingrediente dentro un hook piu' ampio: il contenuto vero inizia
+  dopo. Deve nominare un tratto o una situazione specifica, non
+  un'aspirazione generica, altrimenti non filtra nessuno.
+- **Target del regalo (buyer diverso da chi usa).** Quando chi decide e paga
+  non e' chi usera' il prodotto (regali, prodotti per bambini o animali),
+  il segnale target deve parlare a chi compra, e il beneficio va misurato
+  sulla sua soddisfazione ("ha reso felice il mio cane"), non solo su quella
+  dell'utilizzatore finale.
+- **GRWM (routine quotidiana) come veicolo per la curiosita'.** Una routine
+  mondana e a basso attrito produttivo (vestirsi, trucco, preparare qualcosa)
+  fa da visual che ferma lo scroll per familiarita' parasociale, mentre il
+  vero hook (una storia, un segreto, un prodotto) viaggia nel parlato sopra.
+  Utile quando manca altro materiale visivo: la routine e' sempre girabile.
+
+Approfondimento con esempi (EN, non da tradurre alla lettera) in
+`hook-swipe-file.md`.
 
 ---
 
@@ -264,6 +282,14 @@ Se un hook non aggancia:
   piu' di 2-3).
 
 La correzione fa parte del brief base, non e' una variante extra.
+
+**Caso speciale, format a piu' speaker (Skit, Podcast Ads, Us vs Them).** Qui
+la continuita' non riguarda solo il tema: riguarda anche chi risponde a cosa.
+Se l'hook e' un attacco specifico di Speaker A verso Speaker B, il Body 1 deve
+aprire con la risposta di B a quell'attacco preciso, non con un nuovo attacco
+generico di A sullo stesso argomento (sintomo: il body ripete la stessa
+accusa con parole diverse invece di far avanzare il botta e risposta).
+Dettaglio in `formats-guide.md` §5.7, "Continuita' multi-speaker".
 
 ### 8b. Varianti aggiuntive (opzionali, righe Hook 4/5/6)
 
