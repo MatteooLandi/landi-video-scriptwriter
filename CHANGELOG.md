@@ -19,6 +19,13 @@ Regola dei numeri:
 
 ### Added
 - feat(formats): unify Podcast Reale/Fake into single format
+- feat(hooks): `01-hook-system.md` §4, nuova sezione "Come scrivere il testo
+  on-screen" (da una revisione manuale verificata indipendentemente): nomina
+  l'oggetto concreto non il meccanismo tecnico, formula causa-effetto per
+  overlay legati a un oggetto specifico, ancora tematica prima di ogni
+  domanda retorica, stesso lessico verbatim del parlato, coerenza tra
+  overlay dell'hook e scena Body a cui si aggancia quando annotato con
+  punto di ingresso (§8a/8b).
 - feat(hooks): nuovo `references/hook-swipe-file.md`, swipe file hook in
   inglese (dialogo per format Podcast/Street Interview/Skit/POV/Organic +
   ~450 formule per categoria General/Pet/Jewelry/Fashion/Home/Beauty/

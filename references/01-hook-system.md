@@ -89,6 +89,33 @@ Il testo on-screen dell'hook serve a uno o piu' di questi obiettivi:
 - **Pre-annunciare la tesi** del video.
 - **Creare un curiosity loop** (testo negativo, spoiler, o altro).
 
+### Come scrivere il testo on-screen (non solo cosa deve fare)
+
+- **Nomina l'oggetto concreto a cui pensa il target, non il meccanismo
+  tecnico.** Il meccanismo (perche' succede) resta nel parlato; l'overlay
+  nomina la cosa di cui il target si preoccupa davvero. Es. non "punti caldi
+  e freddi" (effetto tecnico, capibile solo dopo aver sentito l'audio), ma
+  "latte caldo o freddo?" (l'oggetto reale del pensiero del genitore).
+- **Causa-effetto esplicito quando l'overlay descrive un problema legato a un
+  oggetto specifico.** Formula: `[Oggetto]: [conseguenza/giudizio]`. Es.
+  "Acqua nel thermos: se e' tiepida non va bene." Rende esplicito il
+  collegamento invece di lasciarlo dedurre.
+- **Ogni domanda retorica ha bisogno di un'ancora tematica prima.** Una
+  domanda isolata ("Chi e' davvero il problema?") funziona solo per chi ha
+  gia' il contesto audio. Anticipa l'argomento: "Latte caldo: chi e'
+  davvero il problema?". Vale anche per il sound-off test (§2, punto 5): se
+  tolgo l'audio, l'overlay da solo deve reggere.
+- **Stesso lessico del parlato, non terminologia da copywriter.** L'overlay
+  segue la stessa regola verbatim-first del parlato (principio 7 in
+  `02-writing-principles.md`): le parole del target ("latte caldo"), non un
+  termine piu' tecnico o elegante.
+- **Se l'hook e' annotato con un punto di ingresso nel Body (§8a/8b, es.
+  "parti da Body 2"), il testo on-screen deve restare coerente con la scena
+  Body a cui si aggancia, non solo con la battuta dell'hook.** Lo spettatore
+  vede i due overlay in sequenza diretta, senza le scene intermedie saltate:
+  se l'overlay dell'hook anticipa un argomento diverso da quello del Body a
+  cui salta, la transizione sembra rotta anche se il parlato aggancia bene.
+
 ### Hook visuali "furbi"
 
 - **IG response / TikTok response.** L'hook e' costruito come risposta a un
