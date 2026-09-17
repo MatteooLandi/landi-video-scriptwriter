@@ -66,6 +66,22 @@ PATTERNS = [
         r"|\bpiù\s+che\s+\w+[,\s]+(?:e'|è)\b"
         r"|\bnon\s+un\s+semplice\s+\w+[,\s]+ma\s+un\b", re.I),
      "frame 'non e' solo X, e' Y' — costruzione firma AI"),
+    ("false contrast", re.compile(
+        r"\bnon\s+(?:e'|è)\s+(?:un|una|uno)\b[^.!?\n]{0,60}[.!?]\s*"
+        r"(?:e'|È|è)\s"
+        r"|\bil\s+punto\s+non\s+(?:e'|è)[^.\n]{0,80}\bma\b"
+        r"|\bnon\s+si\s+tratta\s+di\b[^.\n]{0,80}\bma\b"
+        r"|\bnon\s+stiamo\s+dicendo\b[^\n]{0,80}\bstiamo\s+dicendo\b"
+        r"|\bsembra\s+[^.\n]{0,40}\se\s+invece\s+(?:e'|è)\s", re.I),
+     "falso contrasto \u2014 nega un'alternativa che nessuno aveva proposto; "
+     "ammesso solo se risponde a un'obiezione nominata nello script"),
+    ("command scaffold", re.compile(
+        r"\bsmett(?:i|ila|etela)\s+(?:di|con)\b"
+        r"|\bbasta\s+con\s+(?:il|la|i|le|gli|lo|l')\b"
+        r"|\bdevi\s+smettere\s+di\b"
+        r"|\bnon\s+\w+are\s+[^.!?\n]{0,40},\s+\w+a\b", re.I),
+     "impalcatura a comando 'Smetti di X, inizia a Y' \u2014 nel parlato serve "
+     "l'esperienza di chi parla; l'imperativo vive nella CTA"),
     ("inflated significance", re.compile(
         r"\b(?:rappresenta|segna|apre|inaugura)\s+(?:un(?:a|')?)\s+"
         r"(?:svolta|punto\s+di\s+svolta|nuovo\s+capitolo|nuova\s+era|"

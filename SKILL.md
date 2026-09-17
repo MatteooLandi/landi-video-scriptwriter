@@ -170,6 +170,12 @@ Esegui in ordine. Ogni passo rimanda al reference file che contiene le regole.
 
 Questi vincono su tutto il resto. Dettaglio in `references/02-writing-principles.md`.
 
+> **Fonte a monte.** Questi vincoli sono la specializzazione per il parlato
+> dello standard di scrittura del Brain,
+> `landi-system/docs/anti-ai-slop-writing-standard.md`. Quando lo standard
+> cambia, i file da riallineare qui sono elencati in `UPDATE-MAP.md`. In caso
+> di conflitto vale la versione piu' restrittiva.
+
 - **Mai i tratti tipici dell'AI.** Nessun trattino lungo (—), nessuna
   punteggiatura o simmetria "da modello". Vale per script, visual e note editor.
   Usa punteggiatura naturale (virgole, punti, due punti, parentesi, frasi
@@ -197,6 +203,12 @@ Questi vincono su tutto il resto. Dettaglio in `references/02-writing-principles
   niente placeholder vuoti, niente aria da template auto-compilato.
 - **Concept != Format.** Prima Message/Angle/Concept, poi si sceglie il format
   di esecuzione.
+- **Afferma, non comandare.** Fuori dalla CTA e dalle istruzioni, niente
+  impalcatura `Smetti di X, inizia a Y`. Chi parla dice cosa ha visto e cosa
+  gli e' successo, e lascia la conclusione a chi guarda.
+- **Frammenti solo se il montaggio li regge.** Una serie di frasi senza verbo
+  ("Niente X. Niente Y.") passa se ogni frammento e' uno stacco, una clip o un
+  beat dichiarato nelle note. Se e' solo cadenza, si ricuce.
 
 ---
 

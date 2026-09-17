@@ -35,8 +35,17 @@ format, dettagli prodotto, lingua), fermati e chiedilo.
    category entry point. Un neofita deve capire "per cosa?" senza il brief.
 9. Niente impalcatura da assistente o specificita' apparente. Nomina occasione,
    oggetto, criterio e azione concreta.
+10. Afferma invece di comandare. `Smetti di X, inizia a Y` resta fuori dal
+    parlato: l'imperativo vive nella CTA e nelle istruzioni operative.
+11. Una serie di frammenti senza verbo passa solo se ogni frammento e' uno
+    stacco, una clip o un beat dichiarato. Se e' solo cadenza, si ricuce.
+12. L'enfasi in maiuscolo e' una marca di delivery: va nelle Note per Editor,
+    non dentro il parlato.
 
 Dettaglio completo dei non-negoziabili in `references/02-writing-principles.md`.
+A monte di questi vincoli sta lo standard del Brain
+`landi-system/docs/anti-ai-slop-writing-standard.md`: quando cambia, i file da
+riallineare qui sono elencati in `UPDATE-MAP.md`.
 
 ## Workflow
 

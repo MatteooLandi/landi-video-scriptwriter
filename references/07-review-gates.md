@@ -102,6 +102,16 @@ non ha scritto il draft).
   `15–20 secondi` o `origine–destinazione`.
 - Cluster di tell in un hook
 - Pattern "non è solo X, è Y" e varianti
+- Falso contrasto in tutte le sue forme: "Non è X. È Y.", "il punto non è X, ma
+  Y", "non si tratta di X, ma di Y", "non stiamo dicendo X, stiamo dicendo Y",
+  "sembra X e invece è Y". Passa solo se risponde a un'obiezione nominata
+  davvero nello script
+- Impalcatura a comando fuori da CTA e istruzioni d'uso: "Smetti di X, inizia a
+  Y", "Basta con X", "Devi smettere di X", "Non fare X, fai Y"
+- Serie di tre o più frasi senza verbo che non corrisponde a stacchi, clip o
+  beat dichiarati nelle Note per Editor
+- Enfasi in maiuscolo dentro il parlato: va spostata in Note per Editor come
+  indicazione di delivery
 - Domande retoriche auto-poste
 - Puffery / brochure register
 - CTA da ad-speak
@@ -120,6 +130,8 @@ non ha scritto il draft).
 
 - Singolo tell isolato in body (< 3 nella riga)
 - Vocabolario "importance-inflator" senza altri tell nella riga
+- Tre o più frasi di fila che iniziano con la stessa parola dentro lo stesso
+  blocco: warning al reviewer, che decide se è anafora voluta o piattume
 
 **Ricevuta:** `## Voice Review: ships | flagged` con density prima/dopo e lista
 flag risolti.
@@ -260,6 +272,27 @@ qui, non duplicare).
 **Curly/straight quote mix:** stesso pattern Slagle.
 
 **Em-dash cadence:** stesso pattern Slagle (2+ trattini nella stessa riga).
+
+**Falso contrasto (regex, alta precisione):**
+- `non e'/è un|una|uno ... . E'/È ...`
+- `il punto non e'/è ... ma`
+- `non si tratta di ... ma`
+- `non stiamo dicendo ... stiamo dicendo`
+- `sembra ... e invece e'/è`
+- non flaggare la risposta a un'obiezione nominata ("Troppo pesante per
+  l'estate? No: ...")
+
+**Impalcatura a comando (regex, alta precisione):**
+- `smetti/smettila/smettetela di|con`
+- `basta con il|la|i|le|gli|lo|l'`
+- `devi smettere di`
+- `non <verbo>are ..., <imperativo>`
+- non flaggare CTA e istruzioni d'uso ("Link in bio, usa SARA20", "Ne metti due
+  gocce la sera")
+
+**Giudizio del reviewer, non del linter:** serie di frammenti senza montaggio
+che la regga, varietà degli attacchi di frase, enfasi da spostare nelle note.
+Sono valutazioni di contesto e di produzione, quindi restano al Voice reviewer.
 
 **Trattino lungo e trattino medio:**
 - `—` presente ovunque: flag

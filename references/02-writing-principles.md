@@ -5,6 +5,13 @@ italiana profondi (frasi, ritmo, congiunzioni, avverbi, tono, micro-commitment,
 registro) appoggiati a `references/formats-guide.md`, Parti 2, 3 e 5. Questo file
 contiene i principi operativi e i non-negoziabili.
 
+> **Da dove vengono questi principi.** I principi 15, 16, 17 e i principi 20-23
+> sono la versione per il parlato dello standard di scrittura del Brain,
+> `landi-system/docs/anti-ai-slop-writing-standard.md`. Quello standard vale per
+> ogni output; qui viene tradotto nei vincoli dello script video, che ha
+> intonazione, montaggio e durata. Se lo standard cambia, `UPDATE-MAP.md` dice
+> quali file di questa skill riallineare.
+
 ---
 
 ## 1. Script = parlato. Sempre.
@@ -247,6 +254,104 @@ standard, aggiungi una nota di delivery in "Note per Editor" (tono, velocita',
 enfasi): senza quella nota l'attore o il doppiatore deve interpretare, e il
 brief smette di essere eseguibile senza interpretazione (principio 8). E' la
 stessa regola applicata a livello di singola parola.
+
+## 20. Afferma quello che hai visto, non dare ordini
+
+`Smetti di usare X. Inizia a usare Y.` e le sue varianti (`Basta con X`,
+`Non fare X, fai Y`, `Devi smettere di`) sono la struttura preferita dei modelli
+quando devono sembrare decisi. In uno script fanno danno doppio: chi parla
+diventa un istruttore invece di una persona che racconta, e lo script perde la
+prova, cioe' quello che e' successo davvero a chi parla.
+
+Riscrivi come affermazione o come esperienza: cosa hai osservato, cosa hai
+smesso di fare tu, cosa e' cambiato. La conclusione la tira chi guarda.
+
+**Sbagliato:** "Smetti di mettere due strati di fondotinta. Inizia a curare la
+pelle."
+
+**Giusto:** "Mettevo due strati di fondotinta ogni mattina. Adesso esco con la
+crema e basta."
+
+L'imperativo resta dove serve davvero: nella CTA ("Link in bio, usa SARA20") e
+nelle istruzioni d'uso ("Ne metti due gocce la sera"). Il problema e'
+l'impalcatura ripetuta che regge tutto il body.
+
+`Non fare X, fai Y` e' insieme comando e falso contrasto: togli la meta' negata
+e resta l'affermazione (principio 2 e AP-19).
+
+## 21. I frammenti valgono quanto il montaggio che li regge
+
+Le frasi senza verbo in serie ("Niente appuntamenti. Niente lead magnet. Niente
+DM.") e le domande che chi parla si pone da solo ("E senza? Sei fermo.") sono
+forme del parlato. Nello script possono essere la struttura giusta: un
+frammento per stacco, per clip o per beat, con il ritmo del montaggio che fa il
+lavoro dell'intonazione.
+
+Diventano un tell quando non corrispondono a niente sullo schermo: tre o quattro
+frasi mozze di fila lette sullo stesso piano sono una cadenza meccanica, e chi
+guarda sente il testo generato.
+
+**Il test e' di produzione, non di grammatica.** Per ogni serie di frammenti
+chiediti: ogni pezzo ha il suo stacco, il suo testo on-screen o il suo B-roll?
+
+- Si': tienilo, e dichiaralo nelle Note per Editor ("stacco su ogni riga").
+- No: ricuci dentro una frase corrente, tenendo le stesse parole.
+
+**Sbagliato (nessuno stacco dichiarato):** "Niente appuntamenti fissati. Niente
+lead magnet. Niente DM. Solo contenuti buttati nel vuoto."
+
+**Giusto (ricucito):** "Non avevano appuntamenti fissati, lead magnet, DM,
+niente: solo contenuti buttati nel vuoto."
+
+**Giusto (tenuto, con il montaggio che lo regge):** stessa serie, con nota
+"quattro stacchi rapidi, un frammento per clip, testo on-screen su ognuna".
+
+## 22. Varia l'attacco delle frasi anche nel body
+
+La diversita' tra i tre hook e' gia' un vincolo (AP-02). Dentro il body succede
+la stessa cosa su scala piu' piccola: frasi di fila che partono tutte uguali,
+stesso soggetto o stesso connettivo, suonano scritte da un modello e piatte da
+ascoltare.
+
+**Controllo:** leggi solo la prima parola di ogni frase di un blocco. Se si
+ripete piu' di due volte di fila, riscrivi.
+
+In italiano parlato si varia senza sforzo: soggetto sottinteso, apertura con la
+circostanza ("Dopo due settimane..."), subordinata in apertura ("Quando ho
+finito il flacone..."), domanda vera rivolta a chi guarda.
+
+La variazione riguarda il ritmo, non il lessico: il nome del prodotto e il
+termine tecnico si ripetono, e il sinonimo cercato per non ripetere una parola
+peggiora lo script.
+
+**Eccezione:** l'anafora voluta, cioe' lo stesso attacco ripetuto di proposito
+per costruire un climax o un richiamo, resta. Si riconosce perche' il resto del
+blocco usa altre strutture.
+
+## 23. L'enfasi e' una marca di delivery, non una scelta tipografica
+
+In italiano l'accento su una parola si mette con la sintassi: frase scissa
+("e' il prezzo che mi ha fermato"), dislocazione ("il prezzo, lo vedi dopo"),
+focalizzatori come `proprio`, `solo`, `anche`. E' il modo in cui parla davvero
+una persona, e funziona letto ad alta voce.
+
+Le maiuscole di enfasi arrivano dall'inglese social. Nello script non vanno nel
+parlato: se una parola va marcata per chi legge, diventa una nota in "Note per
+Editor" insieme a tono e velocita', come per le imperfezioni foniche
+(principio 19).
+
+Nel testo on-screen la maiuscola resta ammessa come scelta grafica, una o due
+parole per schermata, e solo se porta informazione.
+
+**Sbagliato (parlato):** "Non ho MAI visto una cosa del genere."
+
+**Giusto (parlato + nota):** "Una cosa cosi' non l'avevo mai vista." Nota per
+Editor: "calca su *mai*, mezzo secondo di pausa prima".
+
+**Regola operativa aperta.** Finche' Matteo non fissa la linea definitiva, ogni
+volta che uno script usa l'enfasi o ne chiederebbe una, consegna la frase in due
+versioni, con e senza, e fagli scegliere. Vedi la regola 14 dello standard del
+Brain.
 
 ---
 

@@ -21,6 +21,7 @@ Distinzione utile:
 | Regole/logiche degli hook | `references/01-hook-system.md` (e `hook-types-library.md` per i tipi) | locale |
 | Swipe file hook (formule EN, principi IT) | `references/hook-swipe-file.md` | `01-hook-system.md` §4 se introduce una tecnica nuova, `SKILL.md`/`AGENTS.md` mappa reference |
 | Regole di scrittura, anti-AI, scoring, produzione | `references/02-writing-principles.md` | locale |
+| Standard anti AI-slop del Brain aggiornato (`landi-system/docs/anti-ai-slop-writing-standard.md`) | `references/02-writing-principles.md` (principi 15-17 e 20-23) | `SKILL.md` non-negoziabili, `AGENTS.md`, `references/08-anti-patterns.md`, `references/07-review-gates.md`, `scripts/voice-lint.py` per i pattern deterministici, fixture in `fixtures/` |
 | Category entry point, formule generiche, residui assistente | `references/08-anti-patterns.md` | `SKILL.md`, `AGENTS.md`, `02-writing-principles.md`, `07-review-gates.md`, reviewer Voice, `scripts/voice-lint.py`, fixture |
 | Formato di output, colonne, selling block | `references/03-output-contract.md` | locale |
 | Comprensibilita' istruzioni produttive, Flesch-Vacca, regole visual/editor | `references/03-output-contract.md` sez. "Comprensibilita'" | locale |

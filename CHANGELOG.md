@@ -18,6 +18,21 @@ Regola dei numeri:
 ## [Unreleased]
 
 ### Added
+- feat(voice): collegamento esplicito allo standard anti AI-slop del Brain
+  (`landi-system/docs/anti-ai-slop-writing-standard.md`) in `SKILL.md`,
+  `AGENTS.md`, `02-writing-principles.md` e `UPDATE-MAP.md`, cosi' un
+  aggiornamento dello standard sa quali file toccare qui.
+- feat(voice): principi 20-23 in `02-writing-principles.md`: afferma invece di
+  comandare, frammenti validi solo se il montaggio li regge, varieta' degli
+  attacchi di frase nel body, enfasi come marca di delivery nelle Note per
+  Editor con obbligo delle due versioni finche' Matteo non fissa la linea.
+- feat(voice): anti-pattern AP-17 (comando), AP-18 (frammenti senza montaggio),
+  AP-19 (falso contrasto completo), AP-20 (numeri di risultato nudi).
+- feat(voice-lint): pattern `false contrast` e `command scaffold`, con voci nel
+  Gate 3 di `07-review-gates.md`. Frammenti, attacchi ed enfasi restano al
+  reviewer.
+- test: fixture `05-command-contrast-slop.md` (9 flag attesi, CTA, istruzione
+  d'uso e obiezione nominata restano pulite). Eval 14/14.
 - feat(formats): unify Podcast Reale/Fake into single format
 - feat(hooks): `01-hook-system.md` §4, nuova sezione "Come scrivere il testo
   on-screen" (da una revisione manuale verificata indipendentemente): nomina

@@ -279,6 +279,82 @@ non allo script o al brief consegnato.
 
 ---
 
+## AP-17: Impalcatura a comando al posto dell'esperienza
+
+**❌ Sbagliato**
+> "Smetti di mettere due strati di fondotinta. Inizia a curare la pelle."
+
+**✅ Giusto**
+> "Mettevo due strati di fondotinta ogni mattina. Adesso esco con la crema e basta."
+
+**🔍 Perche'**
+`Smetti di X. Inizia a Y.` trasforma chi parla in un istruttore e toglie la
+prova, cioe' cosa e' successo davvero a lui. L'imperativo resta legittimo nella
+CTA e nelle istruzioni d'uso: il problema e' l'impalcatura che regge tutto il
+body. Regola in `references/02-writing-principles.md` principio 20.
+
+---
+
+## AP-18: Serie di frammenti senza montaggio che la regga
+
+**❌ Sbagliato**
+> "Niente appuntamenti fissati. Niente lead magnet. Niente DM. Solo contenuti
+> buttati nel vuoto."
+> *(nessuno stacco dichiarato, nessun testo on-screen, un solo piano)*
+
+**✅ Giusto**
+> "Non avevano appuntamenti fissati, lead magnet, DM, niente: solo contenuti
+> buttati nel vuoto."
+> *oppure* la stessa serie tenuta, con Note per Editor: "quattro stacchi
+> rapidi, un frammento per clip, testo on-screen su ognuna".
+
+**🔍 Perche'**
+Le frasi senza verbo sono normali nel parlato, e in uno script possono essere la
+struttura giusta quando il montaggio fa il lavoro dell'intonazione. Senza stacco
+diventano una cadenza meccanica. Il test e' di produzione: ogni frammento ha la
+sua clip? Regola in `references/02-writing-principles.md` principio 21.
+
+---
+
+## AP-19: Falso contrasto
+
+**❌ Sbagliato**
+> "Non e' una crema qualunque. E' un trattamento."
+> "Il punto non e' avere un prodotto in piu', ma togliere un passaggio."
+> "Non solo idrata, protegge anche."
+
+**✅ Giusto**
+> "E' un trattamento che lavora di notte."
+> "Togli un passaggio dalla routine della sera."
+
+**🔍 Perche'**
+Il falso contrasto nega un'alternativa che nessuno aveva proposto, poi arriva
+all'informazione vera. La frase funziona anche senza la meta' negata. Unica
+eccezione: la negazione risponde a un'obiezione posta davvero e nominata nello
+script ("Troppo pesante per l'estate?" "No: ..."). `voice-lint.py` intercetta le
+varianti ad alta precisione. Regola completa nello standard del Brain,
+`landi-system/docs/anti-ai-slop-writing-standard.md` regola 6.
+
+---
+
+## AP-20: Numeri di risultato lasciati nudi
+
+**❌ Sbagliato**
+> "Tremila visualizzazioni. Dodici like. Zero ordini."
+
+**✅ Giusto**
+> "Con tremila visualizzazioni e dodici like non ho ricevuto un ordine."
+
+**🔍 Perche'**
+Dati d'offerta e numeri di risultato non si trattano allo stesso modo. Prezzo,
+durata, dose e tempi di consegna restano neutri, perche' servono a decidere
+(AP-03 resta valido: niente numeri inventati). I numeri che raccontano un
+risultato dentro una storia vogliono la lettura di chi parla, altrimenti sono un
+elenco che chi guarda deve interpretare da solo, e in un video non ha tempo.
+Regola nello standard del Brain, regola 8.
+
+---
+
 ## Come aggiungere un anti-pattern nuovo
 
 1. Trovi un output sbagliato in produzione → screenshot o paste testo
