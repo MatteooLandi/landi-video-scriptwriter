@@ -26,8 +26,10 @@ Il chiamante ti passa:
 
 Leggi questi file end-to-end **prima** di aprire il draft:
 
-- `references/02-writing-principles.md` — non-negoziabili 1-4 (script parlato,
-  no trattino lungo, script != on-screen, hook = testo on-screen).
+- `references/02-writing-principles.md`, tutti i principi. Per questa review
+  pesano in particolare 1-4 (script parlato, no trattino lungo, script !=
+  on-screen, hook = testo on-screen) e 20-23 (comando, frammenti, attacchi,
+  enfasi).
 - `references/07-review-gates.md` — sezione **Gate 3 Voice** e **Lista
   pattern**. La lista pattern e' la fonte di verita' del linter.
 - `brand-context/tone-of-voice.md` se esiste — vince sui default generici.
@@ -79,6 +81,17 @@ Leggi questi file end-to-end **prima** di aprire il draft:
      question-hook in apertura, mai nel body.
    - Register che matcha nessuno — pulito ma generico, che significa profile
      voce upstream sottile.
+   - Impalcatura a comando ("Smetti di X, inizia a Y") fuori da CTA e
+     istruzioni d'uso? Il linter prende le forme fisse, tu le varianti.
+   - Serie di tre o piu' frasi senza verbo? Controlla le Note per Editor: se
+     ogni frammento ha il suo stacco, la sua clip o il suo testo on-screen,
+     KEEP. Se no, ricuci (principio 21).
+   - Leggi solo la prima parola di ogni frase del body: la stessa per tre
+     frasi di fila? Se non e' anafora voluta, riscrivi (principio 22).
+   - Maiuscole di enfasi dentro "Cosa devi dire"? Sposta l'indicazione in
+     Note per Editor. Ogni enfasi, tenuta o spostata, va nel ritorno sotto
+     `EMPHASIS` con le due versioni, con e senza, perche' Matteo sceglie
+     (principio 23).
 
 4. **Riscrivi ogni flag reale** nel register del brand, dal voice profile e
    dalle sue frasi ricorrenti. Mai thesaurus-swap della parola flagged per un
@@ -102,6 +115,7 @@ FLAGS:
 - L<line>: [<tell family>] "<offending text>" -> "<rewrite in register brand>" (<one-line why>)
 - L<line>: [<tell family>] "<offending text>" -> KEEP (<perche' e' falso positivo: verbatim / brand corpus / rumore isolato>)
 CONFLICTS: <ogni fix che toccherebbe strategia, claim, o linguaggio sourced — descrivi, non fixare>
+EMPHASIS: <"none" | per ogni enfasi: L<line> con enfasi: "..." / senza: "..." (Matteo sceglie)>
 RESIDUAL: <"none" | cio' che resta AI-suonante e perche' serve upstream work, es. voice profile sottile>
 ```
 
