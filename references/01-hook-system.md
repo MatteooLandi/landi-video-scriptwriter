@@ -159,6 +159,16 @@ Nei primi 3 secondi lo spettatore non deve capire che e' una pubblicita'.
 - Se nei primi 3 secondi c'e' il nome del prodotto o una promessa commerciale,
   l'hook e' da rifare.
 
+**Non confondere con i device metaforici.** Questa regola riguarda il nome del
+brand/prodotto, non il nome reale di un ingrediente o meccanismo rappresentato
+da una metafora o un personaggio (es. una mascotte-ingranaggio per un
+principio attivo). In uno script con questo device, pianifica un momento
+dedicato in cui il personaggio si aggancia esplicitamente al suo nome reale
+(anche solo un testo on-screen), separato dal reveal del prodotto finale. Se i
+due reveal (nome reale dell'ingrediente/meccanismo + nome del prodotto) cadono
+nella stessa battuta, nessuno dei due atterra bene: lo spettatore deve prima
+collegare il personaggio al concetto reale, solo dopo il concetto al brand.
+
 Sul lato visual, per fermare lo scroll funzionano clip iniziali strane o uniche:
 versamenti lunghi, prodotto in eccesso che esce, macro close-up, reazioni
 inaspettate o di shock, "drop and reverse" del prodotto. Cose piacevoli o
@@ -194,14 +204,24 @@ Ordina le scelte per potenziale. Padroneggia prima i Core.
 
 - **Problem Reframe:** ribalta una credenza, rivela una causa nascosta. Deve
   sembrare scioccante e inevitabile. (Es. concept: "non e' [causa comune], e'
-  [causa nascosta] da sempre".)
+  [causa nascosta] da sempre".) Principio psicologico: **Information Gap**
+  (Loewenstein) quando svela un fatto ignoto, **Cognitive Dissonance**
+  (Festinger) quando mette a nudo una contraddizione che il target gia' vive
+  (es. "l'attivo che usi per il problema X e' anche causa del problema X"). In
+  entrambi i casi lo stato scomodo generato cerca risoluzione, e il resto del
+  video la fornisce.
 - **POV / Relatable:** momento di vita reale, fiducia parasociale. Deve
   rispecchiare come l'avatar parla e sente davvero.
 - **Transformation:** contrasto drammatico. Deve essere visivamente innegabile.
 - **Villain:** dai la colpa a un nemico nascosto. Il nemico deve sembrare reale,
   non astratto.
 - **Authority / Statistic:** credibilita' via dato/esperto. Il dato deve essere
-  scioccante, non ovvio.
+  scioccante, non ovvio. Principio psicologico: **Authority** (Cialdini). Una
+  fonte normativa/istituzionale batte una fonte di marca sullo stesso claim
+  perche' l'audience applica uno "sconto" automatico ai claim di una parte
+  interessata (discounting cue): un ente terzo non ha motivo commerciale per
+  mentire, quindi il dato pesa di piu' a parita' di contenuto. Vedi `SKILL.md`
+  step 2e per dove e quando cercare questo tipo di prova.
 
 **Emotional (leva su identita' e risonanza):** Shame, Dream Outcome, Validation,
 Injustice, Fear of Loss. Devono toccare l'identita', non la superficie. Se non

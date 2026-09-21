@@ -101,6 +101,14 @@ usa quello per il positioning; usa `positioning.md` brand per cio' che manca.
 - **verbatim.md:** fonte primaria del linguaggio. Prima di inventare una frase,
   controlla se il target l'ha gia' detta meglio.
 - **buyer-personas.md:** definisce WHO e awareness per gli hook.
+- **root-cause.md:** meccanismo fisiologico/di mercato dietro il problema.
+  Fonte primaria per i blocchi Unique Mechanism. **Non usarlo da solo**: la
+  catena causale dice cosa succede biologicamente, ma non dice quale
+  conseguenza pesa di piu' per l'audience. Incrocia sempre con i ganci
+  narrativi e le obiezioni di `buyer-personas.md` prima di decidere quale
+  conseguenza portare in primo piano nella battuta (es. il danno biologico in
+  se', oppure una conseguenza pratica come "risultato sprecato se lo usi
+  poco", se quest'ultima e' il gancio che la persona valorizza di piu').
 - **positioning.md:** claim, meccanismo unico, differenziatori per il body.
 - **tone-of-voice.md:** registro e guardrail; vince sui default stilistici in caso
   di conflitto.

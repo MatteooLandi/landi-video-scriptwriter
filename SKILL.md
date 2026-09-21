@@ -113,6 +113,16 @@ Esegui in ordine. Ogni passo rimanda al reference file che contiene le regole.
       automatica su autorizzazione utente. Se attivata: dichiara "ricerca web
       attivata per [X]" nel brief + allega `## Fonti ricerca web` in footer con
       URL delle fonti che hanno generato concetti nel copy.
+   e. **Angle Villain/Us-vs-Them/Reframe, prova esterna sul villain:** non basta
+      che il brand-context abbia prove sul prodotto (es. studio clinico). Se
+      `{prodotto}-villain.md` manca o non contiene una prova indipendente
+      (normativa, scientifica, giornalistica) sul villain stesso, non saltare
+      l'archetipo Authority/Statistic per questo: segnalalo all'utente, oppure
+      fai una ricerca web mirata (stessa autorizzazione del punto d) prima di
+      chiudere gli hook. Una prova indipendente sul villain e' spesso l'hook
+      piu' forte disponibile, non solo un dettaglio di contorno. Se il brand ha
+      gia' un villain.md aggiornato (`/research-villain`), usa quello prima di
+      ricercare da zero.
 
 3. **Verifica concept + angle.** Questa skill parte da un concept e un angle
    gia' assegnati. Se non sono in input, chiedili. Se l'utente chiede supporto,

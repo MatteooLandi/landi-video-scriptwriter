@@ -65,6 +65,12 @@ riallineare qui sono elencati in `UPDATE-MAP.md`.
    d. Ricerca web (fallback): se mancano info o topic richiede validazione,
       ricerca automatica su autorizzazione. Dichiara attivazione nel brief +
       allega `## Fonti ricerca web` con URL fonti.
+   e. Angle Villain/Us-vs-Them/Reframe: se manca prova indipendente
+      (normativa/scientifica/giornalistica) sul villain, non saltare
+      Authority/Statistic. Segnala o cerca (stessa autorizzazione punto d)
+      prima di chiudere gli hook. Prova indipendente sul villain spesso
+      l'hook piu' forte, non un dettaglio. Se esiste `{prodotto}-villain.md`
+      aggiornato, usa quello prima di ricercare da zero.
 3. Verifica concept + angle. Se mancano, chiedili. Se l'utente vuole aiuto,
    guidalo su angle > buyer persona > format, poi procedi.
 4. Scegli il format: `references/05-format-selector.md` (obiettivo + awareness +

@@ -30,6 +30,23 @@ Elimina:
 - simmetrie eccessivamente perfette;
 - frasi che funzionano scritte ma non dette.
 
+**Le catene causali da ricerca sono materiale grezzo, non testo pronto.**
+Quando prendi un meccanismo da `root-cause.md` o `positioning.md`, comprimilo
+in una sola battuta causa-effetto (massimo due proposizioni) prima di metterlo
+in bocca a un personaggio o narratore. Il registro di un documento di analisi
+("X spinge Y piu' in fretta di quanto Z riesca a fare W, e di conseguenza V si
+indebolisce") non e' mai il registro del parlato, anche quando il contenuto e'
+verificato al 100%. Grounded non vuol dire pronto per il parlato: applica
+comunque il test "lo direbbe a voce?". Principio psicologico: **Cognitive
+Load Theory** (Sweller). Un ascolto e' un solo passaggio, non rileggibile: piu'
+proposizioni subordinate si accumulano in una battuta, piu' la memoria di
+lavoro dello spettatore satura prima che il nesso causa-effetto si chiuda (e'
+il sintomo esatto dietro un feedback tipo "qui mi perdo"). La stessa
+compressione aiuta anche la persuasione, non solo la comprensione: per la
+**Processing Fluency** (Reber, Schwarz), un'affermazione facile da elaborare
+viene percepita come piu' credibile a parita' di contenuto, mentre una frase
+faticosa da seguire perde credito anche se e' vera.
+
 ---
 
 ## 2. Mai i tratti tipici dell'AI (in nessun campo)
@@ -161,6 +178,33 @@ Nomina una cosa reale: un gesto, una parte del corpo, un oggetto, un risultato
 osservabile. Sostituisci "esperienza", "trasformazione", "soluzione" con quello
 che si vede o si sente davvero. L'astratto non genera immagini mentali; il
 concreto si.
+
+**Test di collisione lessicale.** Prima di usare una parola in senso figurato
+("quel prezzo" per dire "quel compromesso", "quel peso" per dire "quello
+sforzo"), verifica se la stessa parola ha gia' un significato letterale attivo
+nella categoria del prodotto (prezzo, dose, tempo, percentuale, calorie...).
+Se si', la metafora si legge prima come claim letterale e solo forse, dopo,
+come figura retorica: cambia parola invece di contare sul contesto per
+disambiguare. Principio psicologico: il significato piu' saliente di una
+parola si attiva prima di quello figurato, indipendentemente dal contesto
+(**Graded Salience Hypothesis**, Giora). In un'ad vista scrollando, quel primo
+passaggio e' spesso l'unico: se il significato saliente e' anche un claim
+reale della categoria (es. "senza quel prezzo" letto come "gratis"), lo
+spettatore non solo si confonde, registra un claim che non hai fatto apposta.
+Non e' solo un problema di chiarezza: e' un rischio di claim implicito
+involontario.
+
+C'e' un secondo effetto, indipendente dall'ambiguita': una parola presa da un
+dominio diverso da quello dell'argomentazione attiva quel dominio come cornice
+di lettura, anche quando il senso figurato e' chiaro (**Framing Effect**,
+Tversky e Kahneman; priming semantico). "Prezzo" in un'ad su salute/risultati
+sposta l'attenzione sul tema economico anche se lo spettatore capisce che
+significa "compromesso": il resto della battuta viene valutato con quel
+frame addosso, non con quello di salute/rischio/risultato che l'argomentazione
+sta costruendo. Verifica che le parole chiave di una battuta persuasiva
+appartengano allo stesso dominio semantico dell'argomento (salute, rischio,
+risultato), non a un dominio adiacente gia' presente nella categoria
+(economico, temporale, quantitativo) anche quando non crea ambiguita' letterale.
 
 ---
 
