@@ -19,6 +19,7 @@ Esempi sanitizzati di output "gold standard". Servono a:
 | `03-founder-mixed.md` | Founder ad tecnicamente corretto ma con 1 flavor non tracciato + 1 tell voice | ✓ pass | ✓ pass | ⚠ warn | ⚠ warn |
 | `04-context-slop.md` | Category entry point implicito, impalcatura generica, residuo assistente, calco EN e trattino medio come punteggiatura | n/a | n/a | ✗ fail | n/a |
 | `05-command-contrast-slop.md` | Impalcatura a comando e falso contrasto nel parlato, con in coda i casi legittimi che devono restare puliti (CTA, istruzione d'uso, obiezione nominata) | n/a | n/a | ✗ fail | n/a |
+| `06-ponti-ritmo-clean.md` | Ponti della lista bianca (R3) e frammento singolo (R7) che devono restare puliti, piu' le righe che generano solo warning di ritmo (aforisma per eco, ritmo piatto, passivo, nominalizzazione) | n/a | n/a | ✓ pass | n/a |
 
 ## Convenzione
 

@@ -84,7 +84,9 @@ Format → Hook → Voice → Grounding
 **Linter:** `scripts/voice-lint.py <draft>`
 **Reviewer indipendente:** agent `voice-reviewer-landi` (contesto fresco,
 non ha scritto il draft).
-**Riferimento regole:** `references/02-writing-principles.md` non-negoziabili 1-4.
+**Riferimento regole:** `references/02-writing-principles.md` non-negoziabili 1-4
+e `references/10-parlato-ritmo-e-ponti.md` (continuita', ponti, ritmo, aforismi,
+passivo, lettura ad alta voce).
 
 ### Soglie
 
@@ -109,13 +111,24 @@ non ha scritto il draft).
 - Impalcatura a comando fuori da CTA e istruzioni d'uso: "Smetti di X, inizia a
   Y", "Basta con X", "Devi smettere di X", "Non fare X, fai Y"
 - Serie di tre o più frasi senza verbo che non corrisponde a stacchi, clip o
-  beat dichiarati nelle Note per Editor
+  beat dichiarati nelle Note per Editor. **Un frammento singolo dentro una
+  battuta non è flag**: la soglia è la serie da tre in su (`10-parlato-ritmo-e-ponti.md` R7)
 - Enfasi in maiuscolo dentro il parlato: va spostata in Note per Editor come
   indicazione di delivery
-- Domande retoriche auto-poste
+- Domande retoriche auto-poste, tranne le tre della lista bianca ("E sai qual è
+  il punto?", "E sai qual è la cosa interessante?", "E sai cosa succede?")
 - Puffery / brochure register
 - CTA da ad-speak
-- Ponti signposted
+- Ponti signposted **fuori dalla lista bianca**. I ponti approvati da Matteo
+  (`10-parlato-ritmo-e-ponti.md` R3) non sono flag: "Senti,", "Guarda,",
+  "Ti spiego una cosa.", "Pensa a questo.", "E sai qual è il punto?",
+  "Cioè, nella pratica,", "Ti faccio un esempio.", "E questo significa che",
+  "Il punto è che", "E lì è dove cambia tutto.", "Ma c'è un altro aspetto.",
+  "E questo porta a un altro problema.", "E sai qual è la cosa interessante?",
+  "Ed è esattamente per questo che", "E sai cosa succede?",
+  "E il conto arriva sempre.". Restano bounce le formule della stessa famiglia
+  che non sono in lista, e un ponte approvato usato due volte nello stesso
+  script o due volte nella stessa battuta
 - Category entry point implicito quando regge il messaggio: un neofita deve
   capire occasione, categoria e azione senza avere il brief davanti
 - Formula generica che sostituisce l'informazione concreta, per esempio "buon
@@ -124,6 +137,14 @@ non ha scritto il draft).
 - Residuo conversazionale dell'assistente dentro il deliverable
 - Traduzione grammaticalmente corretta ma generica o non nativa nel mercato di
   destinazione
+- **Aforisma o frase a effetto nel body**: frase corta, simmetrica e astratta
+  che suona come una citazione ("Il rischio non cresce con te. Si moltiplica
+  per te."). Ammessa solo nella CTA che chiude un open loop, e nel tag comico
+  di un personaggio con quella voce. Il linter becca solo la variante col
+  "non": questa voce è **giudizio del reviewer** (`AP-21`)
+- **Blocchi scollegati**: leggendo il parlato con la colonna `Selling Block`
+  coperta si sente dove inizia un blocco nuovo. Le fasi narrative restano,
+  la giuntura manca (`AP-22`, `10-parlato-ritmo-e-ponti.md` R2)
 - Density complessiva alta
 
 ### Warning (passa con label):
@@ -132,9 +153,26 @@ non ha scritto il draft).
 - Vocabolario "importance-inflator" senza altri tell nella riga
 - Tre o più frasi di fila che iniziano con la stessa parola dentro lo stesso
   blocco: warning al reviewer, che decide se è anafora voluta o piattume
+- **Ritmo piatto**: quattro o più frasi nello stesso blocco tutte nella stessa
+  fascia di lunghezza (scarto massimo 2 parole). Il reviewer decide se è voluto
+  (`AP-24`)
+- **Passivo o nominalizzazione nel parlato**: `viene applicato`, `è stato
+  studiato`, `la gestione di X comporta`. Warning, perché l'agente davvero
+  irrilevante e il registro di personaggio restano legittimi (`AP-23`)
+- **Nessun ponte dichiarato tra i blocchi**: nessun blocco dopo Body 1 apre con
+  un connettivo di collegamento. Warning documento, non di riga (`AP-22`)
+- **Aforisma sospetto**: due frasi consecutive brevi che finiscono con la stessa
+  parola. Evidenza per il reviewer, che verifica se è un aforisma (`AP-21`)
 
 **Ricevuta:** `## Voice Review: ships | flagged` con density prima/dopo e lista
 flag risolti.
+
+**Riga obbligatoria nella ricevuta.** La ricevuta contiene sempre
+`Lettura ad alta voce: eseguita su N blocchi, M riscritti`. Il test e' descritto
+in `10-parlato-ritmo-e-ponti.md` R10: ogni blocco letto ad alta voce una volta
+sola, senza fermarsi. Senza quella riga il brief non e' consegnabile, anche se
+tutti i linter sono clean: nessuno script arriva in produzione senza essere stato
+detto a voce almeno una volta.
 
 ### Lista pattern (bozza, da validare)
 
@@ -290,9 +328,50 @@ qui, non duplicare).
 - non flaggare CTA e istruzioni d'uso ("Link in bio, usa SARA20", "Ne metti due
   gocce la sera")
 
+**Ponti ammessi (esenzione, batte ogni pattern di questa lista):**
+- apertura: `Senti,`, `Guarda,`, `Ti spiego una cosa.`, `Pensa a questo.`,
+  `E sai qual è il punto?`
+- sviluppo: `Cioè, nella pratica,`, `Ti faccio un esempio.`,
+  `E questo significa che`, `Il punto è che`
+- collegamento: `E lì è dove cambia tutto.`, `Ma c'è un altro aspetto.`,
+  `E questo porta a un altro problema.`, `E sai qual è la cosa interessante?`
+- chiusura: `Ed è esattamente per questo che`, `E sai cosa succede?`,
+  `E il conto arriva sempre.`
+- La lista è chiusa e decisa da Matteo (`10-parlato-ritmo-e-ponti.md` R3,
+  `[dichiarato: Matteo, 2026-09-25]`). Una riga che contiene uno di questi ponti
+  non viene flaggata come `signposted transition` né come
+  `rhetorical self-question`. Ripetizione e accumulo restano al reviewer: il
+  linter non conta quante volte un ponte torna nello script.
+
+**Aforisma per eco (regex, bassa precisione, warning):**
+- due frasi consecutive di massimo 9 parole che finiscono con la stessa parola
+  ("...cresce con te. ...moltiplica per te.")
+- è evidenza, non verdetto: il reviewer verifica se è aforisma (`AP-21`) o
+  ripetizione voluta (principio 13)
+- l'aforisma con la metà negata lo becca già il falso contrasto
+
+**Ritmo piatto (warning):**
+- quattro o più frasi nella stessa cella con scarto di lunghezza massimo 2
+  parole (`AP-24`)
+
+**Passivo e nominalizzazione (warning):**
+- `viene/vengono + participio`
+- `è stato/è stata/sono stati + participio`
+- `la|il <nome in -zione/-mento> di|del|della ... + verbo`
+- warning e non bounce: agente irrilevante e registro di personaggio restano
+  legittimi (`AP-23`)
+
+**Ponte mancante tra blocchi (warning di documento, non di riga):**
+- nessun blocco `Body 2`, `Body 3`, ... apre con un connettivo di collegamento
+  (lista bianca, oppure `E`, `Ma`, `Perché`, `Quindi`, `Poi`, `Allora`)
+- un solo warning per brief, serve a mandare il reviewer a leggere le giunture
+  (`AP-22`)
+
 **Giudizio del reviewer, non del linter:** serie di frammenti senza montaggio
-che la regga, varietà degli attacchi di frase, enfasi da spostare nelle note.
-Sono valutazioni di contesto e di produzione, quindi restano al Voice reviewer.
+che la regga, varietà degli attacchi di frase, enfasi da spostare nelle note,
+aforismi senza metà negata, giunture tra i blocchi, esito della lettura ad alta
+voce. Sono valutazioni di contesto e di produzione, quindi restano al Voice
+reviewer.
 
 **Trattino lungo e trattino medio:**
 - `—` presente ovunque: flag

@@ -196,6 +196,10 @@ serve, questo file e' il punto unico dove aggiornarli.
 - `Human Entry` - hook narrativo, nomina una persona e un conflitto reale
 - `Relatable Struggle` - accumulo di micro-frustrazioni ("sono io")
 - `Agitation` - amplifica il peso del problema (tempo, stress, famiglia, soldi)
+- `Villain` - nomina il nemico comune: la soluzione, la routine, l'oggetto,
+  il comportamento o la credenza che causa il problema. Deve essere
+  relatable e provato, non un pain astratto. Fonte: `{prodotto}-villain.md`
+  del brand (vedi `00-brand-lookup.md` e step 2e del workflow)
 
 **Ponte / soluzione**
 - `Discredit Alternative` - screditare la soluzione standard / vecchio modo

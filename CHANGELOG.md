@@ -18,6 +18,42 @@ Regola dei numeri:
 ## [Unreleased]
 
 ### Added
+- feat(parlato): nuovo `references/10-parlato-ritmo-e-ponti.md`, il file della
+  continuita' del discorso. Dieci regole: la domanda unica prima di ogni blocco,
+  fasi narrative con giunture che non si sentono, lista bianca dei ponti ammessi,
+  divieto di aforismi nel body, alternanza delle lunghezze, struttura interna del
+  blocco, frammento singolo libero, passivo e nominale fuori dal parlato, termini
+  tecnici sempre spiegati, test di lettura ad alta voce.
+  `[dichiarato: Matteo, 2026-09-25]`
+- feat(parlato): lista bianca dei ponti (`Senti,`, `Guarda,`, `E sai qual e' il
+  punto?`, `E li' e' dove cambia tutto.` e le altre 12) esente dai pattern
+  `signposted transition` e `rhetorical self-question`, in
+  `07-review-gates.md` e in `scripts/voice-lint.py`.
+- feat(parlato): sei non-negoziabili nuovi in `SKILL.md` e `AGENTS.md` (discorso
+  non elenco, niente aforismi, ritmo alternato, passivo fuori dal parlato,
+  lettura ad alta voce obbligatoria, soglia dei frammenti a tre di fila).
+- feat(parlato): il test di lettura ad alta voce diventa il passo 0 del QA e
+  lascia la riga `Lettura ad alta voce: eseguita su N blocchi, M riscritti` nella
+  ricevuta Voice. Senza quella riga il brief non e' consegnabile.
+- feat(output-contract): tag Selling Block `Villain` nel gruppo apertura, per la
+  fase del nemico comune che il workflow usava senza avere un tag.
+- feat(anti-patterns): AP-21 (aforisma nel body), AP-22 (blocchi corretti ma
+  scollegati), AP-23 (passivo e nominalizzazione), AP-24 (ritmo piatto).
+- feat(voice-lint): quattro check nuovi come warning che non contano nella
+  density e non bloccano: aforisma per eco, ritmo piatto, passivo e
+  nominalizzazione, ponte mancante tra i blocchi (check di documento).
+- test: fixture `06-ponti-ritmo-clean.md`, i ponti della lista bianca e il
+  frammento singolo devono restare puliti. Eval 15/15.
+
+### Changed
+- `references/02-writing-principles.md` principio 21: la soglia del vincolo di
+  montaggio passa dal frammento singolo alla serie da tre di fila.
+- `references/formats-guide.md`: rimossi i 31 trattini lunghi dal corpo del file
+  (restano le due righe in cui il trattino e' l'oggetto del discorso), riscritti
+  gli esempi che insegnavano ponti vietati (`Ecco la verita':`) e triplette
+  bilanciate (`e' efficace, e' sicuro, e' garantito`).
+- `SKILL.md`: `references/08-anti-patterns.md` era assente dalla mappa dei
+  reference file, quindi una sessione che si fidava della mappa non lo apriva mai.
 - feat(voice): collegamento esplicito allo standard anti AI-slop del Brain
   (`landi-system/docs/anti-ai-slop-writing-standard.md`) in `SKILL.md`,
   `AGENTS.md`, `02-writing-principles.md` e `UPDATE-MAP.md`, cosi' un

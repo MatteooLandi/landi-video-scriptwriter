@@ -5,6 +5,12 @@ italiana profondi (frasi, ritmo, congiunzioni, avverbi, tono, micro-commitment,
 registro) appoggiati a `references/formats-guide.md`, Parti 2, 3 e 5. Questo file
 contiene i principi operativi e i non-negoziabili.
 
+> **Continuita' del discorso.** Come il parlato scorre da un blocco al
+> successivo (ponti ammessi, divieto di aforismi, alternanza delle lunghezze,
+> struttura del blocco, passivo e nominale, test di lettura ad alta voce) sta in
+> `references/10-parlato-ritmo-e-ponti.md`. Quel file e' vincolante come questo:
+> qui c'e' come si scrive una battuta, la' come le battute stanno insieme.
+
 > **Da dove vengono questi principi.** I principi 15, 16, 17 e i principi 20-23
 > sono la versione per il parlato dello standard di scrittura del Brain,
 > `landi-system/docs/anti-ai-slop-writing-standard.md`. Quello standard vale per
@@ -330,6 +336,11 @@ DM.") e le domande che chi parla si pone da solo ("E senza? Sei fermo.") sono
 forme del parlato. Nello script possono essere la struttura giusta: un
 frammento per stacco, per clip o per beat, con il ritmo del montaggio che fa il
 lavoro dell'intonazione.
+
+**La soglia e' la serie, non il frammento.** Una frase senza verbo dentro una
+battuta e' libera: nessuna nota, nessuna giustificazione, e' parlato normale
+("E li' e' dove tutto cambia."). Il vincolo di produzione scatta da **tre
+frammenti di fila in su**. `[dichiarato: Matteo, 2026-09-25]`
 
 Diventano un tell quando non corrispondono a niente sullo schermo: tre o quattro
 frasi mozze di fila lette sullo stesso piano sono una cadenza meccanica, e chi

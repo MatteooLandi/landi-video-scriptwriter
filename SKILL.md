@@ -143,10 +143,13 @@ Esegui in ordine. Ogni passo rimanda al reference file che contiene le regole.
    logica di ricombinazione hook>body per creare varianti.
 
 6. **Scrivi il body.** Usa i selling blocks e i principi di scrittura parlata di
-   `references/02-writing-principles.md`. Distingui sempre **script parlato** da
-   **testo on-screen** (le regole sono nel contratto di output). Per la sintassi
-   italiana profonda, i selling blocks avanzati e i pattern di scrittura,
-   appoggiati a `references/formats-guide.md` (Parti 2, 3, 5).
+   `references/02-writing-principles.md`, piu' i vincoli di continuita' e ritmo
+   di `references/10-parlato-ritmo-e-ponti.md`: ogni blocco tiene il suo
+   obiettivo narrativo e la sua prima frase nasce dall'ultima del blocco
+   precedente. Distingui sempre **script parlato** da **testo on-screen** (le
+   regole sono nel contratto di output). Per la sintassi italiana profonda, i
+   selling blocks avanzati e i pattern di scrittura, appoggiati a
+   `references/formats-guide.md` (Parti 2, 3, 5).
 
 7. **Formatta l'output.** Applica `references/03-output-contract.md` (3 tabelle
    Notion: Hooks, Scene Script, Broll on richiesta). B-roll: se richiesto, come
@@ -155,6 +158,11 @@ Esegui in ordine. Ogni passo rimanda al reference file che contiene le regole.
 
 8. **QA prima di consegnare (catena 4 gate).** Vedi
    `references/07-review-gates.md`. In ordine:
+   0. **Leggi ogni blocco ad alta voce**, una volta sola, senza fermarti
+      (`references/10-parlato-ritmo-e-ponti.md` R10). Se ti blocchi su una
+      parola, se devi riprendere fiato a meta' frase, se non ti viene naturale
+      dirlo, riscrivi prima di far girare i linter. L'esito va nella ricevuta
+      Voice come riga `Lettura ad alta voce: eseguita su N blocchi, M riscritti`.
    a. `python3 scripts/format-lint.py <draft>` — contratto tabelle. Bounce
       qui ferma la catena.
    b. `python3 scripts/hook-lint.py <draft> .` — regole hook (3 hook,
@@ -216,9 +224,27 @@ Questi vincono su tutto il resto. Dettaglio in `references/02-writing-principles
 - **Afferma, non comandare.** Fuori dalla CTA e dalle istruzioni, niente
   impalcatura `Smetti di X, inizia a Y`. Chi parla dice cosa ha visto e cosa
   gli e' successo, e lascia la conclusione a chi guarda.
-- **Frammenti solo se il montaggio li regge.** Una serie di frasi senza verbo
-  ("Niente X. Niente Y.") passa se ogni frammento e' uno stacco, una clip o un
-  beat dichiarato nelle note. Se e' solo cadenza, si ricuce.
+- **Frammenti solo se il montaggio li regge.** Il vincolo scatta da tre frasi
+  senza verbo di fila ("Niente X. Niente Y. Niente Z."): passano se ogni
+  frammento e' uno stacco, una clip o un beat dichiarato nelle note, altrimenti
+  si ricuce. Un frammento singolo dentro una battuta e' libero.
+- **Lo script e' un discorso, non un elenco.** Le fasi narrative restano (il
+  problema, il nemico comune, lo screditamento delle alternative, la soluzione,
+  il prodotto), ma le cuciture non si devono sentire: la prima frase di ogni
+  blocco nasce dall'ultima del blocco precedente. Test: copri la colonna
+  `Selling Block` e leggi il parlato di fila.
+- **Niente aforismi nel body.** Le frasi a effetto, corte e simmetriche, che
+  sembrano una citazione ("Il rischio non cresce con te. Si moltiplica per
+  te.") restano fuori. Si sostituiscono col fatto concreto che volevano
+  riassumere. Restano ammesse nella CTA che chiude un open loop e nel tag comico
+  di un personaggio con quella voce.
+- **Ritmo alternato.** Frasi brevi e frasi lunghe si alternano, dentro il blocco
+  e tra blocchi. Quattro frasi della stessa misura di fila sono un metronomo.
+- **Passivo e nominalizzazione fuori dal parlato.** "Viene applicato" e "la
+  gestione comporta" sono forme scritte: rimetti il soggetto che agisce.
+- **Test di lettura ad alta voce obbligatorio.** Nessuno script si consegna
+  senza essere stato detto a voce, blocco per blocco. La ricevuta Voice lo
+  dichiara.
 
 ---
 
@@ -241,6 +267,10 @@ Enforcement completo in `references/07-review-gates.md` (catena 4 gate:
 Format → Hook → Voice → Grounding, con linter Python + reviewer agent
 indipendenti). Lo Stop hook advisory (`.claude/hooks/gate-check.py`)
 segnala i brief consegnati senza receipts.
+
+La ricevuta Voice contiene sempre la riga `Lettura ad alta voce: eseguita su N
+blocchi, M riscritti`. Senza quella riga il brief non e' consegnabile, anche con
+tutti i linter clean.
 
 Sotto la catena, ogni script/concept deve comunque superare lo scoring E-R-C
 applicato dal Voice Reviewer:
@@ -267,7 +297,9 @@ sociale, CTA, Sintassi italiana, Generale).
 | `references/05-format-selector.md` | I 13 format: quando usarli, obiettivo, chi interpreta, durata, costo, dove approfondire |
 | `references/06-broll-generation.md` | B-roll on richiesta: indicazioni semplici per creator oppure prompt AI |
 | `references/07-review-gates.md` | **Enforcement**: catena 4 gate (Format/Hook/Voice/Grounding), soglie, lista pattern voice-lint, regola fact-vs-flavor, upgrade advisory→bloccante |
+| `references/08-anti-patterns.md` | Galleria degli output sbagliati (AP-01 ... AP-24) con ❌ / ✅ / 🔍. Check finale prima di consegnare e sorgente delle fixture di regressione |
 | `references/09-standard-broll-library.md` | Modalita senza concept: libreria B-roll standard permanente del brand |
+| `references/10-parlato-ritmo-e-ponti.md` | Continuita' del discorso: fasi narrative e giunture, lista bianca dei ponti, divieto aforismi, alternanza delle lunghezze, struttura del blocco, passivo e nominale, test di lettura ad alta voce |
 | `references/formats-guide.md` | Strategia, stile, sintassi italiana, selling blocks avanzati, framework operativo, checklist. **Non contiene piu' i format** (spostati in `formats/`). |
 | `references/formats/*.md` | Un file per format (13 file): Cos'e', Perche' funziona, Come funziona, Struttura, Esempio, Do's & Don'ts. Carica SOLO il file del format scelto. |
 | `references/hook-types-library.md` | Libreria dei 20 tipi di hook (preset di apertura) |

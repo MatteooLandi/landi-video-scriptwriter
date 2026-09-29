@@ -37,12 +37,27 @@ format, dettagli prodotto, lingua), fermati e chiedilo.
    oggetto, criterio e azione concreta.
 10. Afferma invece di comandare. `Smetti di X, inizia a Y` resta fuori dal
     parlato: l'imperativo vive nella CTA e nelle istruzioni operative.
-11. Una serie di frammenti senza verbo passa solo se ogni frammento e' uno
-    stacco, una clip o un beat dichiarato. Se e' solo cadenza, si ricuce.
+11. Da tre frammenti senza verbo di fila in su, ognuno deve essere uno stacco,
+    una clip o un beat dichiarato. Se e' solo cadenza, si ricuce. Un frammento
+    singolo dentro una battuta e' libero.
 12. L'enfasi in maiuscolo e' una marca di delivery: va nelle Note per Editor,
     non dentro il parlato.
+13. Lo script e' un discorso, non un elenco. Le fasi narrative restano (problema,
+    nemico comune, screditamento alternative, soluzione, prodotto), ma la prima
+    frase di ogni blocco nasce dall'ultima del blocco precedente. Test: copri la
+    colonna `Selling Block` e leggi il parlato di fila.
+14. Niente aforismi nel body. Le frasi a effetto corte e simmetriche ("Il rischio
+    non cresce con te. Si moltiplica per te.") si sostituiscono col fatto
+    concreto. Ammesse solo nella CTA che chiude un open loop e nel tag comico di
+    un personaggio con quella voce.
+15. Ritmo alternato: frasi brevi e lunghe, dentro il blocco e tra blocchi.
+16. Passivo e nominalizzazione fuori dal parlato: rimetti il soggetto che agisce.
+17. Lettura ad alta voce obbligatoria prima della consegna, blocco per blocco.
+    La ricevuta Voice lo dichiara.
 
-Dettaglio completo dei non-negoziabili in `references/02-writing-principles.md`.
+Dettaglio completo dei non-negoziabili in `references/02-writing-principles.md` e
+in `references/10-parlato-ritmo-e-ponti.md` (continuita', ponti ammessi, ritmo,
+aforismi, passivo, lettura ad alta voce).
 A monte di questi vincoli sta lo standard del Brain
 `landi-system/docs/anti-ai-slop-writing-standard.md`: quando cambia, i file da
 riallineare qui sono elencati in `UPDATE-MAP.md`.
@@ -79,10 +94,16 @@ riallineare qui sono elencati in `UPDATE-MAP.md`.
    `references/hook-types-library.md` + lo swipe file in
    `references/hook-swipe-file.md`, EN da adattare o principi da riusare in
    italiano, non da tradurre).
-6. Scrivi il body a selling block: `references/02-writing-principles.md`.
+6. Scrivi il body a selling block: `references/02-writing-principles.md` +
+   `references/10-parlato-ritmo-e-ponti.md` (giunture tra blocchi, ponti
+   ammessi, ritmo).
 7. Formatta l'output (3 tabelle Notion): `references/03-output-contract.md`.
    B-roll solo su richiesta: `references/06-broll-generation.md`.
 8. QA: catena 4 gate (`references/07-review-gates.md`):
+   0. Leggi ogni blocco ad alta voce, una volta sola, senza fermarti
+      (`references/10-parlato-ritmo-e-ponti.md` R10). Riscrivi prima dei linter.
+      Esito nella ricevuta Voice: `Lettura ad alta voce: eseguita su N blocchi,
+      M riscritti`.
    a. `python3 scripts/format-lint.py <draft>` — contratto tabelle.
    b. `python3 scripts/hook-lint.py <draft> .` — regole hook.
    c. `python3 scripts/voice-lint.py <draft>` — tell AI meccanici.

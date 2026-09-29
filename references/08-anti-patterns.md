@@ -314,6 +314,10 @@ struttura giusta quando il montaggio fa il lavoro dell'intonazione. Senza stacco
 diventano una cadenza meccanica. Il test e' di produzione: ogni frammento ha la
 sua clip? Regola in `references/02-writing-principles.md` principio 21.
 
+**Soglia.** Vale da **tre frammenti di fila in su**. Una frase senza verbo
+dentro una battuta e' libera e non richiede nota. Vedi
+`references/10-parlato-ritmo-e-ponti.md` R7.
+
 ---
 
 ## AP-19: Falso contrasto
@@ -352,6 +356,97 @@ durata, dose e tempi di consegna restano neutri, perche' servono a decidere
 risultato dentro una storia vogliono la lettura di chi parla, altrimenti sono un
 elenco che chi guarda deve interpretare da solo, e in un video non ha tempo.
 Regola nello standard del Brain, regola 8.
+
+---
+
+## AP-21: Aforisma o frase a effetto nel body
+
+**❌ Sbagliato**
+> "Non e' una minaccia. E' matematica."
+> "Il rischio non cresce con te. Si moltiplica per te."
+
+**✅ Giusto**
+> "Pensa a cosa succede nella pratica. Un errore su un immobile lo gestisci. Ma
+> se quell'errore ce l'hai su 60 immobili, lo stai pagando 60 volte."
+
+**🔍 Perche'**
+L'aforisma funziona nei copy scritti. Detto in camera suona recitato, e
+comprimendo il concetto porta via la prova: resta la sentenza, spariscono il
+gesto, il numero e la conseguenza. Si riconosce cosi': frase corta, simmetrica,
+astratta, che potrebbe stare su qualsiasi prodotto. Il primo esempio e' anche un
+falso contrasto (`AP-19`) e lo becca `voice-lint.py`; il secondo no, perche'
+l'aforisma per parallelismo non ha la meta' negata. Resta ammesso nella CTA che
+chiude un open loop e nel tag comico di un personaggio che parla cosi'. Regola
+in `references/10-parlato-ritmo-e-ponti.md` R4.
+
+---
+
+## AP-22: Blocchi corretti ma scollegati (bullet point letti ad alta voce)
+
+**❌ Sbagliato**
+> Body 1 `Problem`: "Gestire 60 immobili a mano porta errori."
+> Body 2 `Discredit Alternative`: "I software gestionali costano centinaia di
+> euro al mese."
+> Body 3 `Solution`: "Il nostro sistema calcola tutto da solo."
+
+**✅ Giusto**
+> Body 1 `Problem`: "Gestire 60 immobili a mano porta errori."
+> Body 2 `Discredit Alternative`: "E lo sai qual e' il rimedio che ti propongono
+> tutti? Un gestionale da centinaia di euro al mese."
+> Body 3 `Solution`: "Io ho fatto un'altra cosa. Ho messo il calcolo dentro un
+> sistema che lo fa da solo."
+
+**🔍 Perche'**
+Le fasi narrative sono giuste in entrambe le versioni: il problema, lo
+screditamento dell'alternativa, la soluzione. Nella prima manca la giuntura,
+quindi ogni blocco nasce da se stesso e il risultato sono voci di un elenco
+lette ad alta voce. Succede quando il brief viene letto come una lista di
+funzioni da coprire. Il test: copri la colonna `Selling Block` e leggi solo il
+parlato di fila; se si sente dove inizia un blocco nuovo, manca il ponte.
+Regola in `references/10-parlato-ritmo-e-ponti.md` R2 e R3.
+
+---
+
+## AP-23: Passivo o nominalizzazione dentro il parlato
+
+**❌ Sbagliato**
+> "La gestione inefficiente delle risorse comporta un incremento del rischio
+> operativo."
+> "Il prodotto viene applicato la sera sulla pelle asciutta."
+
+**✅ Giusto**
+> "Piu' cose gestisci male, piu' il rischio cresce. E cresce moltiplicandosi,
+> non sommandosi."
+> "La sera lo metti sulla pelle asciutta."
+
+**🔍 Perche'**
+Passivo e nome astratto sono forme scritte: togliono il soggetto che agisce e
+mettono distanza tra chi parla e quello che dice. Si riscrive rimettendo chi fa
+la cosa e trasformando il nome nel verbo che contiene ("la gestione comporta"
+diventa "se gestisci male"). Il passivo impersonale resta quando l'agente e'
+davvero irrilevante o quando serve il registro di un personaggio tecnico
+(principio 18). Regola in `references/10-parlato-ritmo-e-ponti.md` R8.
+
+---
+
+## AP-24: Ritmo piatto, tutte le frasi della stessa lunghezza
+
+**❌ Sbagliato**
+> "Il problema nasce presto. Nessuno rivede le configurazioni. Ogni immobile
+> aggiunge un errore. Il costo cresce ogni mese."
+
+**✅ Giusto**
+> "E li' e' dove inizia il problema. Perche' le configurazioni che hai messo in
+> piedi quando gestivi 10 immobili nessuno le ha mai riviste, e ogni immobile
+> che aggiungi le rende piu' costose da correggere."
+
+**🔍 Perche'**
+Il parlato non ha ritmo uniforme: la frase breve colpisce, la lunga spiega e
+accumula. Quattro frasi della stessa misura di fila diventano un metronomo e chi
+ascolta smette di seguire. Vale anche tra blocchi: se ogni Body occupa lo stesso
+numero di righe, il montaggio diventa uniforme. Le fasce di lunghezza e il
+pattern (breve, breve, lunga, media, breve) sono in `formats-guide.md` sez. 2.1.
+Regola in `references/10-parlato-ritmo-e-ponti.md` R5.
 
 ---
 

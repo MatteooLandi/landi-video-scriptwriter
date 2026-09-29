@@ -192,6 +192,142 @@ PATTERNS = [
 ]
 
 
+# ---- Ponti ammessi (lista bianca) -----------------------------------
+# Fonte: references/10-parlato-ritmo-e-ponti.md R3, decisi da Matteo il
+# 2026-09-25. Una riga che contiene uno di questi ponti non viene flaggata
+# come 'signposted transition' ne' come 'rhetorical self-question'.
+# Ripetizione e accumulo restano giudizio del reviewer.
+
+APPROVED_BRIDGES = [
+    "senti,", "guarda,", "ti spiego una cosa", "pensa a questo",
+    "e sai qual e' il punto", "cioe', nella pratica",
+    "ti faccio un esempio", "e questo significa che", "il punto e' che",
+    "e li' e' dove cambia tutto", "ma c'e' un altro aspetto",
+    "e questo porta a un altro problema",
+    "e sai qual e' la cosa interessante",
+    "ed e' esattamente per questo che", "e sai cosa succede",
+    "e il conto arriva sempre",
+]
+
+BRIDGE_EXEMPT = {"signposted transition", "rhetorical self-question"}
+
+# Connettivi che aprono un blocco collegandolo al precedente (check di
+# documento, non di riga).
+OPENING_CONNECTIVE = re.compile(
+    r"^(?:e\b|ma\b|perche'|quindi\b|poi\b|allora\b|senti\b|guarda\b|"
+    r"cioe'|ed\b|pensa\b|ti\s+spiego|ti\s+faccio|il\s+punto\s+e')", re.I)
+
+ACCENTS = str.maketrans({
+    "\u00e0": "a'", "\u00e8": "e'", "\u00e9": "e'", "\u00ec": "i'",
+    "\u00f2": "o'", "\u00f3": "o'", "\u00f9": "u'", "\u2019": "'",
+})
+
+# ---- Passivo e nominalizzazione (warning) ---------------------------
+
+PASSIVE_PATTERNS = [
+    ("passivo", re.compile(
+        r"\b(?:viene|vengono)\s+\w+(?:at[oaie]|ut[oaie]|it[oaie])\b", re.I),
+     "passivo con 'venire' — rimetti chi fa la cosa "
+     "(10-parlato-ritmo-e-ponti.md R8)"),
+    ("passivo", re.compile(
+        r"\b(?:e'|\u00e8|sono|era|erano)\s+stat[oaie]\s+"
+        r"\w+(?:at[oaie]|ut[oaie]|it[oaie])\b", re.I),
+     "passivo con 'essere' — nel parlato il soggetto agisce (R8)"),
+    ("nominalizzazione", re.compile(
+        r"\b(?:la|il|lo|l')\s*(?!momento\b|commento\b)"
+        r"\w{2,}(?:ione|mento|enza|anza)\s+"
+        r"(?:di|del|della|dei|delle|degli|dell')\b", re.I),
+     "nome astratto al posto del verbo — 'la gestione comporta' diventa "
+     "'se gestisci male' (R8)"),
+]
+
+WARNING_NAMES = {"passivo", "nominalizzazione", "aforisma per eco",
+                 "ritmo piatto", "ponte mancante tra i blocchi"}
+
+SENTENCE_SPLIT = re.compile(r"[.!?\u2026]+")
+
+
+def normalize(text):
+    """lowercase + accenti resi come nei reference (e' invece di e)."""
+    return " ".join(text.lower().translate(ACCENTS).split())
+
+
+def spoken_cell(line):
+    """Estrae la colonna del parlato da una riga di tabella.
+
+    Tabella 1: Module | Cosa devi dire | ...
+    Tabella 2: Module | Selling Block | Cosa devi dire | ...
+    Fuori tabella restituisce la riga intera.
+    """
+    stripped = line.strip()
+    if not stripped.startswith("|"):
+        return stripped
+    cells = [c.strip() for c in stripped.strip("|").split("|")]
+    if len(cells) < 3 or set(stripped) <= set("|-: "):
+        return ""
+    if cells[1].lower().startswith("cosa devi dire"):
+        return ""
+    return cells[2] if len(cells) >= 5 else cells[1]
+
+
+def sentences(text):
+    return [s.strip() for s in SENTENCE_SPLIT.split(text) if s.strip()]
+
+
+def last_word(sentence):
+    words = re.findall(r"[a-z\u00e0-\u00f9']{2,}", sentence.lower())
+    return words[-1] if words else ""
+
+
+def check_rhythm(cell):
+    """Warning di ritmo sul solo parlato: aforisma per eco e ritmo piatto."""
+    flags = []
+    sents = sentences(cell)
+    counts = [len(s.split()) for s in sents]
+    for i in range(len(sents) - 1):
+        if counts[i] <= 9 and counts[i + 1] <= 9:
+            a, b = last_word(sents[i]), last_word(sents[i + 1])
+            if a and a == b:
+                flags.append((
+                    "aforisma per eco",
+                    f"{sents[i]}. {sents[i + 1]}.",
+                    "due frasi brevi che chiudono sulla stessa parola — "
+                    "verifica se e' un aforisma (AP-21) o ripetizione voluta"))
+                break
+    if len(counts) >= 4 and max(counts) - min(counts) <= 2:
+        flags.append((
+            "ritmo piatto",
+            f"{len(counts)} frasi da {min(counts)}-{max(counts)} parole",
+            "alterna frasi brevi e lunghe (AP-24, "
+            "10-parlato-ritmo-e-ponti.md R5)"))
+    return flags
+
+
+def check_bridges(lines):
+    """Check di documento: nessun blocco dopo Body 1 apre con un connettivo."""
+    bodies = []
+    for line in lines:
+        stripped = line.strip()
+        if not stripped.startswith("|"):
+            continue
+        cells = [c.strip() for c in stripped.strip("|").split("|")]
+        if len(cells) < 3:
+            continue
+        m = re.match(r"body\s*(\d+)$", cells[0], re.I)
+        if m and int(m.group(1)) >= 2:
+            cell = spoken_cell(line)
+            if cell:
+                bodies.append(cell)
+    if len(bodies) < 2:
+        return []
+    if any(OPENING_CONNECTIVE.match(normalize(c)) for c in bodies):
+        return []
+    return [("ponte mancante tra i blocchi",
+             f"{len(bodies)} blocchi dopo Body 1",
+             "nessun blocco apre collegandosi al precedente: leggi le "
+             "giunture (AP-22, 10-parlato-ritmo-e-ponti.md R2)")]
+
+
 def check_line(line):
     flags = []
     low = line.lower()
@@ -204,10 +340,21 @@ def check_line(line):
         if phrase in low:
             flags.append(("frase brochure", phrase,
                           "espressione tipica da copywriter/brochure"))
+    norm = normalize(line)
+    bridge_exempt = any(b in norm for b in APPROVED_BRIDGES)
     for name, rx, note in PATTERNS:
         m = rx.search(line)
         if m:
+            if bridge_exempt and name in BRIDGE_EXEMPT:
+                continue
             flags.append((name, m.group(0).strip(), note))
+    cell = spoken_cell(line)
+    if cell:
+        for name, rx, note in PASSIVE_PATTERNS:
+            m = rx.search(cell)
+            if m:
+                flags.append((name, m.group(0).strip(), note))
+        flags.extend(check_rhythm(cell))
     # em-dash cadence: 2+ trattini in una riga
     if line.count("—") + line.count(" – ") >= 2:
         flags.append(("em-dash cadence", "—…—",
@@ -247,14 +394,20 @@ def main(argv):
         return 2
     with open(argv[1], encoding="utf-8") as f:
         text = f.read()
-    total, report = 0, []
+    total, report, warnings = 0, [], []
     lines = text.splitlines()
     for i, line in enumerate(lines, 1):
         if not line.strip():
             continue
         for name, evidence, note in check_line(line):
-            total += 1
-            report.append(f'  L{i} [{name}] "{evidence}" — {note}')
+            entry = f'  L{i} [{name}] "{evidence}" — {note}'
+            if name in WARNING_NAMES:
+                warnings.append(entry)
+            else:
+                total += 1
+                report.append(entry)
+    for name, evidence, note in check_bridges(lines):
+        warnings.append(f'  [{name}] "{evidence}" — {note}')
     n_lines = max(1, sum(1 for l in lines if l.strip()))
     density = total / n_lines
     print(f"voice-lint: {total} flag(s) su {n_lines} righe non-vuote "
@@ -263,6 +416,11 @@ def main(argv):
         print(r)
     if total == 0:
         print("  clean al layer meccanico — il judgment pass resta")
+    if warnings:
+        print(f"voice-lint: {len(warnings)} warning(s) di ritmo e forma "
+              f"(non contano nella density, non bloccano)")
+        for w in warnings:
+            print(w)
     return 1 if total else 0
 
 

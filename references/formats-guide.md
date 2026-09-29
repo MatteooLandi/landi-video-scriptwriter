@@ -134,7 +134,7 @@ hai speso tempo e denaro, hai seguito ogni consiglio,
 
 eppure ti ritrovi sempre al punto di partenza, frustrato e senza risposte."
 
-Perché funziona: L'accumulo sintattico crea un effetto "valanga emotiva". Quando la frase si chiude, il cervello cerca sollievo — ed è il momento in cui introduci la soluzione.
+Perché funziona: L'accumulo sintattico crea un effetto "valanga emotiva". Quando la frase si chiude, il cervello cerca sollievo, ed è il momento in cui introduci la soluzione.
 
 ### Il Pattern Ritmico Vincente
 
@@ -372,7 +372,7 @@ Esempio:
 
 Perché funziona: I numeri dispari e specifici (11, 17, 23\) sono percepiti come più credibili dei numeri tondi (10, 20, 30). Il cervello interpreta la specificità come "dato reale misurato".
 
-Bias cognitivo: Specificity Bias — informazioni precise sono percepite come più affidabili.
+Bias cognitivo: Specificity Bias, informazioni precise sono percepite come più affidabili.
 
 ### Pattern 4: "Negazione del Negativo"
 
@@ -396,7 +396,7 @@ Ma dopo una settimana, tutto diventa naturale."
 
 Perché funziona: La vulnerabilità crea fiducia. Ammettere un limite disattiva lo "scudo pubblicitario" del cervello.
 
-Bias cognitivo: Pratfall Effect — le persone/brand che ammettono piccole imperfezioni sono percepiti come più autentici.
+Bias cognitivo: Pratfall Effect, le persone/brand che ammettono piccole imperfezioni sono percepiti come più autentici.
 
 ### Pattern 6: "Inversione di Aspettativa"
 
@@ -412,9 +412,9 @@ Perché funziona: La sorpresa cognitiva crea un "momento di risveglio" che inter
 
 ### Teoria della Ripetizione Persuasiva
 
-La ripetizione non è ridondanza — è rinforzo neurale. Ogni ripetizione crea un nuovo percorso sinaptico che rende l'informazione più accessibile e credibile.
+La ripetizione non è ridondanza, è rinforzo neurale. Ogni ripetizione crea un nuovo percorso sinaptico che rende l'informazione più accessibile e credibile.
 
-Principio psicologico: Illusory Truth Effect — le affermazioni ripetute sono percepite come più vere, indipendentemente dalla loro veridicità oggettiva.
+Principio psicologico: Illusory Truth Effect, le affermazioni ripetute sono percepite come più vere, indipendentemente dalla loro veridicità oggettiva.
 
 ### Tipologie di Ripetizione Strategica
 
@@ -549,7 +549,7 @@ così \[beneficio concreto\]"
 
 Il tono non è cosa dici, ma come lo dici. È la colorazione emotiva che determina se il messaggio viene percepito come affidabile, autentico, rilevante o coinvolgente.
 
-Principio psicologico: Emotional Contagion — le emozioni sono contagiose. Il tono dello script trasferisce emozioni allo spettatore.
+Principio psicologico: Emotional Contagion, le emozioni sono contagiose. Il tono dello script trasferisce emozioni allo spettatore.
 
 ### Tipologie di Tono e Applicazioni
 
@@ -603,7 +603,7 @@ che causa questo problema. E abbiamo sviluppato l'unica soluzione
 
 che agisce direttamente sulla causa, non sui sintomi."
 
-Perché funziona: Attiva l'Authority Bias — il cervello è programmato per fidarsi di chi dimostra competenza.
+Perché funziona: Attiva l'Authority Bias, il cervello è programmato per fidarsi di chi dimostra competenza.
 
 #### Tono Empatico
 
@@ -681,7 +681,7 @@ DIRETTO (CTA)
 
 ### Teoria del Micro-Commitment
 
-Principio psicologico: Foot-in-the-Door Technique — piccoli "sì" iniziali aumentano la probabilità di "sì" più grandi successivi.
+Principio psicologico: Foot-in-the-Door Technique, piccoli "sì" iniziali aumentano la probabilità di "sì" più grandi successivi.
 
 Ogni micro-commitment è un passo psicologico verso l'azione finale. Il cervello cerca coerenza: se ha detto "sì" mentalmente 5 volte, dire "no" alla CTA crea dissonanza cognitiva.
 
@@ -761,20 +761,20 @@ Secondo 50-55: Linguaggio inclusivo \+ CTA
 
 Risultato: 5 micro-commitment prima della CTA finale \= probabilità di conversione significativamente più alta.
 
-## 2.8 — Scrittura per il Parlato: Linguaggio Naturale e Credibile
+## 2.8 Scrittura per il Parlato: Linguaggio Naturale e Credibile
 
 **Principio fondamentale**  
- Uno script non viene letto — viene detto. La differenza tra uno script che suona robotico e uno che suona autentico non sta in cosa dice, ma in come è costruito. Questo principio vale per qualsiasi format in cui c'è una persona che parla in camera: UGC, Podcast Ad, Skit, Founder Ad, Street Interview, Narrator Ad.
+ Uno script non viene letto, viene detto. La differenza tra uno script che suona robotico e uno che suona autentico non sta in cosa dice, ma in come è costruito. Questo principio vale per qualsiasi format in cui c'è una persona che parla in camera: UGC, Podcast Ad, Skit, Founder Ad, Street Interview, Narrator Ad.
 
-**Regola base:** Lo script è uno schema di concetti e parole chiave — non un testo da recitare parola per parola.
+**Regola base:** Lo script è uno schema di concetti e parole chiave, non un testo da recitare parola per parola.
 
 ---
 
-**Regola 1 — Le figure di autorità consigliano, non diagnosticano**
+**Regola 1: Le figure di autorità consigliano, non diagnosticano**
 
 Inserire una figura autorevole (medico, ginecologa, farmacista, estetista, esperto) aumenta la credibilità del messaggio senza richiedere claim medici o certificazioni.
 
-La figura autorevole **consiglia, suggerisce, usa** — non diagnostica, non certifica, non prescrive.
+La figura autorevole **consiglia, suggerisce, usa**, non diagnostica, non certifica, non prescrive.
 
 | ❌ Troppo forte | ✅ Corretto |
 | ----- | ----- |
@@ -786,9 +786,9 @@ Perché funziona: l'autorità viene trasferita sul prodotto senza esporre il bra
 
 ---
 
-**Regola 2 — Linguaggio sensoriale e marcatori di autenticità**
+**Regola 2: Linguaggio sensoriale e marcatori di autenticità**
 
-Le parole che descrivono sensazioni fisiche o reazioni emotive vissute in prima persona sono i marcatori più forti di credibilità nel parlato. Non descrivono un risultato — descrivono un'esperienza vissuta.
+Le parole che descrivono sensazioni fisiche o reazioni emotive vissute in prima persona sono i marcatori più forti di credibilità nel parlato. Non descrivono un risultato, descrivono un'esperienza vissuta.
 
 | ❌ Da copywriter | ✅ Da persona reale |
 | ----- | ----- |
@@ -813,15 +813,15 @@ Le parole che descrivono sensazioni fisiche o reazioni emotive vissute in prima 
 
 ---
 
-**Regola 3 — Lo script è uno schema, non un testo da recitare**
+**Regola 3: Lo script è uno schema, non un testo da recitare**
 
-Il creator o l'attore non deve dire le parole dello script — deve dire il concetto dello script con le sue parole. Lo script fornisce tre cose:
+Il creator o l'attore non deve dire le parole dello script, deve dire il concetto dello script con le sue parole. Lo script fornisce tre cose:
 
 1. Il **concetto** da comunicare in ogni blocco  
 2. Le **parole chiave** da non omettere (nome prodotto, claim principale, CTA)  
 3. Il **tono** e l'**emozione** del momento
 
-Tutto il resto va detto con le parole proprie di chi parla. Le imperfezioni, le esitazioni, i "tipo" e i "cioè" non vanno corretti in editing — sono il prodotto.
+Tutto il resto va detto con le parole proprie di chi parla. Le imperfezioni, le esitazioni, i "tipo" e i "cioè" non vanno corretti in editing, sono il prodotto.
 
 **Implicazione operativa:** quando scrivi uno script per il parlato, per ogni blocco chiediti:
 
@@ -831,7 +831,7 @@ Tutto il resto va detto con le parole proprie di chi parla. Le imperfezioni, le 
 
 ---
 
-**Regola 4 — Una frase, un'idea**
+**Regola 4: Una frase, un'idea**
 
 Nel parlato ogni frase contiene una sola informazione. Frasi composte, subordinate o periodi lunghi suonano letti, non detti. Vanno spezzati.
 
@@ -841,11 +841,11 @@ Nel parlato ogni frase contiene una sola informazione. Frasi composte, subordina
 | "Dopo tre settimane di utilizzo costante ho notato un miglioramento visibile sull'incarnato" | "La uso da tre settimane. La macchia è già più chiara." |
 | "Il prodotto si distingue per la sua capacità di agire su più fronti contemporaneamente" | "Non fa una cosa sola. Le fa tutte insieme." |
 
-**Regola pratica:** se una frase ha più di una virgola, spezzala in due frasi separate. Nel parlato il punto fermo è una pausa naturale — non una interruzione.
+**Regola pratica:** se una frase ha più di una virgola, spezzala in due frasi separate. Nel parlato il punto fermo è una pausa naturale, non una interruzione.
 
 ---
 
-**Regola 5 — Il test del parlato**
+**Regola 5: Il test del parlato**
 
 Prima di finalizzare qualsiasi script, leggilo ad alta voce una volta sola senza fermarti. Se inciampi su una parola, quella parola va cambiata. Se devi riprendere fiato a metà frase, quella frase va spezzata. Se suona come uno spot, va riscritto.
 
@@ -896,7 +896,7 @@ Esempio comparativo:
 
 ## 3.2 Congiunzioni: Il Collante Emotivo del Copy Italiano
 
-Le congiunzioni in italiano non sono semplici connettori logici — sono strumenti di persuasione che modulano tono, ritmo ed emozione.
+Le congiunzioni in italiano non sono semplici connettori logici, sono strumenti di persuasione che modulano tono, ritmo ed emozione.
 
 ### Congiunzioni Avversative (Contrasto e Sorpresa)
 
@@ -1448,7 +1448,12 @@ Analisi:
 
 "C'è solo un problema: non durerà per sempre."
 
-"Ecco la verità: tutti gli altri metodi falliscono."
+"Ho scoperto una cosa: il problema non era la crema."
+
+> I due punti annunciano, non spiegano. Formule come "Ecco la verità:" o "Il
+> segreto?" restano fuori: sono ponti formulaici vietati in
+> `07-review-gates.md`. I ponti ammessi sono elencati in
+> `10-parlato-ritmo-e-ponti.md` R3.
 
 #### Tre Punti: Suspense
 
@@ -1458,9 +1463,14 @@ Analisi:
 
 #### Virgola: Accumulo
 
-"È efficace, è sicuro, è garantito."
+"Ci ho provato con le creme, poi con gli integratori, poi con i massaggi, e a giugno ero al punto di partenza."
 
-"Niente più notti insonni, niente più stanchezza, niente più frustrazione."
+"Non mi svegliavo più alle tre, non trascinavo più la giornata, e la sera avevo ancora voglia di uscire."
+
+> L'accumulo funziona quando gli elementi hanno lunghezze diverse. Tre elementi
+> della stessa misura ("è efficace, è sicuro, è garantito") sono una tripletta
+> bilanciata: `voice-lint.py` la flagga e il reviewer la fa spezzare. Vedi
+> `10-parlato-ritmo-e-ponti.md` R5 e `AP-24`.
 
 **Trattino negli Script Parlati**
 
@@ -1679,11 +1689,11 @@ Per la selezione del format da usare, vedi `05-format-selector.md`.
 
 ## 5.1 I 10 Principi Fondamentali dello Scriptwriting
 
-1. Ogni script inizia a conversazione già iniziata — non c'è introduzione formale  
+1. Ogni script inizia a conversazione già iniziata, non c'è introduzione formale
 2. La prima frase crea tensione immediata (shock, paura, contraddizione)  
 3. Due attori generano dinamica naturale "push/pull" che sembra ascoltata per caso  
 4. Il prodotto entra solo dopo una scoperta, mai come pitch diretto  
-5. Le obiezioni vengono espresse dall'altro attore — lo spettatore non si sente venduto  
+5. Le obiezioni vengono espresse dall'altro attore, lo spettatore non si sente venduto
 6. Il meccanismo unico viene spiegato in linguaggio semplice, attraverso dialogo informale  
 7. La prova è integrata in reazioni, screenshot, suoni, dettagli sensoriali  
 8. Le alternative vengono screditate indirettamente (umorismo, confronti, frustrazione sottile)  
@@ -1733,7 +1743,7 @@ Perché il secondo funziona:
 | Livello 4 | Numero \+ risultato specifico | ⭐⭐⭐ | Prova sociale di massa |
 | Livello 5 | Numeri aggregati | ⭐⭐ | Complemento, non principale |
 
-> Punta sempre al Livello 1-2 — sono le forme più efficaci da inserire negli script.
+> Punta sempre al Livello 1-2, sono le forme più efficaci da inserire negli script.
 
 ---
 
@@ -1766,7 +1776,7 @@ Esempio:
 
 "Questa è Sara. Creator di successo. Ma lavora 14 ore al giorno e non ha più vita."
 
-Psicologia: Effetto Spotlight — nominare qualcuno crea immediata attenzione e identificazione.
+Psicologia: Effetto Spotlight, nominare qualcuno crea immediata attenzione e identificazione.
 
 ---
 
@@ -1804,7 +1814,7 @@ Esempio:
 
 E la sensazione di non farcela più."
 
-Psicologia: Pain Amplification — il cervello cerca disperatamente una via d'uscita.
+Psicologia: Pain Amplification, il cervello cerca disperatamente una via d'uscita.
 
 ---
 
@@ -1844,7 +1854,7 @@ A: "Quindi niente più contenuti robotici?"
 
 B: "Zero. Analizza il tuo brand voice e replica il tuo stile."
 
-Psicologia: Preemptive Rebuttal — affrontare l'obiezione prima che nasca la neutralizza.
+Psicologia: Preemptive Rebuttal, affrontare l'obiezione prima che nasca la neutralizza.
 
 ---
 
@@ -1880,7 +1890,7 @@ Esempio:
 
 Potresti finalmente scalare il business. E vedere i tuoi figli."
 
-Psicologia: Future Pacing — il cervello "vive" il beneficio prima di acquistare.
+Psicologia: Future Pacing, il cervello "vive" il beneficio prima di acquistare.
 
 ---
 
@@ -2747,7 +2757,7 @@ Cioè \[TRADUZIONE IN BENEFICIO\].
 
 \[BENEFICI \- 10 sec\]
 
-Il risultato? \[BENEFICIO 1 SPECIFICO IN SITUAZIONE REALE\].
+E sai qual è la cosa interessante? \[BENEFICIO 1 SPECIFICO IN SITUAZIONE REALE\].
 
 \[BENEFICIO 2 SPECIFICO IN SITUAZIONE REALE\].
 
@@ -2757,7 +2767,7 @@ Immagina \[FUTURE PACING CON DETTAGLI SENSORIALI\].
 
 So che ti stai chiedendo "\[OBIEZIONE PRINCIPALE\]".
 
-Ecco la verità: \[RISOLUZIONE SPECIFICA\].
+Il punto è che \[RISOLUZIONE SPECIFICA\].
 
 E per toglierti ogni dubbio: \[GARANZIA/PROVA GRATUITA\].
 
@@ -2887,7 +2897,7 @@ Aggiungi questa strategia alla tua checklist di produzione e scriptwriting:
 ---
 
 Risultato:  
-Più test, più dati, più performance — senza dover cambiare concept o asset centrale.  
+Più test, più dati, più performance, senza dover cambiare concept o asset centrale.
 Questa strategia è fondamentale per scalare campagne e ottimizzare la copertura su audience diverse con il minimo sforzo creativo.
 
 ---
@@ -2905,7 +2915,7 @@ Questa guida integra:
 
 Principio finale:
 
-> *"Le ads che performano non vendono prodotti. Vendono trasformazioni attraverso storie che il cervello elabora come esperienze reali. La sintassi, il ritmo, le emozioni, la struttura e il format non sono dettagli — sono il meccanismo stesso della persuasione."*
+> *"Le ads che performano non vendono prodotti. Vendono trasformazioni attraverso storie che il cervello elabora come esperienze reali. La sintassi, il ritmo, le emozioni, la struttura e il format non sono dettagli, sono il meccanismo stesso della persuasione."*
 
 Prossimi passi:
 
@@ -2918,4 +2928,3 @@ Prossimi passi:
 7. Testa, misura, itera
 
 Ricorda: La perfezione non esiste al primo tentativo. Ogni script è un'ipotesi da testare. L'iterazione basata sui dati è ciò che trasforma un buon script in uno straordinario.
-
