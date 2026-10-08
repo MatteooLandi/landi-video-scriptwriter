@@ -129,12 +129,15 @@ Esegui in ordine. Ogni passo rimanda al reference file che contiene le regole.
    guidalo nella scelta di angle, buyer persona e format (vedi
    `references/05-format-selector.md`), poi procedi.
 
-4. **Scegli il format.** Seleziona tra i 13 format in
+4. **Scegli il format e chi parla.** Seleziona tra i 13 format in
    `references/05-format-selector.md` in base a obiettivo, awareness e
    soprattutto **producibilita'** (regola "Never write production-blind" in
-   `references/02-writing-principles.md`). Il dettaglio completo di ogni format
-   e' in `references/formats/<nome-format>.md` — carica SOLO il file del format
-   scelto, non tutti.
+   `references/02-writing-principles.md`). Definisci anche voce e persona
+   grammaticale coerenti con format e interprete: brand, founder, narratore,
+   creator che testimonia davvero o creator che interpreta un cliente. La prima
+   persona non e' il default. Il dettaglio completo di ogni format e' in
+   `references/formats/<nome-format>.md` — carica SOLO il file del format scelto,
+   non tutti.
 
 5. **Genera i 3 hook.** Applica il sistema completo in
    `references/01-hook-system.md`: layer WHO + WHAT STAGE + HOW-Copy + HOW-Visual,
@@ -209,6 +212,11 @@ Questi vincono su tutto il resto. Dettaglio in `references/02-writing-principles
   piano occasione, oggetto e azione concreta.
 - **Script = parlato.** Scrivi cio' che una persona reale direbbe a voce. Test:
   "una persona reale direbbe questa frase parlando?". Se no, riscrivi.
+- **Persona del parlato scelta, non preimpostata.** Prima di scrivere definisci
+  chi parla. Brand, narratore, founder, creator che testimonia e creator che
+  interpreta un cliente non usano automaticamente la stessa persona. La prima
+  persona vale solo quando e' coerente con un'esperienza attribuibile a chi la
+  pronuncia; vedi `references/02-writing-principles.md` §1.1.
 - **Script != testo on-screen.** Sono due cose diverse, non copiare l'uno
   nell'altro. Il testo on-screen va in "Note per Editor" con la dicitura
   "Testo on-screen:".

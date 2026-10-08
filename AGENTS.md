@@ -25,34 +25,38 @@ format, dettagli prodotto, lingua), fermati e chiedilo.
    medio e' ammesso solo in intervalli e coppie reali, non come punteggiatura.
    Vale per script, visual e note per editor.
 2. Script = parlato. Test: "una persona reale direbbe questa frase parlando?".
-3. Script != testo on-screen. Il testo on-screen va in "Note per Editor" con la
+3. Persona del parlato scelta, non preimpostata. Prima di scrivere definisci chi
+   parla: brand, founder, narratore, creator che testimonia o creator che
+   interpreta un cliente. La prima persona vale solo quando e' coerente con
+   un'esperienza attribuibile a chi la pronuncia.
+4. Script != testo on-screen. Il testo on-screen va in "Note per Editor" con la
    dicitura "Testo on-screen:".
-4. Ogni hook ha sempre il suo testo on-screen, diverso dal parlato.
-5. Producibilita' prima di tutto. Never write production-blind.
-6. Brief scannerizzabile: una informazione per riga, niente paragrafoni.
-7. Concept != Format.
-8. Se il messaggio dipende da un'occasione o momento d'uso, esplicita il
+5. Ogni hook ha sempre il suo testo on-screen, diverso dal parlato.
+6. Producibilita' prima di tutto. Never write production-blind.
+7. Brief scannerizzabile: una informazione per riga, niente paragrafoni.
+8. Concept != Format.
+9. Se il messaggio dipende da un'occasione o momento d'uso, esplicita il
    category entry point. Un neofita deve capire "per cosa?" senza il brief.
-9. Niente impalcatura da assistente o specificita' apparente. Nomina occasione,
+10. Niente impalcatura da assistente o specificita' apparente. Nomina occasione,
    oggetto, criterio e azione concreta.
-10. Afferma invece di comandare. `Smetti di X, inizia a Y` resta fuori dal
+11. Afferma invece di comandare. `Smetti di X, inizia a Y` resta fuori dal
     parlato: l'imperativo vive nella CTA e nelle istruzioni operative.
-11. Da tre frammenti senza verbo di fila in su, ognuno deve essere uno stacco,
+12. Da tre frammenti senza verbo di fila in su, ognuno deve essere uno stacco,
     una clip o un beat dichiarato. Se e' solo cadenza, si ricuce. Un frammento
     singolo dentro una battuta e' libero.
-12. L'enfasi in maiuscolo e' una marca di delivery: va nelle Note per Editor,
+13. L'enfasi in maiuscolo e' una marca di delivery: va nelle Note per Editor,
     non dentro il parlato.
-13. Lo script e' un discorso, non un elenco. Le fasi narrative restano (problema,
+14. Lo script e' un discorso, non un elenco. Le fasi narrative restano (problema,
     nemico comune, screditamento alternative, soluzione, prodotto), ma la prima
     frase di ogni blocco nasce dall'ultima del blocco precedente. Test: copri la
     colonna `Selling Block` e leggi il parlato di fila.
-14. Niente aforismi nel body. Le frasi a effetto corte e simmetriche ("Il rischio
+15. Niente aforismi nel body. Le frasi a effetto corte e simmetriche ("Il rischio
     non cresce con te. Si moltiplica per te.") si sostituiscono col fatto
     concreto. Ammesse solo nella CTA che chiude un open loop e nel tag comico di
     un personaggio con quella voce.
-15. Ritmo alternato: frasi brevi e lunghe, dentro il blocco e tra blocchi.
-16. Passivo e nominalizzazione fuori dal parlato: rimetti il soggetto che agisce.
-17. Lettura ad alta voce obbligatoria prima della consegna, blocco per blocco.
+16. Ritmo alternato: frasi brevi e lunghe, dentro il blocco e tra blocchi.
+17. Passivo e nominalizzazione fuori dal parlato: rimetti il soggetto che agisce.
+18. Lettura ad alta voce obbligatoria prima della consegna, blocco per blocco.
     La ricevuta Voice lo dichiara.
 
 Dettaglio completo dei non-negoziabili in `references/02-writing-principles.md` e
@@ -88,8 +92,10 @@ riallineare qui sono elencati in `UPDATE-MAP.md`.
       aggiornato, usa quello prima di ricercare da zero.
 3. Verifica concept + angle. Se mancano, chiedili. Se l'utente vuole aiuto,
    guidalo su angle > buyer persona > format, poi procedi.
-4. Scegli il format: `references/05-format-selector.md` (obiettivo + awareness +
-   producibilita'). Dettaglio in `references/formats-guide.md`.
+4. Scegli format e chi parla: `references/05-format-selector.md` (obiettivo +
+   awareness + producibilita'). Definisci voce e persona coerenti con format e
+   interprete: la prima persona non e' il default. Dettaglio in
+   `references/formats-guide.md` e `references/02-writing-principles.md` §1.1.
 5. Genera 3 hook diversi: `references/01-hook-system.md` (+ i 20 tipi in
    `references/hook-types-library.md` + lo swipe file in
    `references/hook-swipe-file.md`, EN da adattare o principi da riusare in

@@ -36,6 +36,32 @@ Elimina:
 - simmetrie eccessivamente perfette;
 - frasi che funzionano scritte ma non dette.
 
+## 1.1 Prima scegli chi parla, poi la persona grammaticale
+
+La prima persona non e' il default dello script. Prima di scrivere, definisci
+chi parla e rendilo esplicito nelle note iniziali del brief quando cambia
+l'interpretazione, la delivery o i claim attribuiti.
+
+- **Brand:** segue il Tone of Voice del brand. Può usare prima persona plurale,
+  terza persona o una voce diretta, ma non deve sembrare un cliente fittizio.
+- **Founder:** parla naturalmente in prima persona o prima persona plurale,
+  perché racconta decisioni, esperienza e responsabilita' proprie.
+- **Narratore, esperto o educational:** può spiegare in seconda persona o in
+  forma diretta e impersonale. Non forzare un "io" solo per rendere il testo
+  più naturale.
+- **Creator che testimonia:** usa la prima persona solo per un'esperienza
+  realmente attribuibile a quella persona. Le promesse restano sottoposte alle
+  normali regole di claim e prova.
+- **Creator che interpreta un cliente:** la prima persona è un ruolo, non una
+  recensione reale. Dichiaralo nelle note per creator/editor e non presentare
+  come prova sociale un'esperienza inventata.
+- **Skit o dialogo:** ogni battuta segue il ruolo del personaggio. Se cambia chi
+  parla, il cambio deve essere evidente anche da visual e note di delivery.
+
+Non cambiare persona grammaticale a meta' script senza un cambio di parlante o
+una ragione narrativa visibile. Il test non e' "suona in prima persona?", ma
+"questa frase la direbbe proprio chi abbiamo scelto?".
+
 **Le catene causali da ricerca sono materiale grezzo, non testo pronto.**
 Quando prendi un meccanismo da `root-cause.md` o `positioning.md`, comprimilo
 in una sola battuta causa-effetto (massimo due proposizioni) prima di metterlo
@@ -305,22 +331,28 @@ enfasi): senza quella nota l'attore o il doppiatore deve interpretare, e il
 brief smette di essere eseguibile senza interpretazione (principio 8). E' la
 stessa regola applicata a livello di singola parola.
 
-## 20. Afferma quello che hai visto, non dare ordini
+## 20. Afferma coerentemente con chi parla, non dare ordini
 
 `Smetti di usare X. Inizia a usare Y.` e le sue varianti (`Basta con X`,
 `Non fare X, fai Y`, `Devi smettere di`) sono la struttura preferita dei modelli
-quando devono sembrare decisi. In uno script fanno danno doppio: chi parla
-diventa un istruttore invece di una persona che racconta, e lo script perde la
-prova, cioe' quello che e' successo davvero a chi parla.
+quando devono sembrare decisi. In uno script fanno danno doppio: forzano chi
+parla nella posa di un istruttore e sostituiscono una spiegazione o una prova
+con un ordine.
 
-Riscrivi come affermazione o come esperienza: cosa hai osservato, cosa hai
-smesso di fare tu, cosa e' cambiato. La conclusione la tira chi guarda.
+Riscrivi come affermazione coerente con la voce scelta: il brand o il narratore
+spiega un gesto e la sua conseguenza, un esperto porta un'osservazione, un
+cliente racconta la propria esperienza quando e' reale o dichiarata come ruolo.
+La prima persona e' una possibilita', non la scorciatoia per far sembrare
+autentico qualsiasi format. La conclusione la tira chi guarda.
 
 **Sbagliato:** "Smetti di mettere due strati di fondotinta. Inizia a curare la
 pelle."
 
-**Giusto:** "Mettevo due strati di fondotinta ogni mattina. Adesso esco con la
-crema e basta."
+**Giusto, narratore:** "Due strati di fondotinta ogni mattina coprono il
+problema, non cambiano quello che succede alla pelle."
+
+**Giusto, cliente reale o ruolo dichiarato:** "Mettevo due strati di fondotinta
+ogni mattina. Adesso esco con la crema e basta."
 
 L'imperativo resta dove serve davvero: nella CTA ("Link in bio, usa SARA20") e
 nelle istruzioni d'uso ("Ne metti due gocce la sera"). Il problema e'

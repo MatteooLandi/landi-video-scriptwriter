@@ -18,6 +18,13 @@ Regola dei numeri:
 ## [Unreleased]
 
 ### Added
+- feat(voice): nuova regola sulla persona del parlato. Prima di scrivere si
+  definisce chi parla in base a format e interprete: brand, founder, narratore,
+  creator che testimonia davvero o creator che interpreta un cliente. La prima
+  persona non e' piu' il default, ma una scelta coerente con il ruolo. Le
+  esperienze inventate non possono essere presentate come recensioni reali.
+  Allineati `SKILL.md`, `AGENTS.md`, `references/02-writing-principles.md` §1.1
+  e `UPDATE-MAP.md`. `[dichiarato: Matteo, 2026-10-08]`
 - feat(parlato): nuovo `references/10-parlato-ritmo-e-ponti.md`, il file della
   continuita' del discorso. Dieci regole: la domanda unica prima di ogni blocco,
   fasi narrative con giunture che non si sentono, lista bianca dei ponti ammessi,
