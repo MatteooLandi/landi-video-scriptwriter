@@ -2,7 +2,8 @@
 
 ### Cos'è
 
-Format che replica l'estetica e la dinamica di un podcast: 2 speaker/soggetti che discutono del prodotto in modo apparentemente spontaneo.
+Format che replica l'estetica e la dinamica di un podcast: due o tre
+speaker/soggetti che discutono del prodotto in modo apparentemente spontaneo.
 
 Le regole di scrittura dello script (selling blocks, alternanza, gestione obiezioni) sono **le stesse** in entrambe le varianti. Cambia solo la parte produttiva/registica — chi o cosa interpreta lo script:
 
@@ -36,7 +37,10 @@ Principi psicologici:
 
 Nota: non produrre la variante Fake cercando di *sembrare* reale (niente studio finto, niente finta spontaneità recitata) — l'artificialità è dichiarata ed è parte dell'hook.
 
-### Come Funziona (meccanica comune)
+### Come Funziona
+
+Nelle versioni reali e nei fake informativi con host e co-host, usa questa
+meccanica:
 
 1. Speaker A (host/esperto/soggetto con la soluzione) introduce il tema
 2. Speaker B (co-host/scettico/voce dello spettatore) esprime problema/dubbio
@@ -51,6 +55,76 @@ Apertura (indipendente dalla variante):
 * **In medias res / mid-conversation** — es. "...e poi mi ha detto di provare questa cosa..." — sfrutta l'eavesdropping effect, utile sia con attori reali sia con soggetti AI/animati
 
 Regola d'oro: battute brevi (1-2 frasi), alternanza costante, zero monologhi.
+
+### Podcast fake animato: personaggi che fanno accadere la storia
+
+Un podcast fake animato funziona meglio quando ogni personaggio ha una ragione
+per parlare. Prima di scrivere le battute, assegna i ruoli:
+
+- **Alternative in conflitto:** due oggetti, metodi o abitudini incarnano le
+  soluzioni che il target usa gia'. Ognuno difende se stesso e svela il limite
+  dell'altro.
+- **Osservatore:** il bambino, l'utente o un altro personaggio nota il costo
+  reale della disputa. Può entrare tardi, quando il conflitto è già chiaro.
+- **Risoluzione:** l'osservatore introduce il prodotto, oppure il prodotto
+  entra come fatto che rende inutile continuare a litigare.
+
+Usa due ruoli quando uno dei personaggi passa chiaramente dalla disputa
+all'osservazione. Usa tre ruoli quando due alternative devono scontrarsi e un
+terzo personaggio deve rappresentare il target.
+
+Struttura consigliata:
+
+1. un'alternativa difende il proprio vantaggio;
+2. l'altra risponde con un limite concreto;
+3. il rilancio comico scopre un secondo limite o alza il costo;
+4. l'osservatore interrompe la disputa e nomina il problema per la famiglia;
+5. il prodotto entra come risoluzione;
+6. una battuta spiega il suo meccanismo;
+7. un payoff mostra la scena umana che torna possibile;
+8. CTA breve.
+
+Ogni battuta deve fare almeno una cosa: scoprire un limite, alzare il costo,
+ribaltare una posizione, introdurre la soluzione o mostrare il risultato. Se
+una battuta si limita a spiegare una feature, spostala dopo l'ingresso del
+prodotto o tagliala.
+
+#### Psicologia del target
+
+Il prodotto agisce spesso su un pain emotivo che il target non nomina subito.
+Scrivilo nella scena:
+
+- Una microazione in prima persona rende riconoscibile un momento quotidiano.
+  In un podcast con bambini, un gesto infantile può spiegare con leggerezza
+  perché il pasto o la routine si interrompono.
+- La reazione di chi sta intorno rende visibile il costo sociale del workaround:
+  attesa, imbarazzo, tensione o interruzione.
+- Il bambino che nota lo stress degli adulti crea un'inversione di ruoli comica
+  e fa da specchio al target. Non usarlo per affermare effetti sullo sviluppo o
+  per colpevolizzare il genitore.
+- Dopo il meccanismo, mostra il desiderio che il prodotto ripara: il genitore
+  resta presente, si sente competente, vive il pasto o l'uscita con più calma.
+
+Prima di chiudere il copione, rispondi:
+
+1. Quale microazione farà dire al target "succede anche a noi"?
+2. Quale reazione di un'altra persona rende visibile il costo emotivo?
+3. Quale desiderio identitario del target risolve il payoff?
+4. Il personaggio fittizio osserva una scena o gli attribuisco un effetto non
+   dimostrato? Nel secondo caso, riscrivi.
+
+#### Voce dei personaggi
+
+- All'intake si decide come i personaggi chiamano le persone e gli oggetti
+  ricorrenti, e lo si scrive in intestazione, perché il lessico dipende dal
+  destinatario di ogni hook.
+- Per i personaggi bambino, appellativi affettivi coerenti per tutto lo script,
+  per esempio "papi" e "mami" `[dichiarato: Matteo, 2026-10-14]`. Il resto del
+  parlato resta colloquiale.
+- Maiuscole di enfasi: parole intere, solo per urlo o shock
+  (`02-writing-principles.md` principio 23).
+- Connettori come "ma", "allora", "guarda": caso per caso in base al tono del
+  format (`10-parlato-ritmo-e-ponti.md` R3).
 
 ### Elementi Visivi/Produttivi
 
@@ -68,7 +142,7 @@ Regola d'oro: battute brevi (1-2 frasi), alternanza costante, zero monologhi.
 
 | Elemento | Descrizione | Importanza |
 | ----- | ----- | ----- |
-| Soggetti | Personaggi AI-generated, oggetti animati, villain del brand, character design coerente col brand | Definisce il pattern interrupt |
+| Soggetti | Due o tre personaggi AI-generated, oggetti animati, villain del brand, character design coerente col brand | Definisce il pattern interrupt |
 | Setting | Libero, non serve uno studio — la coerenza è nello stile visivo/animazione | Meno vincoli produttivi, più scalabile |
 | Segnale "podcast" | Microfoni stilizzati o iconografia podcast anche su soggetto animato/oggetto | Ancora il formato al genere riconoscibile |
 | Tono visivo | Palesemente artificiale, non cerca di ingannare | Gioca sul contrasto assurdo/credibile |
@@ -77,7 +151,7 @@ Regola d'oro: battute brevi (1-2 frasi), alternanza costante, zero monologhi.
 
 | ✅ DO | ❌ DON'T |
 | ----- | ----- |
-| 2 speaker/soggetti con dinamica chiara | Monologhi lunghi |
+| 2-3 ruoli con dinamica chiara | Monologhi lunghi |
 | Battute alternate frequenti | Musica troppo alta |
 | Obiezioni gestite nel dialogo | Recitazione forzata (variante Reale) / animazione che ignora il ritmo del dialogo (variante Fake) |
 | Linguaggio reale del target | Un solo speaker/soggetto |
@@ -123,7 +197,7 @@ Essere vaghi uccide le conversioni. Essere specifici rende lo script reale, rico
 | Snow (sbiancamento denti) | Storia personale come hook | Il percorso dello speaker cattura attenzione prima ancora del prodotto |
 | Bettersleep (app) | Myth-busting | Sfida una credenza comune (8 ore di sonno) per rompere il pattern e catturare attenzione |
 
-### Template Podcast Ad (Riutilizzabile — vale per Reale e Fake)
+### Template Podcast Ad Reale o Fake Informativo
 
 | # | Selling Block | Struttura | Note |
 | ----- | ----- | ----- | ----- |

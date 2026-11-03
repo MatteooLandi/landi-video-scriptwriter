@@ -44,8 +44,9 @@ format, dettagli prodotto, lingua), fermati e chiedilo.
 12. Da tre frammenti senza verbo di fila in su, ognuno deve essere uno stacco,
     una clip o un beat dichiarato. Se e' solo cadenza, si ricuce. Un frammento
     singolo dentro una battuta e' libero.
-13. L'enfasi in maiuscolo e' una marca di delivery: va nelle Note per Editor,
-    non dentro il parlato.
+13. Maiuscole di enfasi nel parlato: solo parole intere dette con urlo o molta
+    enfasi, seguite da `!` o da `?` legato a uno shock. Altrove l'enfasi si marca
+    con la sintassi o nelle Note per Editor.
 14. Lo script e' un discorso, non un elenco. Le fasi narrative restano (problema,
     nemico comune, screditamento alternative, soluzione, prodotto), ma la prima
     frase di ogni blocco nasce dall'ultima del blocco precedente. Test: copri la

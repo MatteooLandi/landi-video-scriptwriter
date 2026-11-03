@@ -88,10 +88,10 @@ Leggi questi file end-to-end **prima** di aprire il draft:
      KEEP. Se no, ricuci (principio 21).
    - Leggi solo la prima parola di ogni frase del body: la stessa per tre
      frasi di fila? Se non e' anafora voluta, riscrivi (principio 22).
-   - Maiuscole di enfasi dentro "Cosa devi dire"? Sposta l'indicazione in
-     Note per Editor. Ogni enfasi, tenuta o spostata, va nel ritorno sotto
-     `EMPHASIS` con le due versioni, con e senza, perche' Matteo sceglie
-     (principio 23).
+   - Maiuscole di enfasi dentro "Cosa devi dire"? Si tengono se la parola e'
+     intera, detta con urlo o molta enfasi e seguita da `!` o da `?` legato a
+     uno shock (principio 23). Altrimenti sposta l'indicazione in Note per
+     Editor. Ogni caso, tenuto o spostato, va nel ritorno sotto `EMPHASIS`.
 
 4. **Riscrivi ogni flag reale** nel register del brand, dal voice profile e
    dalle sue frasi ricorrenti. Mai thesaurus-swap della parola flagged per un

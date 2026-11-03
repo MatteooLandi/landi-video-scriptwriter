@@ -10,8 +10,9 @@ scrittura; qui ci sono le regole che riguardano **come il discorso scorre**.
 
 > **Provenienza.** Metodo dichiarato da Matteo il 2026-09-25, su documento suo.
 > Le decisioni su ponti ammessi, aforismi e frammenti singoli sono sue
-> `[dichiarato: Matteo, 2026-09-25]`. Se cambiano, `UPDATE-MAP.md` dice quali
-> file riallineare.
+> `[dichiarato: Matteo, 2026-09-25]`. Scopo e contesto dei connettori e ponte nel
+> dialogo (R3): `[dichiarato: Matteo, 2026-10-14]`. Se cambiano, `UPDATE-MAP.md`
+> dice quali file riallineare.
 
 ---
 
@@ -107,6 +108,18 @@ ponti formulaici, e il reviewer Voice non le segna come tell.
 3. Non si ripete lo stesso ponte due volte nello stesso script.
 4. Il ponte non sostituisce il contenuto: se togliendo il ponte la battuta non
    dice piu' niente, il problema e' la battuta.
+
+**A cosa servono e quando.** Connettori come "ma", "allora", "guarda", "senti"
+rendono il parlato piu' vero e piu' genuino e semplificano il lavoro di chi
+recita, che ha un appiglio per entrare nella battuta. Non c'e' una regola fissa:
+si valuta caso per caso in base al tono del format. Nelle ads comiche, con
+personaggi AI o tra amici, e in quelle in cui una persona si sfoga o racconta
+online, ci stanno anche in apertura di hook. `[dichiarato: Matteo, 2026-10-14]`
+
+**Nel dialogo a due voci.** Il collegamento tra un blocco e il successivo puo'
+essere la risposta a quello che ha appena detto l'altro: un'eco, una reazione,
+"anche", "poi". Non serve un connettivo in apertura di ogni blocco.
+`[dichiarato: Matteo, 2026-10-14]`
 
 ---
 

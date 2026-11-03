@@ -217,6 +217,9 @@ OPENING_CONNECTIVE = re.compile(
     r"^(?:e\b|ma\b|perche'|quindi\b|poi\b|allora\b|senti\b|guarda\b|"
     r"cioe'|ed\b|pensa\b|ti\s+spiego|ti\s+faccio|il\s+punto\s+e')", re.I)
 
+# Etichetta di chi parla a inizio cella (dialogo a due voci): "A:", "**B:**".
+SPEAKER_LABEL = re.compile(r"^\W*[A-Z]\s*:")
+
 ACCENTS = str.maketrans({
     "\u00e0": "a'", "\u00e8": "e'", "\u00e9": "e'", "\u00ec": "i'",
     "\u00f2": "o'", "\u00f3": "o'", "\u00f9": "u'", "\u2019": "'",
@@ -304,7 +307,12 @@ def check_rhythm(cell):
 
 
 def check_bridges(lines):
-    """Check di documento: nessun blocco dopo Body 1 apre con un connettivo."""
+    """Check di documento: nessun blocco dopo Body 1 apre con un connettivo.
+
+    Si salta nei dialoghi: se la maggior parte dei blocchi apre con l'etichetta
+    di chi parla (A:, B:), il collegamento e' la risposta all'altro e lo giudica
+    il reviewer (10-parlato-ritmo-e-ponti.md R3).
+    """
     bodies = []
     for line in lines:
         stripped = line.strip()
@@ -319,6 +327,9 @@ def check_bridges(lines):
             if cell:
                 bodies.append(cell)
     if len(bodies) < 2:
+        return []
+    labelled = sum(1 for c in bodies if SPEAKER_LABEL.match(c))
+    if labelled * 2 >= len(bodies):
         return []
     if any(OPENING_CONNECTIVE.match(normalize(c)) for c in bodies):
         return []

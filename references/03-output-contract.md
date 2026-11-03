@@ -89,7 +89,9 @@ Il "cosa far vedere" puo' essere: una **clip B-roll** da registrare a parte
 (silenziosa, che aggancerete in editing) oppure **movenze/gesti/contesto** da
 applicare durante il parlato. In entrambi i casi:
 
-- Specifica `Camera:` quando il creator resta nella take parlata principale.
+- Scrivi direttamente soggetto, gesto e contesto. Non usare il prefisso
+  `Camera:`: aggiunge rumore e puo' essere scambiato per un'indicazione del
+  luogo. Esempio: `Due speaker ai microfoni. B risponde con aria serissima.`
 - Specifica `B-roll separato:` quando chiedi una clip silenziosa da registrare
   a parte.
 - Non forzare un B-roll per ogni blocco. La densita dipende dal format secondo

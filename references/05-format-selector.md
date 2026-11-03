@@ -35,6 +35,7 @@ file per format. Qui c'e' la mappa di selezione.
 | Founder Ads | Connessione personale, trust | Il fondatore | 0-100 EUR | 60-120s | `formats/11-founder-ads.md` |
 | Ugly Ads | Pattern interrupt, autenticita' | 1 creator, low-fi (screenshot, notes app, selfie) | 0 EUR | 15-30s | `formats/12-ugly-ads.md` |
 | Us vs. Them | Differenziazione, decisione semplificata | 1 creator/voce + confronto visivo | 0-100 EUR | 30-60s | `formats/13-us-vs-them.md` |
+| Yapper Ad | Racconto lungo in prima persona di una conversione al prodotto, con vendita diretta. Criteri di scelta: da definire con Matteo | 1 creator che recita un testo scritto | da definire con Matteo | da 90s a oltre 4 min (guida) | `formats/14-yapper-ad.md` |
 
 > **Nota su Non-Narrated Ads.** E' nella mappa ma la guida non ha un file
 > dedicato. Non invento la struttura: se serve questo format, chiedi all'utente i
@@ -49,7 +50,7 @@ blocco per abitudine.
 
 | Famiglia | Format indicativi | Densita B-roll di partenza | Regola |
 |---|---|---|---|
-| **Raw o camera-led** | Founder, Podcast reale/fake, Street Interview, Ugly Ads | assente o bassa | La take principale e il visual. Aggiungi B-roll solo se chiarisce prodotto, prova o contesto. |
+| **Raw o camera-led** | Founder, Podcast reale/fake, Street Interview, Ugly Ads, Yapper Ad (proposta, da confermare) | assente o bassa | La take principale e il visual. Aggiungi B-roll solo se chiarisce prodotto, prova o contesto. |
 | **Conversazionale o recitato** | Story UGC, Skit Conversation | bassa | Mantieni la scena e la relazione tra personaggi. Non spezzare il flusso con inserti inutili. |
 | **Demo naturale** | UGC Tradizionale, POV | bassa o media | Usa clip separate per utilizzo, dettaglio prodotto o problema difficile da mostrare parlando. |
 | **Costruito o esplicativo** | Narrator, Educational VSL, Us vs. Them | media o alta | Visualizza causa, meccanismo, confronto e prova. Ogni clip deve aggiungere informazione. |

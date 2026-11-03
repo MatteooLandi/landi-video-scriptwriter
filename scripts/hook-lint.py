@@ -15,7 +15,8 @@ Check duri (finding):
 Check soft (warning):
 - Diversità hook (Jaccard > 0.6 su parole ≥ 4 lettere)
 - Segnali audience assenti (euristica)
-- Prime 3 parole da throat-clearing
+- Prime 3 parole da throat-clearing (solo hook da narratore ed educational;
+  il format si legge dalla riga 'Format:', se manca il warning resta con nota)
 
 Uso:
     python3 hook-lint.py DRAFT_FILE [BRAND_ROOT]
@@ -30,6 +31,23 @@ import sys
 THROAT_CLEARING_OPENERS = {
     "allora", "quindi", "insomma", "beh", "ecco", "senti", "cioe'", "cioe",
 }
+
+# Il warning vale per hook da narratore ed educational. Non vale per dialogo
+# comico o tra amici, ne' per ads in cui una persona si sfoga o racconta online.
+# [dichiarato: Matteo, 2026-10-14]
+THROAT_WARNING_FORMATS = ("narrator", "narratore", "educational", "vsl")
+
+FORMAT_LINE = re.compile(
+    r"^[\s>*_#|-]*format(?:o)?\s*(?:[:*]+|\|)\s*(.+?)[\s|*]*$", re.I)
+
+
+def detect_format(text):
+    """Legge il format dalla riga 'Format:' dell'intestazione (prime 40 righe)."""
+    for line in text.splitlines()[:40]:
+        m = FORMAT_LINE.match(line)
+        if m:
+            return m.group(1).lower()
+    return ""
 
 
 def load_brand_names(brand_root):
@@ -129,6 +147,7 @@ def main(argv):
     findings = []
     warnings = []
     brand_names = load_brand_names(brand_root)
+    doc_format = detect_format(text)
 
     parsed = parse_hooks_table(text)
     if not parsed:
@@ -205,11 +224,17 @@ def main(argv):
         # Throat-clearing opener
         first_word = re.match(r"[\"'\"]*([a-zà-ù']+)", said_low)
         if first_word and first_word.group(1) in THROAT_CLEARING_OPENERS:
-            warnings.append((
-                lineno,
-                f"{module}: apertura con '{first_word.group(1)}' — "
-                f"throat-clearing, la prima parola è la più cara"
-            ))
+            scoped_out = bool(doc_format) and not any(
+                k in doc_format for k in THROAT_WARNING_FORMATS)
+            if not scoped_out:
+                nota = "" if doc_format else (
+                    " (formato non dichiarato: non vale per dialogo comico o "
+                    "tra amici, ne' per ads di sfogo o racconto online)")
+                warnings.append((
+                    lineno,
+                    f"{module}: apertura con '{first_word.group(1)}', "
+                    f"throat-clearing, la prima parola è la più cara{nota}"
+                ))
 
     # Diversità tra hook base (Jaccard)
     if len(hook_base) >= 2:

@@ -16,8 +16,8 @@ Distinzione utile:
 
 | Vuoi aggiornare... | Apri | Tipo |
 |---|---|---|
-| Un format esistente (struttura, esempio, do/don't) | `references/formats-guide.md` | locale |
-| Aggiungere un nuovo format | `references/formats-guide.md` + una riga in `references/05-format-selector.md` | locale |
+| Un format esistente (struttura, esempio, do/don't) | `references/formats/NN-nome.md` | locale |
+| Aggiungere un nuovo format | nuovo `references/formats/NN-nome.md` + una riga in `references/05-format-selector.md` | conteggio dei format in `SKILL.md`, elenco in `references/formats-guide.md`, `CHANGELOG.md` |
 | Regole/logiche degli hook | `references/01-hook-system.md` (e `hook-types-library.md` per i tipi) | locale |
 | Swipe file hook (formule EN, principi IT) | `references/hook-swipe-file.md` | `01-hook-system.md` §4 se introduce una tecnica nuova, `SKILL.md`/`AGENTS.md` mappa reference |
 | Regole di scrittura, anti-AI, scoring, produzione | `references/02-writing-principles.md` | locale |
@@ -53,12 +53,16 @@ che riguarda il workflow generale, riallinea `SKILL.md` e
 
 ## Aggiungere un nuovo format (checklist)
 
-1. Scrivi la sezione nel formats-guide (Cos'e', Perche' funziona, Come funziona,
-   Struttura, Esempio, Do's & Don'ts, chi interpreta).
+1. Scrivi `references/formats/NN-nome.md` (Cos'e', Perche' funziona, Come
+   funziona, Struttura, Esempio, Do's & Don'ts, chi interpreta).
 2. Aggiungi una riga in `05-format-selector.md` (quando usarlo, chi interpreta,
-   costo, durata, sezione).
+   costo, durata, file) e, se serve, la famiglia di densita' B-roll.
 3. Se richiede una formattazione di output diversa, aggiungi il blocco
    `Regole di formattazione specifiche`.
+4. Aggiorna il conteggio dei format in `SKILL.md` (descrizione, passo 4, mappa
+   dei reference), l'elenco in `references/formats-guide.md` e `CHANGELOG.md`.
+5. Un format nuovo passa dall'intervista di `landi-skill-builder`: i campi che
+   Matteo non ha definito restano `da definire con Matteo`.
 
 ---
 

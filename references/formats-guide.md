@@ -1663,7 +1663,7 @@ Chiarezza:
 
 # PARTE 4: FORMAT DI VIDEO ADS
 
-Il dettaglio completo dei 13 format e' stato spezzato in file singoli per
+Il dettaglio completo dei 14 format e' stato spezzato in file singoli per
 leggibilita' e caricamento on-demand. Ogni file contiene: Cos'e', Perche'
 funziona, Come funziona, Struttura, Esempio di script, Do's & Don'ts.
 
@@ -1682,6 +1682,7 @@ Vedi cartella `references/formats/`:
 - `formats/11-founder-ads.md`
 - `formats/12-ugly-ads.md`
 - `formats/13-us-vs-them.md`
+- `formats/14-yapper-ad.md`
 
 Per la selezione del format da usare, vedi `05-format-selector.md`.
 

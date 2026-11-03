@@ -18,6 +18,13 @@ Regola dei numeri:
 ## [Unreleased]
 
 ### Added
+- feat(formats): nuovo format 14 `Yapper Ad` in `references/formats/14-yapper-ad.md`,
+  con riga in `05-format-selector.md` e conteggio dei format portato a 14 in
+  `SKILL.md` e `formats-guide.md`. Nome e autonomia dal format Story UGC sono di
+  Matteo `[dichiarato: Matteo, 2026-10-14]`. Struttura e regia vengono da una
+  guida pubblica di agenzia; i campi non definiti da Matteo sono marcati
+  `da definire con Matteo` (quando si sceglie, durata, costo, tag cronologia,
+  esempio).
 - feat(voice): nuova regola sulla persona del parlato. Prima di scrivere si
   definisce chi parla in base a format e interprete: brand, founder, narratore,
   creator che testimonia davvero o creator che interpreta un cliente. La prima
@@ -53,6 +60,25 @@ Regola dei numeri:
   frammento singolo devono restare puliti. Eval 15/15.
 
 ### Changed
+- `references/02-writing-principles.md` principio 23: maiuscole di enfasi ammesse
+  nel parlato su parole intere dette con urlo o molta enfasi, seguite da `!` o da
+  `?` legato a uno shock. Riallineati `AGENTS.md`, `07-review-gates.md` e
+  `.claude/agents/voice-reviewer-landi.md`. `[dichiarato: Matteo, 2026-10-14]`
+- `references/10-parlato-ritmo-e-ponti.md` R3: scopo dei connettori (parlato piu'
+  vero, lavoro piu' semplice per chi recita) e criterio caso per caso in base al
+  tono del format. Nel dialogo il collegamento e' la risposta all'altro.
+  `[dichiarato: Matteo, 2026-10-14]`
+- gate Hook (`07-review-gates.md`, `scripts/hook-lint.py`): il warning sulle
+  prime parole di throat-clearing vale per hook da narratore ed educational. Il
+  linter legge il format dalla riga `Format:`. `[dichiarato: Matteo, 2026-10-14]`
+- `scripts/voice-lint.py`: il check "ponte mancante" salta i dialoghi, dove
+  la maggior parte dei blocchi apre con l'etichetta di chi parla.
+- `references/formats/06-podcast-ads.md`: sezione "Podcast fake animato:
+  personaggi che fanno accadere la storia" (ruoli, struttura, psicologia del
+  target) e "Voce dei personaggi" (appellativi dei personaggi bambino).
+  `references/03-output-contract.md`: indicazioni visive senza prefisso
+  `Camera:`. Regole dell'8 ottobre 2026 prima presenti solo in una copia
+  locale della skill.
 - `references/02-writing-principles.md` principio 21: la soglia del vincolo di
   montaggio passa dal frammento singolo alla serie da tre di fila.
 - `references/formats-guide.md`: rimossi i 31 trattini lunghi dal corpo del file

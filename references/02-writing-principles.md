@@ -422,23 +422,50 @@ In italiano l'accento su una parola si mette con la sintassi: frase scissa
 focalizzatori come `proprio`, `solo`, `anche`. E' il modo in cui parla davvero
 una persona, e funziona letto ad alta voce.
 
-Le maiuscole di enfasi arrivano dall'inglese social. Nello script non vanno nel
-parlato: se una parola va marcata per chi legge, diventa una nota in "Note per
-Editor" insieme a tono e velocita', come per le imperfezioni foniche
-(principio 19).
+Le maiuscole di enfasi nel parlato sono ammesse a una condizione: la parola, o
+le poche parole, si dicono urlando o con molta enfasi, e sono seguite da un
+punto esclamativo oppure da un punto di domanda legato a uno shock ("MA SEI
+FUORI!", "E che fa sto VEO?"). Si scrive in maiuscolo la parola intera, non solo
+l'iniziale. E' la marca di delivery che chi recita legge nella cella
+"Cosa devi dire". `[dichiarato: Matteo, 2026-10-14]`
+
+Fuori da questi casi l'accento si mette con la sintassi. Se una parola va
+marcata lo stesso, diventa una nota in "Note per Editor" insieme a tono e
+velocita', come per le imperfezioni foniche (principio 19). Il tetto per
+battuta non e' stato dichiarato: `da definire con Matteo`.
 
 Nel testo on-screen la maiuscola resta ammessa come scelta grafica, una o due
 parole per schermata, e solo se porta informazione.
 
-**Sbagliato (parlato):** "Non ho MAI visto una cosa del genere."
+**Sbagliato (parlato, maiuscola senza urlo ne' shock):** "Non ho MAI visto una
+cosa del genere."
 
 **Giusto (parlato + nota):** "Una cosa cosi' non l'avevo mai vista." Nota per
 Editor: "calca su *mai*, mezzo secondo di pausa prima".
 
-**Regola operativa aperta.** Finche' Matteo non fissa la linea definitiva, ogni
-volta che uno script usa l'enfasi o ne chiederebbe una, consegna la frase in due
-versioni, con e senza, e fagli scegliere. Vedi la regola 14 dello standard del
-Brain.
+**Giusto (urlo o shock):** "E poi siamo NERVOSI IN DUE!". Per il testo scritto
+che non e' parlato vale la regola 14 dello standard del Brain.
+
+## 24. L'emozione si vede nella scena
+
+Quando il pain ha una componente emotiva, non limitarti a nominarla con parole
+come `stress`, `ansia` o `imbarazzo`. Falla emergere da una scena
+concreta: una microazione del protagonista, la reazione di un'altra persona e
+la situazione che il prodotto restituisce al target.
+
+- Una microazione raccontata in prima persona fa sembrare la scena osservata,
+  non spiegata da un copywriter. Deve anche chiarire perche' il problema accade.
+- Una piccola reazione sociale rende visibile il costo emotivo del workaround:
+  qualcuno aspetta, si irrigidisce, sbuffa o deve interrompere quello che sta
+  facendo.
+- Il payoff mostra quale identita' o relazione torna possibile: sentirsi
+  competente, restare presente, cenare, lavorare o uscire con piu' calma.
+
+Nei format con bambini, oggetti o altri personaggi fittizi, usa la loro
+osservazione come specchio comico della situazione adulta. Non trasformarla in
+un'affermazione sullo sviluppo del bambino o su effetti emotivi non dimostrati.
+Per l'applicazione estesa nei podcast animati, vedi
+`references/formats/06-podcast-ads.md`.
 
 ---
 

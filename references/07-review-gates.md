@@ -72,7 +72,13 @@ Format → Hook → Voice → Grounding
 **Warning (passa con nota):**
 - Diversità tra hook 1-2-3 sotto soglia (Jaccard > 0.6 su parole ≥ 4 lettere)
 - Segnali audience assenti (nessun marker Target/Problema/Categoria)
-- Prime 3 parole da throat-clearing italiano ("allora", "quindi", "insomma", "beh")
+- Prime 3 parole da throat-clearing italiano ("allora", "quindi", "insomma",
+  "beh"), solo per hook da narratore ed educational VSL
+  `[dichiarato: Matteo, 2026-10-14]`. Non vale per hook di dialogo comico o tra
+  amici, né per ads in cui una persona si sfoga o racconta online (yapper).
+  Il linter legge il format dalla riga `Format:` dell'intestazione: se manca, il
+  warning resta con una nota. Il linter segna anche "ecco", "senti", "cioè", che
+  questo elenco non cita: allineamento `da definire con Matteo`
 - Aggancio Body 1 non verificabile senza indicazione taglio in "Note per Editor"
 
 **Ricevuta:** `## Hook Review: ships | bounced` con lista warning se ci sono.
@@ -113,7 +119,9 @@ passivo, lettura ad alta voce).
 - Serie di tre o più frasi senza verbo che non corrisponde a stacchi, clip o
   beat dichiarati nelle Note per Editor. **Un frammento singolo dentro una
   battuta non è flag**: la soglia è la serie da tre in su (`10-parlato-ritmo-e-ponti.md` R7)
-- Enfasi in maiuscolo dentro il parlato: va spostata in Note per Editor come
+- Enfasi in maiuscolo dentro il parlato fuori dai casi ammessi (parola intera
+  detta con urlo o molta enfasi, seguita da `!` o da `?` legato a uno shock,
+  `02-writing-principles.md` principio 23): va spostata in Note per Editor come
   indicazione di delivery
 - Domande retoriche auto-poste, tranne le tre della lista bianca ("E sai qual è
   il punto?", "E sai qual è la cosa interessante?", "E sai cosa succede?")
@@ -366,9 +374,12 @@ qui, non duplicare).
   (lista bianca, oppure `E`, `Ma`, `Perché`, `Quindi`, `Poi`, `Allora`)
 - un solo warning per brief, serve a mandare il reviewer a leggere le giunture
   (`AP-22`)
+- nei dialoghi (la maggior parte dei blocchi apre con l'etichetta di chi parla,
+  `A:` o `B:`) il controllo si salta: il collegamento è la risposta all'altro e
+  lo giudica il reviewer `[dichiarato: Matteo, 2026-10-14]`
 
 **Giudizio del reviewer, non del linter:** serie di frammenti senza montaggio
-che la regga, varietà degli attacchi di frase, enfasi da spostare nelle note,
+che la regga, varietà degli attacchi di frase, maiuscole di enfasi fuori dai casi ammessi,
 aforismi senza metà negata, giunture tra i blocchi, esito della lettura ad alta
 voce. Sono valutazioni di contesto e di produzione, quindi restano al Voice
 reviewer.
@@ -382,7 +393,8 @@ reviewer.
 
 - `praticamente`, `sostanzialmente`, `letteralmente` — spesso naturali nel
   parlato spontaneo, flaggare solo se in cluster
-- `insomma`, `comunque` — legittimi nel parlato, warning solo se apertura hook
+- `insomma`, `comunque` — legittimi nel parlato, warning solo se apertura di un
+  hook da narratore o educational
 - Verbatim customer che contengono parole flaggate → esente per definizione
 - Trattino medio in un intervallo o in una coppia reale (`15–20`,
   `origine–destinazione`)
