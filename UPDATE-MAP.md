@@ -61,8 +61,9 @@ che riguarda il workflow generale, riallinea `SKILL.md` e
    `Regole di formattazione specifiche`.
 4. Aggiorna il conteggio dei format in `SKILL.md` (descrizione, passo 4, mappa
    dei reference), l'elenco in `references/formats-guide.md` e `CHANGELOG.md`.
-5. Un format nuovo passa dall'intervista di `landi-skill-builder`: i campi che
-   Matteo non ha definito restano `da definire con Matteo`.
+5. Un format nuovo passa da `landi-skill-builder`: ogni campo che Matteo non
+   ha detto si scrive `inferito` con la base citata, oppure resta
+   `da definire con Matteo`.
 
 ---
 
