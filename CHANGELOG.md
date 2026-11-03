@@ -79,6 +79,14 @@ Regola dei numeri:
   `references/03-output-contract.md`: indicazioni visive senza prefisso
   `Camera:`. Regole dell'8 ottobre 2026 prima presenti solo in una copia
   locale della skill.
+- `references/02-writing-principles.md` principio 24 "L'emozione si vede nella
+  scena": il pain emotivo emerge da una microazione, dalla reazione di chi sta
+  intorno e da un payoff, senza limitarsi a nominare l'emozione; con bambini,
+  oggetti o altri personaggi fittizi la loro osservazione fa da specchio comico,
+  senza affermare effetti sullo sviluppo. Rinvia a
+  `references/formats/06-podcast-ads.md`. Regola dell'8 ottobre 2026, prima
+  presente solo in una copia locale della skill in un progetto cliente; chi l'ha
+  dichiarata non e' registrato `[sconosciuto]`.
 - `references/02-writing-principles.md` principio 21: la soglia del vincolo di
   montaggio passa dal frammento singolo alla serie da tre di fila.
 - `references/formats-guide.md`: rimossi i 31 trattini lunghi dal corpo del file
