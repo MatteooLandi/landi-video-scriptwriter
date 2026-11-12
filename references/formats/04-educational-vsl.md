@@ -38,7 +38,7 @@ Regola d'oro: L'esperto deve essere credibile (credenziali reali) e carismatico 
 | Visual Coinvolgenti | Diagrammi, animazioni, dimostrazioni |
 | CTA Forte | Incentivi (prove gratuite, sconti) \+ riassunto benefici |
 
-### 3 Strutture Educational VSL
+### 4 Strutture Educational VSL
 
 #### Struttura 1: Problema → Spiegazione → Soluzione → CTA
 
@@ -219,6 +219,54 @@ Formula:
 Quando usare: Pubblico Unaware, costruire autorità prima di vendere
 
 Durata: 90-180 secondi
+
+#### Struttura 4: 3 segni → non è normale → vera causa → prodotto
+
+> **Provenienza.** La struttura viene dall'analisi pubblica di un'agenzia sui
+> primi ad di un brand DTC: tre ad, tre prodotti, tre esecuzioni diverse con gli
+> stessi quattro passi `[dichiarato: autore dell'analisi]`. Uno dei tre è stato
+> guardato a fotogrammi `[verificato: fotogrammi dell'ad, 2026-11-12]`.
+> L'aggiunta alla skill è di Matteo `[dichiarato: Matteo, 2026-11-12]`. Si copia
+> la struttura, mai i claim del brand analizzato.
+
+Formula:
+
+| # | Passo | Cosa contiene |
+| ----- | ----- | ----- |
+| 1 | 3 segni | Tre sintomi concreti e riconoscibili, detti in una sola frase. È l'hook |
+| 2 | Non è normale | Si toglie la normalizzazione: non sono "cose che capitano" |
+| 3 | La vera causa | Una causa sola, in parole semplici. È il meccanismo |
+| 4 | Il prodotto | Come agisce sulla causa, ridotto a un gesto o a un ordine d'uso. Poi prova e CTA |
+
+Quando usare: pubblico Problem Aware che ha i sintomi ma li ha normalizzati o ne
+attribuisce la colpa altrove. La struttura non dipende dal format: regge con
+creator in camera, con esperto e con animazione AI (format 15).
+
+Regole:
+
+* I segni sono osservabili, non diagnosi. Tre, non di più, dal più riconoscibile.
+* "Non è normale" si dice in una frase e non colpevolizza chi guarda. La colpa è
+  del gesto, dello strumento o della causa. Controlla il tono del brand.
+* Una causa sola per video. Se il brand ne ha più, una per video.
+* La causa deve essere dimostrabile. Senza fonte resta `[TODO: da validare]`
+  (Gate Grounding).
+* Il prodotto arriva dopo la causa. La prova è una sola e verificabile (premio,
+  studio, recensioni con fonte). In assenza di una prova, resta `da definire`.
+* Ogni frase del parlato ha una prova visiva: vedi il pattern "overlay stack" in
+  `03-output-contract.md`.
+
+Durata: 30-45 secondi (la versione osservata dura 34 secondi).
+
+Foglio di compilazione. Si riempie la colonna "Il tuo prodotto" prima di scrivere
+lo script. La colonna "Esempio" è un prodotto generico inventato, non è copy
+riusabile.
+
+| Passo | Cosa scrivere | Esempio (cuscino cervicale) | Il tuo prodotto |
+| ----- | ----- | ----- | ----- |
+| 1. 3 segni | Tre sintomi in una frase | "Ti svegli con il collo rigido, le spalle che tirano e il mal di testa" | |
+| 2. Non è normale | Frase che toglie la normalizzazione | "Non sono cose da accettare come normali" | |
+| 3. La vera causa | Una causa, parole semplici | "Il collo resta sostenuto male per ore, ogni notte" | |
+| 4. Il prodotto | Il gesto o l'ordine d'uso | "Un cuscino che segue la curva del collo" | |
 
 ### Tecnica Avanzata: Data-Driven Framing
 

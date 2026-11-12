@@ -18,6 +18,21 @@ Regola dei numeri:
 ## [Unreleased]
 
 ### Added
+- feat(formats): Struttura 4 dell'Educational VSL, "3 segni → non è normale →
+  vera causa → prodotto", con foglio di compilazione a 4 passi, in
+  `references/formats/04-educational-vsl.md`. La struttura non dipende dal
+  format. Viene da un'analisi pubblica di un'agenzia e da un ad guardato a
+  fotogrammi. `[dichiarato: Matteo, 2026-11-12]`
+- feat(output): pattern per l'editor "overlay stack" (una prova visiva per
+  frase, cambio di inquadratura a ogni sezione, prodotto a tutto schermo,
+  sottotitoli a 1-3 parole) in `references/03-output-contract.md`, sezione Note
+  per Editor. `[dichiarato: Matteo, 2026-11-12]`
+- feat(formats): bozze dei format 15 `AI Animation` e 16 `Song Ads` in
+  `references/formats/`, con righe in `05-format-selector.md` e conteggio dei
+  format portato a 16 in `SKILL.md` e `formats-guide.md`. Nomi provvisori. I
+  campi non definiti sono marcati `da definire con Matteo`. Nessun video dei
+  due format è stato guardato, tranne lo script parlato dell'ad per il format 15.
+  `[dichiarato: Matteo, 2026-11-12]`
 - feat(formats): nuovo format 14 `Yapper Ad` in `references/formats/14-yapper-ad.md`,
   con riga in `05-format-selector.md` e conteggio dei format portato a 14 in
   `SKILL.md` e `formats-guide.md`. Nome e autonomia dal format Story UGC sono di

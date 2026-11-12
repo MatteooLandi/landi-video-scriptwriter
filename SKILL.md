@@ -6,7 +6,7 @@ description: >
   parlata anti-AI, output tabellare pronto per creator ed editor. Genera anche
   librerie B-roll standard quando richieste da build-broll-library. Attiva su
   richieste di script, hook, brief video, scene creator, shot list B-roll,
-  sceneggiatura, varianti, traduzione EN o nomi dei 14 format supportati. NON
+  sceneggiatura, varianti, traduzione EN o nomi dei 16 format supportati. NON
   usare per copy statici, caption o email.
 ---
 
@@ -129,7 +129,7 @@ Esegui in ordine. Ogni passo rimanda al reference file che contiene le regole.
    guidalo nella scelta di angle, buyer persona e format (vedi
    `references/05-format-selector.md`), poi procedi.
 
-4. **Scegli il format e chi parla.** Seleziona tra i 14 format in
+4. **Scegli il format e chi parla.** Seleziona tra i 16 format in
    `references/05-format-selector.md` in base a obiettivo, awareness e
    soprattutto **producibilita'** (regola "Never write production-blind" in
    `references/02-writing-principles.md`). Definisci anche voce e persona
@@ -302,14 +302,14 @@ sociale, CTA, Sintassi italiana, Generale).
 | `references/02-writing-principles.md` | Scrittura parlata, anti-AI, script vs on-screen, scoring E-R-C, producibilita', concept!=format, verbatim-first |
 | `references/03-output-contract.md` | Formato di output tabellare (3 tabelle Notion), colonne, selling block, note editor vs visual creator, override per-format |
 | `references/04-bilingual-it-us.md` | Regole italiano nativo + inglese US nativo (keyword, unita', phrasal verb, slang, modali) |
-| `references/05-format-selector.md` | I 14 format: quando usarli, obiettivo, chi interpreta, durata, costo, dove approfondire |
+| `references/05-format-selector.md` | I 16 format: quando usarli, obiettivo, chi interpreta, durata, costo, dove approfondire |
 | `references/06-broll-generation.md` | B-roll on richiesta: indicazioni semplici per creator oppure prompt AI |
 | `references/07-review-gates.md` | **Enforcement**: catena 4 gate (Format/Hook/Voice/Grounding), soglie, lista pattern voice-lint, regola fact-vs-flavor, upgrade advisory→bloccante |
 | `references/08-anti-patterns.md` | Galleria degli output sbagliati (AP-01 ... AP-24) con ❌ / ✅ / 🔍. Check finale prima di consegnare e sorgente delle fixture di regressione |
 | `references/09-standard-broll-library.md` | Modalita senza concept: libreria B-roll standard permanente del brand |
 | `references/10-parlato-ritmo-e-ponti.md` | Continuita' del discorso: fasi narrative e giunture, lista bianca dei ponti, divieto aforismi, alternanza delle lunghezze, struttura del blocco, passivo e nominale, test di lettura ad alta voce |
 | `references/formats-guide.md` | Strategia, stile, sintassi italiana, selling blocks avanzati, framework operativo, checklist. **Non contiene piu' i format** (spostati in `formats/`). |
-| `references/formats/*.md` | Un file per format (14 file): Cos'e', Perche' funziona, Come funziona, Struttura, Esempio, Do's & Don'ts. Carica SOLO il file del format scelto. |
+| `references/formats/*.md` | Un file per format (16 file): Cos'e', Perche' funziona, Come funziona, Struttura, Esempio, Do's & Don'ts. Carica SOLO il file del format scelto. |
 | `references/hook-types-library.md` | Libreria dei 20 tipi di hook (preset di apertura) |
 | `references/hook-swipe-file.md` | Swipe file hook in inglese (dialogo per format + ~450 formule per categoria/nicchia) + principi psicologici estratti per scrivere hook italiani nativi (non tradotti alla lettera) |
 

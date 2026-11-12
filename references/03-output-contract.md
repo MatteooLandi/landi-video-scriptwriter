@@ -148,6 +148,33 @@ grafico.
   Timing > Transition.**
 - Non descrivere cinematograficamente ogni secondo se non serve.
 
+### Pattern per l'editor: overlay stack (una prova visiva per frase)
+
+> **Provenienza.** Osservato a fotogrammi su un ad pubblico con creator in cucina
+> `[verificato: fotogrammi dell'ad, 2026-11-12]`. Aggiunto alla skill da Matteo
+> `[dichiarato: Matteo, 2026-11-12]`. I tempi dipendono dal ritmo del parlato, non
+> sono una quota.
+
+Si usa nei format con creator in camera che parla (Educational, UGC) quando ogni
+frase ha qualcosa da mostrare. Va sempre in "Note per Editor", mai in "Cosa far
+vedere": il creator gira solo parlato e gesto d'uso, le immagini vengono da
+libreria, stock o AI.
+
+- **Segni.** Ogni segno compare come immagine in un angolo, sulla parola che lo
+  dice, e resta a schermo. Al terzo segno ne sono visibili tre. Spariscono al
+  cambio di sezione.
+- **Cambio di inquadratura a ogni sezione** (segni, causa, prodotto, prova): zoom
+  o angolo diverso. Rompe la monotonia ogni 8-10 secondi circa.
+- **La causa si visualizza**, non solo si dice: sequenza di immagini che mostra
+  la progressione, oppure zoom con cerchio sul dettaglio.
+- **Il prodotto passa a tutto schermo** per 5-6 secondi sul gesto d'uso. Il
+  creator esce di scena.
+- **La prova** (premio, badge, recensioni con fonte) compare in overlay sopra il
+  creator.
+- **Sottotitoli** a una-tre parole per volta, in maiuscolo, al centro.
+- **Test sound-off:** senza audio la sequenza delle immagini racconta comunque i
+  tre segni.
+
 ---
 
 ## Comprensibilita' istruzioni produttive

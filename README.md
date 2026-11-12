@@ -34,7 +34,7 @@ landi-video-scriptwriter/
 │   ├── 09-standard-broll-library.md  footage library senza concept
 │   ├── formats-guide.md        guida completa (strategia, sintassi, blocchi)
 │   ├── hook-types-library.md   20 tipi di hook
-│   └── formats/                un file per format (14 file)
+│   └── formats/                un file per format (16 file)
 ├── scripts/                    linter Python (4)
 │   ├── format-lint.py
 │   ├── hook-lint.py

@@ -36,6 +36,8 @@ file per format. Qui c'e' la mappa di selezione.
 | Ugly Ads | Pattern interrupt, autenticita' | 1 creator, low-fi (screenshot, notes app, selfie) | 0 EUR | 15-30s | `formats/12-ugly-ads.md` |
 | Us vs. Them | Differenziazione, decisione semplificata | 1 creator/voce + confronto visivo | 0-100 EUR | 30-60s | `formats/13-us-vs-them.md` |
 | Yapper Ad | Racconto lungo in prima persona di una conversione al prodotto, con vendita diretta. Criteri di scelta: da definire con Matteo | 1 creator che recita un testo scritto | da definire con Matteo | da 90s a oltre 4 min (guida) | `formats/14-yapper-ad.md` |
+| AI Animation (proposta) | Problema con una causa interna che non si vede da fuori. Criteri di scelta: da definire con Matteo | Voce narrante + animazione AI | da definire con Matteo | da definire con Matteo | `formats/15-ai-animation.md` |
+| Song Ads (proposta) | Da definire con Matteo | Da definire con Matteo | da definire con Matteo | da definire con Matteo | `formats/16-song-ads.md` |
 
 > **Nota su Non-Narrated Ads.** E' nella mappa ma la guida non ha un file
 > dedicato. Non invento la struttura: se serve questo format, chiedi all'utente i
@@ -53,8 +55,8 @@ blocco per abitudine.
 | **Raw o camera-led** | Founder, Podcast reale/fake, Street Interview, Ugly Ads, Yapper Ad (proposta, da confermare) | assente o bassa | La take principale e il visual. Aggiungi B-roll solo se chiarisce prodotto, prova o contesto. |
 | **Conversazionale o recitato** | Story UGC, Skit Conversation | bassa | Mantieni la scena e la relazione tra personaggi. Non spezzare il flusso con inserti inutili. |
 | **Demo naturale** | UGC Tradizionale, POV | bassa o media | Usa clip separate per utilizzo, dettaglio prodotto o problema difficile da mostrare parlando. |
-| **Costruito o esplicativo** | Narrator, Educational VSL, Us vs. Them | media o alta | Visualizza causa, meccanismo, confronto e prova. Ogni clip deve aggiungere informazione. |
-| **Montaggio visuale** | Mashup, UGC Mashup, Non-Narrated | alta per natura | Le clip sono il format, ma devono seguire l'arco narrativo e non essere riempitivi. |
+| **Costruito o esplicativo** | Narrator, Educational VSL, Us vs. Them, AI Animation (proposta) | media o alta | Visualizza causa, meccanismo, confronto e prova. Ogni clip deve aggiungere informazione. |
+| **Montaggio visuale** | Mashup, UGC Mashup, Non-Narrated, Song Ads (proposta) | alta per natura | Le clip sono il format, ma devono seguire l'arco narrativo e non essere riempitivi. |
 
 Questa e una base, non una quota. Concept, budget, materiale disponibile e ritmo
 possono cambiare la densita. Nei format con creator on-camera, il B-roll non
@@ -66,7 +68,8 @@ dovrebbe superare il 60% della durata salvo scelta esplicita.
 
 1. **Awareness dell'audience.** Unaware/Problem-Aware favoriscono Story, Founder,
    Educational, POV "prima"; Solution/Product-Aware favoriscono Us vs Them,
-   Ugly, Reaction, comparativi. (Mappa awareness>hook in `hook-types-library.md`.)
+   Ugly, Reaction, comparativi. (Mappa awareness>hook in `hook-types-library.md`.) Problem-Aware che ha i sintomi ma li considera normali:
+   Educational con la Struttura 4 (3 segni, non è normale, vera causa, prodotto).
 2. **Obiettivo.** Trust > Founder / Podcast. Prova sociale > UGC Mashup / Mashup.
    Spiegazione > Narrator / Educational VSL. Pattern interrupt > Ugly. Demo >
    UGC Tradizionale. Differenziazione > Us vs Them.
