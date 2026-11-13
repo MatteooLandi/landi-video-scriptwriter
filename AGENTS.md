@@ -120,6 +120,7 @@ riallineare qui sono elencati in `UPDATE-MAP.md`.
    g. Se tutti `ships/grounded` → allega 4 receipts, consegna.
    h. Bounce → rerun mirato del gate.
    Regola cardinale: flavor untraced = label 'illustrativo', non bounce.
+   Una promessa di scopo del prodotto non e' un fact e non fa bounce.
    E-R-C scoring vive dentro il Voice Review, non ripeterlo separatamente.
 
 ## Output di default

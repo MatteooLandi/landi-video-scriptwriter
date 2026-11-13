@@ -467,6 +467,37 @@ un'affermazione sullo sviluppo del bambino o su effetti emotivi non dimostrati.
 Per l'applicazione estesa nei podcast animati, vedi
 `references/formats/06-podcast-ads.md`.
 
+## 25. Promesse di scopo e voce di categoria
+
+`[dichiarato: Matteo, 2026-11-13]` Due strumenti rendono lo script piu' libero
+senza inventare fatti.
+
+**Promessa di scopo.** Cio' per cui il prodotto e' nato (a cosa serve, quale
+problema affronta, come lo fa in termini generali) si scrive senza cercare una
+prova riga per riga: "lavora di notte", "legge il mercato", "la tariffa giusta al
+momento giusto". Vale anche l'opinione qualitativa di un cliente ("mi ha cambiato
+il lavoro") quando molti clienti e recensioni vanno nella stessa direzione, e la
+conferma di Matteo o del cliente vale come fonte per le funzioni. Serve una fonte
+per numeri, prezzi, piani, condizioni di contratto, effetti legali, integrazioni
+con nome proprio e risultati quantificati di un singolo cliente. Il Gate 4
+applica questa distinzione (`references/07-review-gates.md`).
+
+**Voce di categoria.** Quando serve un'affermazione che il prodotto non prova da
+solo, come una cifra di settore o un effetto tipico, scrivila con la categoria o
+il meccanismo come soggetto. Il prodotto arriva dopo come risposta al meccanismo,
+oppure compare solo al logo finale. Il metodo, i limiti e il caso reale stanno in
+`docs/claim-strategy.md` del Brain, sezione "Spostare il claim sulla categoria e
+sul meccanismo".
+
+- Giusto: "I dati su questo sono stabili da anni. Il dynamic pricing migliora il
+  RevPAR del 20-30% nel primo anno." Il nome del prodotto non viene detto. La
+  cifra e' del brand.
+- Sbagliato: la battuta dopo dice "con il nostro software lo ottieni". La media di
+  categoria diventa una garanzia del prodotto, cioe' un claim del prodotto.
+- Una cifra senza fonte resta fuori anche in voce di categoria. "I dati dicono"
+  va bene quando il brand lo usa gia'. "Secondo uno studio" richiede nome e anno
+  dello studio.
+
 ---
 
 *Skill di Matteo Landi. LinkedIn: https://www.linkedin.com/in/matteolandidigital/*

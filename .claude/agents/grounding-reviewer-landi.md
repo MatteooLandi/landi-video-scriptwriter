@@ -62,6 +62,15 @@ Leggi end-to-end:
      `Tono: illustrativo — non verbatim verificato`. Se l'etichetta manca,
      il fix e' aggiungerla, non bocciare.
 
+   - **PROMESSA DI SCOPO** — a cosa serve il prodotto, quale problema affronta,
+     come lo fa in termini generali, opinione qualitativa di clienti sostenuta
+     da molte recensioni, funzioni confermate da Matteo o dal cliente. E'
+     libera: non e' FACT, non fa bounce e non va in `FABRICATED FACTS`. Nel
+     bullet FACT, "claim prodotto specifico" indica una feature o integrazione
+     con nome proprio, un piano o una condizione di contratto. Se il dettaglio
+     del meccanismo manca nel `brand-context`, non e' un bounce: la promessa
+     resta generale e il dettaglio non va inventato.
+
    - **FACT** — numero, %, prezzo, spec, claim prodotto specifico, health
      claim, dato performance, named result: **deve** tracciare. Se non traccia
      o e' sbagliato: **BOUNCE hard**. Un numero falso e' un numero falso.

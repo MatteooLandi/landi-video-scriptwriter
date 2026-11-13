@@ -413,6 +413,13 @@ reviewer.
 - **FLAVOR** (linguaggio, tono, modo di dire, frase "sounds like customer"):
   se non traccia a `verbatim.md` → **WARNING**, aggiungi label
   `Tono: illustrativo — non verbatim verificato` sulla riga. Non blocca.
+- **PROMESSA DI SCOPO** (a cosa serve il prodotto, quale problema affronta, come
+  lo fa in termini generali; opinione qualitativa di clienti sostenuta da molte
+  recensioni; funzioni che Matteo o il cliente hanno confermato): e' libera, non
+  e' FACT e non fa **BOUNCE**. Non va tracciata riga per riga. Se la riga
+  descrive un meccanismo con dettagli che il `brand-context` non documenta (quali
+  eventi, di quanto si muove il prezzo), il dettaglio non si inventa e la
+  promessa resta generale.
 - **FACT** (numeri, %, prezzi, spec prodotto, claim performance, health claim):
   se non traccia a nessun file `brand-context/*.md` → **BOUNCE**.
   Rerun senza il fatto, o con fonte verificata.
@@ -430,8 +437,9 @@ Se `brand-context/verbatim.md` (e i `products/*/verbatim.md`) hanno **meno di
 
 ### Bounce (finding fact):
 
-- Claim prodotto specifico senza corrispondenza in `positioning.md` o
-  `{prodotto}-positioning.md`
+- Feature o integrazione con nome proprio, piano, prezzo o condizione di
+  contratto senza corrispondenza in `positioning.md` o
+  `{prodotto}-positioning.md` (le promesse di scopo non rientrano qui)
 - Named result (nome persona + risultato) non tracciato
 - File brand-context cited che non esiste
 
@@ -458,9 +466,18 @@ gate **non lo spedisce in silenzio e non lo cancella**: emette un **claim flag**
 sicuro, ma la versione aggressiva viene comunque proposta con una riga che
 ricorda che qui il rischio e' piu' alto e dipende dal brand. Nessuno stop duro.
 
-Gli altri fact non numerici inventati (nome persona, claim prodotto, file
-inesistente) restano **bounce**: il claim flag riguarda i numeri come leva
-persuasiva, non la fabbricazione di fatti verificabili di prodotto.
+**Altra opzione: voce di categoria.** Quando la cifra e' del brand o ha una
+conferma, ma il prodotto non la prova da solo, la riga puo' avere la categoria o
+il meccanismo come soggetto e niente nome del prodotto (`docs/claim-strategy.md`,
+sezione "Spostare il claim sulla categoria e sul meccanismo"). Cambia a chi e'
+attribuita l'affermazione, e la fonte della cifra resta richiesta. Se la riga
+passa dalla categoria al prodotto con lo stesso numero, il gate la tratta come
+claim del prodotto. Va proposta nel flag accanto alle altre versioni.
+
+Gli altri fact non numerici inventati (nome persona, feature con nome proprio,
+file inesistente) restano **bounce**: il claim flag riguarda i numeri come leva
+persuasiva e la fabbricazione di fatti verificabili di prodotto resta fuori.
+Le promesse di scopo del prodotto non sono fact e non fanno bounce.
 
 **Ricevuta claim flag:** blocco `## Claim Flag` in coda, una voce per claim con
 le due/tre versioni e la frase di spiegazione.

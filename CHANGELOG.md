@@ -42,6 +42,17 @@ Regola dei numeri:
   `[inferito: proposta cliente 2026-09-18]`
 
 ### Added
+- feat(claims): principio 25 in `references/02-writing-principles.md`, promesse
+  di scopo e voce di categoria. Cio' per cui il prodotto e' nato si scrive senza
+  prova riga per riga; un'affermazione che il prodotto non prova da solo puo'
+  avere la categoria o il meccanismo come soggetto, con la cifra che resta con la
+  sua fonte. Il Gate 4 (`references/07-review-gates.md`) e l'agente
+  `grounding-reviewer-landi` distinguono ora la promessa di scopo dai fact:
+  la prima non fa bounce, i bounce restano per feature con nome proprio,
+  integrazioni, piani, prezzi e condizioni di contratto non tracciati. Il metodo
+  completo sta in `docs/claim-strategy.md` del Brain. Nasce da un video pubblico
+  di un brand di software per hotel che dice la cifra senza nominare il prodotto.
+  `[dichiarato: Matteo, 2026-11-13]`
 - feat(formats): Struttura 4 dell'Educational VSL, "3 segni → non è normale →
   vera causa → prodotto", con foglio di compilazione a 4 passi, in
   `references/formats/04-educational-vsl.md`. La struttura non dipende dal
