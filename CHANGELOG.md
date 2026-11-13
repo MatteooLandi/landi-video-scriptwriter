@@ -17,6 +17,30 @@ Regola dei numeri:
 
 ## [Unreleased]
 
+### Fixed
+- fix(format-lint): il Module dell'hook ammette l'etichetta descrittiva prevista
+  da `03-output-contract.md` (`Hook 1 - proprietario stanco`). Prima ogni
+  etichetta era un finding. `[inferito: proposta cliente 2026-09-30]`
+- fix(hook-lint): il testo on-screen finisce alla prima riga o al primo `<br>`,
+  quindi le istruzioni che seguono nella stessa cella non fanno scattare il
+  limite di 14 parole. `[inferito: proposta cliente 2026-09-30]`
+- fix(hook-lint): le righe `Override: hook: <motivo>` descritte in
+  `07-review-gates.md` vengono lette: i finding del gate hook restano visibili
+  come warning con il motivo. `[inferito: proposta cliente 2026-09-30]`
+- fix(grounding-check): non conta come fonte un numero che compare solo in righe
+  o blocchi di divieto ("non riusare", "senza fonte"), e un numero con
+  separatore delle migliaia (`20.000`) e' un solo fatto, non due frammenti.
+  `[inferito: proposta cliente 2026-09-30]`
+- test: fixture `07-contratto-linter-allineati.md`. Eval 17/17.
+
+### Changed
+- docs(output-contract): regola vincolante dei due ruoli anche in senso inverso,
+  nessuna ripresa del creator (luce, gesto, inquadratura, setting) in
+  `Note per Editor`. `[inferito: proposta cliente 2026-10-22]`
+- docs(skill): il passo QA e/f dichiara come advisory un reviewer non
+  raggiungibile dal cliente, invece di saltarlo in silenzio.
+  `[inferito: proposta cliente 2026-09-18]`
+
 ### Added
 - feat(formats): Struttura 4 dell'Educational VSL, "3 segni → non è normale →
   vera causa → prodotto", con foglio di compilazione a 4 passi, in

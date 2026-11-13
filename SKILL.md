@@ -175,6 +175,10 @@ Esegui in ordine. Ogni passo rimanda al reference file che contiene le regole.
    d. `python3 scripts/grounding-check.py <draft> .` — fact vs flavor.
    e. Spawn agent `grounding-reviewer-landi` (contesto fresco).
    f. Spawn agent `voice-reviewer-landi` (contesto fresco).
+      Se `grounding-reviewer-landi` o `voice-reviewer-landi` non compaiono tra
+      i subagent disponibili nella sessione (il cliente li vede solo se stanno
+      in `.claude/agents/` della sua radice), dichiaralo come bounce advisory
+      nella ricevuta e non saltare il passo in silenzio (`inferito`).
    g. Se tutti `ships/grounded` → allega 4 receipts (`## Format Review`,
       `## Hook Review`, `## Voice Review`, `## Grounding Review`) in coda al
       brief, consegna.

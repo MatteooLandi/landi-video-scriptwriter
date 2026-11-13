@@ -124,7 +124,9 @@ def similarity_ratio(a, b):
 
 def extract_onscreen(note_cell):
     """Trova il testo dopo 'Testo on-screen:' in una cella note editor."""
-    m = re.search(r"testo on-screen[^:]*:\s*(.+?)(?:$|\|)",
+    # Il testo on-screen finisce alla prima riga o al primo <br> dopo la
+    # dicitura: le istruzioni che seguono nella stessa cella non lo allungano.
+    m = re.search(r"testo on-screen[^:]*:\s*(.+?)(?:<br\s*/?>|\n|$|\|)",
                   note_cell, re.I | re.S)
     if not m:
         return None
@@ -132,6 +134,12 @@ def extract_onscreen(note_cell):
     # Rimuovi eventuali code tra parentesi tonde tipo (IG response)
     text = re.sub(r"\(.*?\)", "", text).strip()
     return text
+
+
+def load_overrides(text):
+    """Righe `Override: hook: <motivo>` (07-review-gates.md, Override manuale)."""
+    return [m.group(1).strip() for m in re.finditer(
+        r"^\s*Override:\s*hook:\s*(.+)$", text, re.I | re.M)]
 
 
 def main(argv):
@@ -260,6 +268,16 @@ def main(argv):
                 f"riga extra '{module}' non segue pattern "
                 f"'Hook N (per editor)'"
             ))
+
+    # Override dichiarato dall'utente: i finding sul gate hook restano visibili
+    # come warning con il motivo, cosi' l'override finisce nella ricevuta.
+    overrides = load_overrides(text)
+    if overrides and findings:
+        motivo = "; ".join(overrides)
+        warnings.extend(
+            (lineno, f"[Override: hook: {motivo}] {msg}")
+            for lineno, msg in findings)
+        findings = []
 
     _report(findings, warnings)
     return 1 if findings else 0

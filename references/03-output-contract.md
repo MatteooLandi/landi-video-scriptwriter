@@ -123,6 +123,24 @@ Tutto questo e' lavoro dell'editor, va in **"Note per Editor"**.
 Regola pratica: **se non lo puo' fare il creator con la sua camera in quel
 momento, non e' "Cosa far vedere"**.
 
+### Cosa NON va in "Note per Editor" (`inferito`)
+
+`Note per Editor` contiene solo azioni in post: selezione e montaggio delle
+clip, testo on-screen, sound design, grafica, transizioni, crop, timing. Tutto
+cio' che il creator deve predisporre o registrare (luce, velocita' del gesto,
+inquadratura, ambiente, setting) va in `Cosa far vedere`, anche se una riga
+sembra "tecnica". La cella editor puo' restare vuota: una riga senza lavoro in
+post non richiede una nota solo per riempirla.
+
+Esempio. `Riprendi una mano che applica il prodotto, con luce calda e gesto
+lento` va in `Cosa far vedere`. `Abbina questa clip a una macro precedente con
+uno stacco netto` va in `Note per Editor`.
+
+Base: proposta del 2026-10-22 emersa lavorando su un brief video di un cliente
+(regola vincolante dei due ruoli). Non e' ancora un controllo del linter: da
+confermare con Matteo se serve un controllo automatico su luce, inquadratura e
+setting nella colonna editor.
+
 Esempi:
 
 | Elemento | Dove va | Perche' |

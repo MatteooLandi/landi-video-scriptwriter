@@ -520,6 +520,10 @@ Override: voice: "Trasformazione" è parola-chiave del brand, non copywriter tel
 Il reviewer lo rispetta e passa a `ships` con nota. L'override resta nella
 storia del brief per audit.
 
+`hook-lint.py` legge le righe `Override: hook: <motivo>`: i suoi finding restano
+visibili come warning con il motivo. Gli altri linter non leggono ancora gli
+override (`inferito`).
+
 ---
 
 ## Manutenzione

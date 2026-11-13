@@ -63,7 +63,8 @@ EDITOR_MARKERS = [
 
 # Naming Module (Tabella 1 e 2).
 MODULE_PATTERN = re.compile(
-    r"^(Hook \d+( \(per editor\))?|Body \d+|CTA)$", re.I
+    # L'hook puo' avere un'etichetta descrittiva (03-output-contract.md, Module).
+    r"^(Hook \d+( \(per editor\))?( [-:] .+)?|Body \d+|CTA)$", re.I
 )
 
 
