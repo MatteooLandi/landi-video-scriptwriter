@@ -60,8 +60,9 @@ Regola d'oro: Focus su 1-3 differenze chiave, non su tutto. Troppi confronti con
 
 ### Variante: Us vs Them in forma di intervista
 
-`[dichiarato: Matteo, 2026-11-13]` Due personaggi rappresentano i due metodi (il
-vecchio e il nuovo) e rispondono a turno alle stesse domande, in split-screen
+`[dichiarato: Matteo, 2026-11-13]` Due persone reali rappresentano i due metodi (il
+vecchio e il nuovo), per esempio un gestore che assume e un candidato che arriva
+da un altro hotel, e rispondono a turno alle stesse domande, in split-screen
 verticale. Layout e regole di ripresa stanno in `10-street-interviews.md`,
 variante "intervista a due voci in split-screen".
 

@@ -42,6 +42,13 @@ Regola dei numeri:
   `[inferito: proposta cliente 2026-09-18]`
 
 ### Added
+- feat(writing): principio 27, tre punti ora `dichiarato` dalle spiegazioni di
+  Matteo: persone reali e non oggetti personificati (nel Fake Call, un gestore che
+  assume e un candidato che arriva da un altro hotel), il "them" ha una ragione
+  perche' non vuole sembrare incompetente (giro di parole, chiarezza, vergogna), il
+  soggetto e' il cambiamento (`Resta uguale`). La variante intervista di
+  `references/formats/13-us-vs-them.md` parla di persone reali.
+  `[dichiarato: Matteo, 2026-11-14]`
 - feat(writing): principio 27, quattro regole in piu' dalle risposte che Matteo
   ha riscritto in un brief Fake Call: il "them" ha una ragione o un
   comportamento reale invece di un esito o di una gag, un registro per

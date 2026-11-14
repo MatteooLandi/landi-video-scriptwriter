@@ -581,14 +581,24 @@ lui.
   descrizione ("emoji di Natale" invece di "icona discreta delle festivita'"). Un
   gesto vero del mestiere ("accendo qualche offerta Booking solo quando ha
   senso") batte un verbo generico ("ottimizzo").
-- **Il "them" ha una ragione.** Quando il personaggio che rappresenta il metodo
-  vecchio risponde, da' una ragione o un comportamento reale del settore, non solo
-  l'esito. "Uguale." diventa "Beh, perche' dovrebbe cambiare?". "A sensazione"
-  diventa "Beh guardo i prezzi dei competitor e cerco stare un pelo al di sotto".
-  Il target si riconosce nella risposta e il personaggio non e' una caricatura
-  incompetente (`references/formats/13-us-vs-them.md`, errori comuni).
-  `[inferito: Matteo ha riscritto cosi' tre risposte del listino in un brief Fake
-  Call, 2026-11-14; il motivo non e' scritto, da confermare con lui]`
+- **Persone reali, non oggetti personificati.** `[dichiarato: Matteo,
+  2026-11-14]` In Fake Call e interviste i due personaggi sono persone vere: nel
+  colloquio, un gestore che assume e un candidato che arriva da un altro hotel e
+  racconta come cambia i prezzi. Il listino fisso non parla: e' un foglio che il
+  candidato porta. Cosi' le risposte hanno un motivo umano e il target si
+  riconosce.
+- **Il "them" ha una ragione, perche' non vuole sembrare incompetente.**
+  `[dichiarato: Matteo, 2026-11-14]` Davanti a una domanda scomoda il personaggio
+  non dice l'esito secco e non fa una gag: "a sensazione" detto a freddo non lo
+  direbbe nessuno. Ha tre modi. Un giro di parole. Oppure dice con chiarezza cosa
+  fa e il problema emerge da solo ("Beh guardo i prezzi dei competitor e cerco stare
+  un pelo al di sotto"). Oppure lo dice con un po' di vergogna ("su questo non so
+  bene, mi rendo conto di andare un po' a sensazione"). Anche "Uguale." diventa
+  "Beh, perche' dovrebbe cambiare?", il ragionamento di chi non vede il problema
+  (`references/formats/13-us-vs-them.md`, errori comuni).
+- **Il soggetto e' il cambiamento.** `[dichiarato: Matteo, 2026-11-14]` Quando il
+  tema e' il cambio di prezzo, il focus sta sul prezzo. La battuta fa soggetto il
+  prezzo (`Resta uguale`) e lascia fuori chi risponde (`Resto uguale`).
 - **Un registro per personaggio.** Un personaggio sicuro di se' ("Beh...") non
   alza le spalle con un "Boh": il riempitivo dice cosa pensa chi parla, quindi si
   sceglie una volta per personaggio e si tiene in tutti i blocchi. `[inferito:
