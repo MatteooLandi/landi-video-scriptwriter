@@ -30,6 +30,13 @@ Distinzione utile:
 | Formato di output, colonne, selling block | `references/03-output-contract.md` | locale |
 | Comprensibilita' istruzioni produttive, Flesch-Vacca, regole visual/editor | `references/03-output-contract.md` sez. "Comprensibilita'" | locale |
 | Formattazione speciale per un certo format | blocco `Regole di formattazione specifiche` nel format + nota in `03-output-contract.md` | locale |
+| Testata del brief, formattazione delle celle Notion, numeri adattabili | `references/03-output-contract.md` sez. "Testata del brief", "Formattazione delle celle", "Numeri adattabili" | locale |
+| La risposta risponde alla domanda, referente esplicito, parole che calibrano | `references/02-writing-principles.md` principio 26 | locale |
+| Intervista a due voci in split-screen, Us vs Them in forma di intervista | `references/formats/10-street-interviews.md` e `references/formats/13-us-vs-them.md` | locale |
+| Hook short che parte dal body, hook a domanda esplicita | `references/01-hook-system.md` §8a e §8b | locale |
+| Voce del personaggio, lessico del target, tu e voi, prodotto dopo una reazione umana, concreto al posto dello slogan | `references/02-writing-principles.md` principio 27 | locale |
+| CTA a basso attrito ("senza impegno") | `references/02-writing-principles.md` principio 10 | locale |
+| Scritte fisse una volta sola, tag di target compatto, importi di esempio plausibili | `references/03-output-contract.md` sez. "Testata del brief" e "Numeri adattabili" | locale |
 | Regole italiano/inglese US, keyword, slang | `references/04-bilingual-it-us.md` | locale |
 | Qualita' transcreation IT/US | `references/04-bilingual-it-us.md` | `02-writing-principles.md`, `07-review-gates.md`, reviewer Voice, `scripts/voice-lint.py` per pattern ad alta precisione |
 | Struttura brand, manifest, learnings, priorità verbatim | `references/00-brand-lookup.md` | locale |

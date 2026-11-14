@@ -24,6 +24,32 @@ Un presentatore carismatico interagisce con le persone, guida la conversazione e
 2\. Senza Presentatore  
 La camera è focalizzata solo sulla persona intervistata per un effetto ancora più "grezzo" e autentico.
 
+### Variante: intervista a due voci in split-screen
+
+`[dichiarato: Matteo, 2026-11-13]` Il riferimento e' un video organico: due
+istruttori di un centro estivo intervistati nello stesso modo. Schermo verticale
+diviso in due, uno sopra e uno sotto, stesso muro, stessa luce, stessa distanza.
+Le domande non arrivano da una persona in scena: compaiono scritte al centro
+(`DISCIPLINA`, `PERCHE' FORMULA CALCIO`) e i due rispondono a turno alla stessa
+domanda. Chi ascolta resta fermo. Sottotitoli grandi sulla linea di divisione,
+con la parola chiave su un riquadro nero. `[verificato: fotogrammi del video di
+riferimento, 2026-11-13]`
+
+Come si adatta a un'ad:
+
+- Le domande le pone una voce fuori campo e compaiono anche scritte in maiuscolo
+  sulla linea di divisione, insieme alla voce. `[dichiarato: Matteo, 2026-11-13]`
+- Il primo blocco e' un'identificazione lampo (quante camere, che ruolo), come
+  nome ed eta' nel video: qualifica il target in pochi secondi.
+- Le domande sono brevi e identiche per entrambi, tranne quando ne serve una
+  diretta a uno solo ("Sergio, come mai sempre lo stesso prezzo?").
+- Una persona sola puo' recitare entrambi i ruoli, con maglia e oggetto diversi.
+  Ogni take finisce in meta' schermo: viso al centro, aria sopra la testa.
+- La voce fuori campo si registra a parte, in un file pulito, con tono curioso e
+  rapido. Non commenta e non spiega.
+- Per Us vs Them vedi `13-us-vs-them.md`, variante "Us vs Them in forma di
+  intervista".
+
 ### Come Funziona
 
 Meccanismo:

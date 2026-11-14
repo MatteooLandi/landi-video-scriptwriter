@@ -141,6 +141,10 @@ Nota: gli script conversazionali non sono piu' costosi concettualmente, ma
 richiedono clip separate e momenti di registrazione diversi. Se la produzione
 vuole un unico body, potrebbero non avere senso.
 
+I numeri che chi recita deve dire a voce si scrivono adattabili: sezione "Numeri
+adattabili" di `references/03-output-contract.md`. `[dichiarato: Matteo,
+2026-11-14]`
+
 ---
 
 ## 6. Concept != Format
@@ -201,6 +205,12 @@ La CTA non deve per forza fare una nuova promessa. Puo' semplicemente chiudere
 l'open loop aperto prima. Esempi: "Scopri perche'.", "Guarda come funziona.",
 "Scopri cosa cambia.", "Guarda il calcolo.". Particolarmente adatta quando l'ad
 ha gia' creato interesse.
+
+Quando il passo e' una demo, una consulenza o una prova, la CTA ne abbassa
+l'attrito dicendo che costa poco impegno ("Richiedi senza impegno una demo
+gratuita"). Si scrive solo se il brand conferma che e' vero: la gratuita' e
+l'assenza di impegno sono fatti e si tracciano come gli altri. `[inferito: Matteo
+ha aggiunto "senza impegno" alla CTA di un brief, 2026-11-14]`
 
 ---
 
@@ -505,6 +515,94 @@ sul meccanismo".
 - Una cifra senza fonte resta fuori anche in voce di categoria. "I dati dicono"
   va bene quando il brand lo usa gia'. "Secondo uno studio" richiede nome e anno
   dello studio.
+
+## 26. La risposta risponde alla domanda
+
+`[dichiarato: Matteo, 2026-11-14]` Nei format a domanda e risposta (interviste,
+skit, Us vs Them, podcast) ogni risposta risponde alla domanda che ha davanti. Se
+la domanda chiede il perche', la risposta da' la causa e la conseguenza concreta,
+con il linguaggio di chi parla. Un rimando al ruolo o al metodo ("la strategia la
+decido io") lascia la domanda aperta.
+
+Test: copri la domanda e leggi la risposta. Deve contenere la causa, cosa succede
+se la ignori e cosa si fa di conseguenza.
+
+- Domanda: "Perche' il tuo prezzo cambia?"
+- Risposta debole: "Perche' strategia e limiti li decido io. Il resto lo fa il
+  sistema." Dice chi decide e non dice perche' il prezzo si muove.
+- Risposta che regge: "Perche' le opportunita' e il mercato non sono statici,
+  cambiano in base al periodo e alle condizioni reali esterne. Se non cambio bene
+  i prezzi non riempio nei periodi peggiori, e nei momenti migliori svendo le
+  camere. Quindi guardo camere libere, stagione, richiesta di mercato ed eventi
+  vicini, e ogni giorno trovo il prezzo che riempie le camere e ottimizza il
+  margine." La struttura e' causa, conseguenza se la ignori, cosa guardo,
+  risultato cercato.
+
+Altre due regole dello stesso tipo.
+
+- **Il referente e' esplicito.** Una risposta che rimanda a un oggetto ("quello del
+  listino", "sempre quello") ha la domanda subito prima, a voce o scritta. Se un
+  hook o una versione corta parte dalla risposta, la domanda compare almeno a
+  schermo. `[dichiarato: Matteo, 2026-11-13]`
+- **Le parole che calibrano restano.** "Solo", "quando serve", "se proprio voglio"
+  dicono che l'intervento e' un'eccezione e che il controllo resta a chi usa lo
+  strumento. Costruiscono fiducia, quindi non si tagliano per accorciare.
+  `[dichiarato: Matteo, 2026-11-13]`
+
+## 27. Il personaggio parla come uno del settore
+
+`[inferito: modifiche di Matteo alle battute di un brief Us vs Them, 2026-11-14]`
+Le battute che Matteo ha riscritto a mano vanno tutte nella stessa direzione:
+meno script, piu' persona. Sono scelte ripetute in piu' punti, da confermare con
+lui.
+
+- **Voce ed emozione.** Il personaggio usa riempitivi e reazioni vere ("Boh",
+  "Ahahah", "eh", "dai siate realisti!") e dice il costo emotivo con un verbo
+  concreto ("svendo le camere!"). Puo' esitare o correggersi ("prima dicevo io, ma
+  in realta' fa tutto un software"). Resta dentro la quota di imperfezione del
+  principio 13.
+- **Lessico del target.** Nelle battute entrano i termini che il target usa
+  davvero (RevPAR, offerta Booking), anche negli hook (`Vuoi ottimizzare il
+  RevPar?`). Chi guarda si riconosce dalla parola prima che dal beneficio. Se il
+  termine e' gergo, si spiega la prima volta (R9 di
+  `references/10-parlato-ritmo-e-ponti.md`).
+- **Il tu.** Quando la domanda tocca la situazione di chi risponde o di chi guarda
+  ("Quante camere hai?", "Quanto costa la tua camera?", "Quanto lavoro ti
+  resta?") si usa il tu. Il voi resta per una domanda rivolta a entrambi i
+  personaggi insieme ("Come fate i prezzi?").
+- **Il prodotto arriva dopo una reazione umana.** Prima la fatica o il dubbio del
+  personaggio (il "them" si lamenta, sbuffa), poi il prodotto in una frase
+  semplice ("fa tutto un software ad hoc che si chiama X"), senza elenco di
+  funzioni. Il controllo resta a chi lo usa (principio 26).
+- **Il concreto sta al posto dello slogan.** Un overlay a effetto ("CAMBIA SOLO
+  QUANDO LO CAMBI TU") lascia il posto a un fatto o a un gesto: l'aforisma e'
+  vietato nel body (R4 di `references/10-parlato-ritmo-e-ponti.md`) e vale anche
+  per il testo on-screen. Un oggetto o un gesto riconoscibile batte la sua
+  descrizione ("emoji di Natale" invece di "icona discreta delle festivita'"). Un
+  gesto vero del mestiere ("accendo qualche offerta Booking solo quando ha
+  senso") batte un verbo generico ("ottimizzo").
+- **Il "them" ha una ragione.** Quando il personaggio che rappresenta il metodo
+  vecchio risponde, da' una ragione o un comportamento reale del settore, non solo
+  l'esito. "Uguale." diventa "Beh, perche' dovrebbe cambiare?". "A sensazione"
+  diventa "Beh guardo i prezzi dei competitor e cerco stare un pelo al di sotto".
+  Il target si riconosce nella risposta e il personaggio non e' una caricatura
+  incompetente (`references/formats/13-us-vs-them.md`, errori comuni).
+  `[inferito: Matteo ha riscritto cosi' tre risposte del listino in un brief Fake
+  Call, 2026-11-14; il motivo non e' scritto, da confermare con lui]`
+- **Un registro per personaggio.** Un personaggio sicuro di se' ("Beh...") non
+  alza le spalle con un "Boh": il riempitivo dice cosa pensa chi parla, quindi si
+  sceglie una volta per personaggio e si tiene in tutti i blocchi. `[inferito:
+  Matteo usa "Beh" in tre risposte su tre dello stesso personaggio, 2026-11-14]`
+- **L'intervistatore reagisce, l'intervistato spiega.** Le battute di chi domanda
+  sono brevi e portano un segnale di ascolto ("Ok ok. La settimana dopo c'e' un
+  evento in citta'."). Quelle di chi risponde sono piu' lunghe e dicono il perche'.
+  Sono frasi parlate: la grammatica puo' restare libera ("cerco stare un pelo al di
+  sotto") e il testo non chiude ogni frase con il punto. `[inferito: modifiche di
+  Matteo a un brief Fake Call, 2026-11-14]`
+- **Dopo aver cambiato una battuta, si riallineano le note.** Ogni nota per
+  l'editor che richiama una frase ("zoom dopo 'resto uguale'", "cicale dopo 'a
+  sensazione'") segue la frase nuova. `[inferito: dopo le modifiche di Matteo i
+  riferimenti delle note non erano piu' validi, 2026-11-14]`
 
 ---
 

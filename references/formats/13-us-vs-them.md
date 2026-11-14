@@ -58,6 +58,27 @@ Regola d'oro: Focus su 1-3 differenze chiave, non su tutto. Troppi confronti con
 | 5 | Prova | Risultati, numeri, testimonianze | Credibilità |
 | 6 | CTA | "Fai il cambio" / "Prova la differenza" | Azione chiara |
 
+### Variante: Us vs Them in forma di intervista
+
+`[dichiarato: Matteo, 2026-11-13]` Due personaggi rappresentano i due metodi (il
+vecchio e il nuovo) e rispondono a turno alle stesse domande, in split-screen
+verticale. Layout e regole di ripresa stanno in `10-street-interviews.md`,
+variante "intervista a due voci in split-screen".
+
+| # | Blocco | Cosa succede |
+| ----- | ----- | ----- |
+| 1 | Identificazione lampo | Una domanda breve qualifica il target e mette i due alla pari ("Quante camere hai?"). |
+| 2 | Prove sulle stesse domande | Una domanda per ogni caso (tre date, tre situazioni). "Them" ripete la stessa risposta, "us" la cambia con il caso. |
+| 3 | Domanda diretta a "them" | "Come mai sempre lo stesso prezzo?" La risposta spiega il meccanismo, con una ragione o un comportamento reale del settore (principio 27 di `02-writing-principles.md`), e non fa del personaggio un incompetente. |
+| 4 | Domanda diretta a "us" | "Perche' il tuo prezzo cambia?" La risposta da' causa, conseguenza e azione (principio 26 di `02-writing-principles.md`). |
+| 5 | Prodotto | Il nome compare solo qui, detto da "us" a una domanda ("E tu, cosa usi?"). |
+| 6 | Lavoro che resta | Ognuno dice quanto lavoro gli resta. "Us" tiene il controllo e decide lui quando intervenire. |
+| 7 | CTA | Chi rappresenta "us" parla in camera. |
+
+Versioni: tre hook con lo stesso body e una versione corta che parte dal primo
+blocco di prova, con testo applicato al posto dell'intro (`01-hook-system.md`
+§8b). I numeri si scrivono adattabili (`03-output-contract.md`).
+
 ### Esempio di Script
 
 Prodotto generico: Mutande assorbenti riutilizzabili vs Assorbenti usa e getta

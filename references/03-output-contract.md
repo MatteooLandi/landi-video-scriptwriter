@@ -8,6 +8,98 @@ Default consegnato: **3 hook + 1 body completo**. La tabella B-roll si popola
 
 ---
 
+## Testata del brief (overview)
+
+`[dichiarato: Matteo, 2026-11-14]` Il brief apre con una testata corta e
+ordinata, una riga per campo. Chi produce deve capire in pochi secondi cosa
+girare e cosa montare. Matteo ha accorciato a mano la testata di un brief Us vs
+Them e il risultato e' il modello.
+
+| Campo | Cosa contiene |
+|---|---|
+| Winning ads / Video reference | Il link al video di riferimento dello stile, se esiste. |
+| Target Audience | Una frase. |
+| Angle | Una frase sola, la tesi senza il suo sviluppo. Esempio: `La stessa camera non dovrebbe avere sempre lo stesso prezzo.` |
+| Format | Il nome del format e, se serve, la forma. Esempio: `Us vs Them in forma di intervista`. |
+| Note di editing | Prima riga in grassetto con il dispositivo visivo ricorrente (`Split-screen verticale: ...`). Poi una riga per regola, una sola informazione per riga: scritte fisse, chi parla, quando compare il testo, tag di target. Se qualcosa si regola solo al bisogno, una riga con freccia: `→ Se serve, rallentiamo le pause dei due attori mentre l'altro parla.` |
+| Landing page | Il link. |
+| Varianti da creare | Cosa si monta dallo stesso materiale. Esempio: `3 hook con lo stesso body, piu' una versione corta che parte direttamente dal Body 2`. |
+
+Sotto la testata, in questo ordine:
+
+- **Personaggi.** Ogni personaggio dice cosa rappresenta (`Sergio, rappresenta un
+  proprietario con listino fisso`) e come risponde, in due righe al massimo. Se la
+  scena si gira in modo piu' semplice, lo scrive (`Possono stare seduti alla
+  scrivania`).
+- **Props (cosa procurarsi).** Elenco corto di oggetti e asset. Se una parte la
+  puo' fornire il team (una voce fuori campo con AI), lo scrive qui.
+- **Indicazioni di massima registrazione raw.** Sono indicazioni di massima, con il
+  piano B dentro: `Meglio 2 persone, ma se servisse una sola persona puo'
+  interpretare entrambi.`
+
+La regola visiva che vale per tutto il video sta una volta sola, in `Note di
+editing`. Le righe delle tabelle la richiamano solo dove cambia.
+
+Lo stesso vale per le scritte fisse e gli avvisi: una dicitura come "importi di
+esempio" o "simulazione" sta una volta sola, in `Note di editing` o nella nota
+della pagina, e non si ripete in ogni riga. `[inferito: Matteo ha tolto la
+dicitura ripetuta da ogni riga di un brief, 2026-11-14]`
+
+Il tag di target a schermo e' compatto: soglia e oggetto, in maiuscolo (`HOTEL DA
+10+ CAMERE`). `[inferito: Matteo ha accorciato il tag di un brief, 2026-11-14]`
+
+## Formattazione delle celle (Notion)
+
+`[inferito: modifiche di Matteo alla pagina Notion di un brief Us vs Them,
+2026-11-14]` Matteo ha rifinito a mano la pagina di un brief. Le scelte ripetute
+diventano la formattazione standard, da confermare con lui.
+
+- Nella colonna `Cosa devi dire` ogni battuta parte con l'etichetta di chi parla in
+  grassetto (`**Voce fuori campo:**`, `**Sergio:**`). Una battuta per riga, con
+  `<br />` tra una e l'altra.
+- Un'alternativa o un adattamento dentro la battuta va in corsivo tra parentesi:
+  `Danny *(o nome inventato)*`. Vale anche per il gesto di chi parla: `*(unisce i
+  palmi delle mani con un gesto di lamentela)*`.
+- In `Cosa far vedere` il personaggio si nomina con il ruolo in grassetto:
+  `**Listino fisso** tiene in mano un listino stampato.`
+- Una cella senza contenuto porta un trattino `-`, mai vuota. Succede nelle righe
+  di sola variante per l'editor.
+- Le varianti si chiamano `Hook N short` quando l'hook accorcia il suo aggancio e
+  `Hook N (per editor)` quando e' solo montaggio. La nota di una variante dice da
+  dove parte o a quale hook assomiglia: `Come Hook 2, ma senza "A Natale ..."`.
+- Il testo on-screen sta su una riga a parte, dopo l'istruzione di montaggio.
+- Si evidenziano in arancione solo le righe di cio' che qualcuno deve consegnare o
+  fornire (`Da consegnare`, `Da fornire al team`).
+
+## Numeri adattabili
+
+`[dichiarato: Matteo, 2026-11-14]` Chi registra non sempre riesce ad avere gli
+stessi numeri stampati, e il cliente puo' conoscere il proprio mercato meglio
+dello script. Un brief di produzione si scrive in modo che i numeri si possano
+cambiare senza rompere la scena.
+
+- Gli importi, le quantita' e i dati che chi recita dice a voce sono esempi. Nel
+  parlato vanno tra parentesi quadre (`[52] euro`). La testata lo dice una volta:
+  `Numeri tra [parentesi]: sono esempi, usa quelli del tuo listino.`
+- Il brief scrive la relazione da rispettare e lascia libero il valore: `12
+  dicembre sotto il listino, 24 dicembre sopra, 13 marzo il prezzo piu' alto`.
+  Qualunque numero scelga chi recita, la battuta deve restare vera.
+- Il parlato che si registra una sola volta (voce fuori campo, hook) non contiene
+  numeri sostituibili. Si riformula senza il numero: `sempre uguale, tutto
+  l'anno`. La versione con `42 euro tutto l'anno` lega l'audio a un valore.
+- Testo on-screen e note per l'editor non fissano il valore: `Sopra compare il
+  prezzo di Sergio (nell'esempio 52 €)`.
+- Gli oggetti di scena si scrivono con i numeri di chi recita: `Scrivi il prezzo del
+  tuo listino (nell'esempio 52 €)`.
+- Anche i nomi di fantasia si possono cambiare: `Danny (o nome inventato)`.
+- Gli importi di esempio sono plausibili per il settore. Per una camera doppia
+  vanno bene `52`, `48`, `61`, `64`; `42` e `38` suonano da esercizio. Se non
+  conosci il mercato, chiedi una cifra al cliente. `[inferito: Matteo ha sostituito gli
+  importi di esempio di un brief, 2026-11-14; il motivo non e' scritto, da
+  confermare con lui]`
+
+---
+
 ## Tabella 1 - Hooks
 
 Colonne: **Module | Cosa devi dire | Cosa far vedere | Note per Editor**

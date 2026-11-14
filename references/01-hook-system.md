@@ -338,6 +338,10 @@ generico di A sullo stesso argomento (sintomo: il body ripete la stessa
 accusa con parole diverse invece di far avanzare il botta e risposta).
 Dettaglio in `formats-guide.md` §5.7, "Continuita' multi-speaker".
 
+Nel dialogo a domanda e risposta l'hook che e' una domanda la porta esplicita, a
+voce o a schermo. Il body che parte dopo l'hook comincia dalla risposta e non
+ripete la domanda. `[dichiarato: Matteo, 2026-11-13]`
+
 ### 8b. Varianti aggiuntive (opzionali, righe Hook 4/5/6)
 
 Solo dopo aver sistemato l'aggancio dei 3 hook base, puoi aggiungere righe di
@@ -365,6 +369,13 @@ Regola di notazione (vale sia per 8a che per 8b):
   Body 7
   Body 8
   ```
+
+**Hook short, la versione che parte dal body.** `[dichiarato: Matteo,
+2026-11-13]` Nei format a piu' speaker si prepara sempre una versione corta che
+parte da un blocco del body, cosi' chi guarda entra a sfida gia' iniziata.
+L'assenza dell'intro si copre con testo applicato nei primi 3 secondi (la sfida e
+le etichette dei personaggi), senza parlato aggiuntivo. La riga si chiama `Hook N
+(per editor)` e dice da quale body parte e quali blocchi si usano.
 
 ---
 

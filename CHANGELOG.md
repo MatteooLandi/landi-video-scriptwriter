@@ -42,6 +42,46 @@ Regola dei numeri:
   `[inferito: proposta cliente 2026-09-18]`
 
 ### Added
+- feat(writing): principio 27, quattro regole in piu' dalle risposte che Matteo
+  ha riscritto in un brief Fake Call: il "them" ha una ragione o un
+  comportamento reale invece di un esito o di una gag, un registro per
+  personaggio, l'intervistatore reagisce e l'intervistato spiega, le note per
+  l'editor si riallineano alle battute cambiate. Il blocco 3 della variante
+  intervista di `references/formats/13-us-vs-them.md` rimanda al principio.
+  `[inferito: modifiche di Matteo a un brief Fake Call, 2026-11-14]`
+- feat(writing): principio 27 in `references/02-writing-principles.md`, il
+  personaggio parla come uno del settore: voce ed emozione, lessico del target,
+  tu e voi, prodotto dopo una reazione umana, concreto al posto dello slogan
+  (anche on-screen). Nel principio 10, CTA a basso attrito ("senza impegno") solo
+  se il brand lo conferma. `[inferito: modifiche di Matteo alle battute di un
+  brief Us vs Them, 2026-11-14]`
+- feat(output-contract): scritte fisse e avvisi una volta sola nella testata,
+  tag di target compatto (`HOTEL DA 10+ CAMERE`), importi di esempio plausibili.
+  `[inferito: modifiche di Matteo a un brief Us vs Them, 2026-11-14]`
+- feat(output-contract): testata del brief corta e ordinata, formattazione
+  standard delle celle Notion (etichette di chi parla in grassetto, corsivo per
+  alternative e gesti, trattino nelle celle vuote, varianti `Hook N short` e
+  `Hook N (per editor)`, arancione solo per cio' che si consegna) e numeri
+  adattabili (parentesi quadre, relazione da rispettare, nessun numero
+  sostituibile nel parlato registrato una sola volta). Nascono dalla pagina di un
+  brief Us vs Them che Matteo ha accorciato e riformattato a mano.
+  `[dichiarato: Matteo, 2026-11-14]` per testata e numeri;
+  `[inferito: modifiche di Matteo alla pagina del brief, 2026-11-14]` per la
+  formattazione delle celle.
+- feat(writing): principio 26 in `references/02-writing-principles.md`, la
+  risposta risponde alla domanda (causa, conseguenza, azione), il referente e'
+  esplicito, le parole che calibrano ("solo", "quando serve") restano. Nasce da
+  una risposta di un brief che rimandava al ruolo invece di spiegare il perche'.
+  `[dichiarato: Matteo, 2026-11-14]`
+- feat(formats): variante "intervista a due voci in split-screen" in
+  `references/formats/10-street-interviews.md` e variante "Us vs Them in forma di
+  intervista" in `references/formats/13-us-vs-them.md`, con voce fuori campo e
+  domande scritte a schermo. `[dichiarato: Matteo, 2026-11-13]`,
+  `[verificato: fotogrammi del video di riferimento, 2026-11-13]`
+- feat(hooks): `references/01-hook-system.md` §8a, l'hook a domanda porta la
+  domanda esplicita e il body riparte dalla risposta; §8b, "hook short" che parte
+  dal body con testo applicato al posto dell'intro. `[dichiarato: Matteo,
+  2026-11-13]`
 - feat(claims): principio 25 in `references/02-writing-principles.md`, promesse
   di scopo e voce di categoria. Cio' per cui il prodotto e' nato si scrive senza
   prova riga per riga; un'affermazione che il prodotto non prova da solo puo'
