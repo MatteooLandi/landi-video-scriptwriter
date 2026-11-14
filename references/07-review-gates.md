@@ -423,6 +423,12 @@ reviewer.
 - **FACT** (numeri, %, prezzi, spec prodotto, claim performance, health claim):
   se non traccia a nessun file `brand-context/*.md` → **BOUNCE**.
   Rerun senza il fatto, o con fonte verificata.
+- **Iperbole del parlato:** non classificare come FACT una battuta solo per
+  parole assolute. "In tempo zero" e "avrà già sistemato tutto" possono
+  significare, nel dialogo, rapidita' o sollievo senza promettere una durata
+  o un esito garantito. Valuta tono, contesto, testo on-screen e visual. Se
+  questi trasformano il modo di dire in una promessa letterale, verifica la
+  promessa come FACT; altrimenti conserva la voce del personaggio.
 
 ### Fallback verbatim sottopopolato
 

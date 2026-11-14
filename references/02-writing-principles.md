@@ -256,6 +256,14 @@ alla voce reale del brand; non a caso. Corollario: la grammatica troppo pulita
 e troppo uniforme e' un segnale AI quanto un trattino lungo. Non inseguire la
 frase perfetta.
 
+Vale anche per l'iperbole idiomatica. Espressioni come "in tempo zero" o
+"avrà già sistemato tutto" possono essere naturali nella voce di un
+personaggio italiano, anche del Nord: non normalizzarle automaticamente in
+linguaggio tecnico. Leggi la battuta nel suo contesto e chiediti se lo
+spettatore la capira' come modo di dire o come garanzia misurabile sul
+prodotto. La distinzione dipende anche da testo a schermo e visual: una frase
+colloquiale diventa claim se l'ad la presenta come fatto verificato.
+
 ---
 
 ## 14. Testo pulito ma generico e' comunque un fallimento

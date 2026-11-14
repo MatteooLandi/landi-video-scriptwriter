@@ -165,6 +165,16 @@ grafico.
 - Ordine consigliato quando serve: **Visual / B-roll > Text overlay > Motion >
   Timing > Transition.**
 - Non descrivere cinematograficamente ogni secondo se non serve.
+- Quando il format usa un dispositivo visivo ricorrente (per esempio una chat
+  ricreata durante un dialogo), descrivi la regola una volta e indica dove
+  cambia o termina. Specifica se l'audio della battuta successiva anticipa il
+  taglio, senza duplicare l'istruzione in ogni riga.
+- Per screenshot, notifiche e schermate di prodotto, separa la ripresa del
+  creator dall'overlay dell'editor. Nomina l'asset da ricevere, chi lo fornisce
+  e se serve una versione reale e aggiornata. Non rappresentare come interfaccia
+  autentica una schermata ancora ipotetica.
+- Se la gag dipende da un silenzio o da una reazione, segnala il beat: il ritmo
+  veloce non richiede di eliminare ogni pausa.
 
 ### Pattern per l'editor: overlay stack (una prova visiva per frase)
 

@@ -76,6 +76,11 @@ Leggi end-to-end:
      o e' sbagliato: **BOUNCE hard**. Un numero falso e' un numero falso.
      Segna in `FABRICATED FACTS`.
 
+   - **Iperbole idiomatica** — non leggere isolatamente parole come "tutto"
+     o "in tempo zero". Valuta se il dialogo le usa come modo di dire o se
+     testo a schermo e visual le presentano come promessa misurabile. Solo
+     nel secondo caso applica il controllo FACT.
+
    - **Fallback verbatim vuoto:** se `verbatim.md` ha meno di ~20 righe utili
      (il linter te lo segnala con `verbatim populated = False`), salta il
      check flavor. Nessun bounce per flavor untraceable. Report:

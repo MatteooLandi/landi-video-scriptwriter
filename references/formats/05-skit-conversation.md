@@ -39,6 +39,30 @@ Meccanismo:
 
 Regola d'oro: Deve sembrare una conversazione captata per caso, non recitata.
 
+### Variante: dialogo nato da un errore operativo
+
+La struttura A-target/B-esperto qui sotto e' un esempio, non uno schema fisso.
+Quando il concept nasce da una chat, un reclamo o un errore tra colleghi, i ruoli
+possono essere asimmetrici: chi subisce la conseguenza rappresenta il target,
+chi ha fatto l'errore fa emergere il riflesso intuitivo da correggere. Mantieni
+il conflitto concreto (chi ha cambiato cosa, in quale momento, con quale costo)
+prima dell'ingresso del prodotto. Le obiezioni possono nascere dal personaggio
+che ha commesso l'errore; devono essere domande plausibili, non pretesti per una
+risposta commerciale.
+
+Scrivi i gesti che rendono leggibile ogni svolta: ingresso, sguardo, oggetto
+mostrato, sorriso che sparisce, pausa o reazione. Nei dialoghi comici conserva i
+beat utili alla gag; non imporre il taglio di tutte le pause. Se l'idea nasce da
+un messaggio privato, etichetta la ricostruzione come scenario illustrativo,
+salvo autorizzazione e verifica della conversazione originale.
+
+Se la cornice e' "la chat dal vivo", indica nelle Note per Editor se e come il
+parlato diventa messaggio in overlay. Specifica il punto d'ingresso della prima
+battuta e, quando migliora il ritmo, fai iniziare l'audio della battuta seguente
+prima del cambio di inquadratura. L'overlay non deve coprire la reazione che
+porta la gag. Screenshot di piattaforme terze e registrazioni del prodotto
+richiedono un asset reale, aggiornato e fornito al team prima del montaggio.
+
 ### Struttura Skit Conversation
 
 Hook (Agitate) → Body (Intrigue → Solution → Feature → Desired Outcome) → CTA
@@ -203,7 +227,7 @@ Editing:
 
 * Tagli dinamici tra i due speaker  
 * Inserire headline/overlay nei momenti chiave  
-* Ritmo veloce, eliminare pause
+* Ritmo sostenuto; conserva le pause che rendono leggibile una reazione o una gag
 
 ---
 
