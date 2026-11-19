@@ -17,6 +17,21 @@ Regola dei numeri:
 
 ## [Unreleased]
 
+### Changed
+- docs(output-contract): una azione per riga nelle celle e nei props; frasi che
+  spiegano il perche' senza istruire si eliminano; pause e gesti di chi recita in
+  `Cosa far vedere`; immagine di esempio nei props con lavagna o fogli. `AP-02`
+  esteso al testo on-screen; scala del pubblico qualitativa o in un esempio condizionale nel parlato
+  e prodotto introdotto prima di nominarlo, soglie flessibili nella CTA
+  (`02-writing-principles.md`). `[dichiarato: Matteo, 2026-11-19]`
+- feat(hook-lint): warning se due hook base hanno lo stesso testo on-screen
+  (`AP-02`, Gate 2). `[dichiarato: Matteo, 2026-11-19]`
+- docs(writing-principles): nelle finte call l'on-screen dell'hook parla la
+  lingua di chi guarda, il ruolo del target compare anche nei dialoghi, stesso
+  pronome verso l'altro personaggio in tutti gli hook, `a te` e `da solo` solo
+  con team e soglia, si dice in chiaro cosa manca. `[inferito: correzioni di
+  Matteo, 2026-11-19]`
+
 ### Fixed
 - fix(format-lint): il Module dell'hook ammette l'etichetta descrittiva prevista
   da `03-output-contract.md` (`Hook 1 - proprietario stanco`). Prima ogni

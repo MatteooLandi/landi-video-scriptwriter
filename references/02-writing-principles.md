@@ -614,6 +614,39 @@ lui.
   sensazione'") segue la frase nuova. `[inferito: dopo le modifiche di Matteo i
   riferimenti delle note non erano piu' validi, 2026-11-14]`
 
+## Dichiarare la scala del pubblico nel parlato
+
+`[dichiarato: Matteo, 2026-11-19]` Quando lo script deve escludere chi non e' il
+target (per esempio l'host con un appartamento), la scala si dice in modo
+qualitativo nel parlato (`diverse strutture`, `con diverse strutture in
+gestione`). Un numero detto come descrizione del pubblico suona da filtro di un
+modulo. Il numero si puo' dire dentro un esempio condizionale (`Se hai dieci o
+piu' strutture, lo rifai a ogni arrivo`), che si percepisce come scenario. La
+soglia (`almeno 10 strutture`) sta anche nel testo on-screen e nella CTA. Un
+callout che nomina il ruolo (`PROPERTY MANAGER?`) filtra senza numero.
+
+`[dichiarato: Matteo, 2026-11-19]` Il prodotto non si nomina subito senza prima
+introdurlo. Il body apre sulla categoria o sul bisogno (`un unico strumento che
+gestisce check-in, pagamenti e contabilita'`) e il brand arriva dopo, quando
+serve a mostrare. Le soglie nella CTA restano flessibili (`piu' di 2 programmi`,
+non `tre`): chi e' vicino alla soglia si riconosce.
+
+`[inferito: correzioni di Matteo alla V2 di una finta call, 2026-11-19; le
+ragioni non sono dette da lui]` Negli script con piu' hook e dialogo fra due
+personaggi:
+
+- Il testo on-screen dell'hook parla la lingua di chi guarda e fa una domanda o
+  descrive un momento che riconosce (`Quanti software hai?`, `quando provano a
+  venderti il PMS «tutto in uno»`). Non e' un'etichetta neutra e non e'
+  un'istruzione (`Conta i programmi`).
+- Il ruolo del target compare anche nei dialoghi (`gestore o property
+  manager`, `strutture ricettive`), non solo nei callout.
+- In tutti gli hook il personaggio si rivolge all'altro con lo stesso pronome.
+- `A te` e `da solo` entrano solo se nella stessa riga ci sono team e soglia
+  (`Hai un team e 10+ strutture? Misura il lavoro che resta a te.`).
+- Si dice in chiaro cosa manca (`il motore di prenotazione NON c'e'`), non con
+  un'immagine ambigua (`e' fuori`).
+
 ---
 
 *Skill di Matteo Landi. LinkedIn: https://www.linkedin.com/in/matteolandidigital/*

@@ -244,6 +244,25 @@ def main(argv):
                     f"throat-clearing, la prima parola è la più cara{nota}"
                 ))
 
+    # Testo on-screen identico tra hook base: ogni variante ne porta uno diverso
+    # [dichiarato: Matteo, 2026-11-19]
+    seen_onscreen = {}
+    for lineno, module, said, shown, note, onscreen in hook_base:
+        if not onscreen:
+            continue
+        key = " ".join(words(onscreen))
+        if not key:
+            continue
+        if key in seen_onscreen:
+            warnings.append((
+                lineno,
+                f"{seen_onscreen[key]} vs {module}: testo on-screen identico — "
+                f"ogni variante porta un on-screen diverso, coerente con il "
+                f"suo parlato (08-anti-patterns.md AP-02)"
+            ))
+        else:
+            seen_onscreen[key] = module
+
     # Diversità tra hook base (Jaccard)
     if len(hook_base) >= 2:
         for a in range(len(hook_base)):

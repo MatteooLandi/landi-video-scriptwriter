@@ -71,6 +71,9 @@ Format → Hook → Voice → Grounding
 
 **Warning (passa con nota):**
 - Diversità tra hook 1-2-3 sotto soglia (Jaccard > 0.6 su parole ≥ 4 lettere)
+- Testo on-screen identico tra due hook base: ogni variante porta un on-screen
+  diverso e coerente con il suo parlato (`hook-lint.py`, `AP-02`)
+  `[dichiarato: Matteo, 2026-11-19]`
 - Segnali audience assenti (nessun marker Target/Problema/Categoria)
 - Prime 3 parole da throat-clearing italiano ("allora", "quindi", "insomma",
   "beh"), solo per hook da narratore ed educational VSL

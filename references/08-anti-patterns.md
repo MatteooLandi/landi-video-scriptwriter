@@ -47,6 +47,10 @@ della stessa parola, stai testando il vocabolario non l'angolo.
 `hook-lint.py` controlla diversita' di tipo. Regola in
 `references/01-hook-system.md`.
 
+Vale anche per il testo on-screen `[dichiarato: Matteo, 2026-11-19]`: ogni
+variante porta un on-screen diverso dalle altre, coerente con cio' che quella
+variante dice. Due hook con lo stesso callout testano una sola idea.
+
 ---
 
 ## AP-03: Numero inventato per "sembrare autorevole"

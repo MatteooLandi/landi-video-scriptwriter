@@ -68,6 +68,16 @@ diventano la formattazione standard, da confermare con lui.
   `Hook N (per editor)` quando e' solo montaggio. La nota di una variante dice da
   dove parte o a quale hook assomiglia: `Come Hook 2, ma senza "A Natale ..."`.
 - Il testo on-screen sta su una riga a parte, dopo l'istruzione di montaggio.
+- `[dichiarato: Matteo, 2026-11-19]` Una azione per riga. In `Cosa far vedere`, in
+  `Note per Editor` e nei props di setup ogni istruzione sta su una riga (`<br />`
+  tra una e l'altra), con il titolo in grassetto. I paragrafi lunghi non si
+  leggono al volo.
+- `[dichiarato: Matteo, 2026-11-19]` Una frase che spiega il perche' senza dare
+  un'istruzione a chi registra o monta (`il cerchio rosso rende visibile il lavoro
+  ripetuto`) non si scrive. Se un testo non aggiunge valore, si elimina.
+- `[dichiarato: Matteo, 2026-11-19]` Il testo on-screen cambia con la variante:
+  ogni hook ha un on-screen diverso dagli altri e coerente con cio' che quell'hook
+  dice. Vedi `AP-02`.
 - Si evidenziano in arancione solo le righe di cio' che qualcuno deve consegnare o
   fornire (`Da consegnare`, `Da fornire al team`).
 
@@ -206,6 +216,14 @@ applicare durante il parlato. In entrambi i casi:
   props specifici forniti dal brand). Luoghi comuni e raggiungibili: auto, parco,
   supermercato, una o piu' stanze di casa. Mai studi o set cinematografici.
 
+### Props con lavagna, fogli o schemi
+
+`[dichiarato: Matteo, 2026-11-19]` Se i props sono una lavagna, dei fogli o uno
+schema da scrivere a mano, la sezione `Props` apre con un'immagine di esempio:
+una lavagna per schema, nero per cio' che e' pronto prima della take, rosso e
+verde per cio' che si aggiunge in camera. Sotto, una azione per riga. Non
+ripetere qui cio' che sta gia' in `Da fornire al team`.
+
 ### Cosa NON va in "Cosa far vedere"
 
 Non vanno qui: grafiche animate, motion graphics, testi che compaiono a
@@ -243,6 +261,7 @@ Esempi:
 | Screenshot messo in overlay dall'editor sopra la clip | Note per Editor | E' composizione in post |
 | Creator scrive numeri a mano su un blocco, zoom sui numeri | Cosa far vedere | Ripresa reale, lo zoom e' movimento camera |
 | Numeri che pulsano in bold on-screen | Note per Editor | E' motion in post |
+| Il presenter si ferma un beat sui riquadri, cerchia un punto sulla lavagna | Cosa far vedere | Lo fa chi recita in ripresa, anche se sembra un tempo di montaggio |
 
 ---
 

@@ -28,6 +28,9 @@ Distinzione utile:
 | Standard anti AI-slop del Brain aggiornato (`landi-system/docs/anti-ai-slop-writing-standard.md`) | `references/02-writing-principles.md` (principi 15-17 e 20-23) | `SKILL.md` non-negoziabili, `AGENTS.md`, `references/08-anti-patterns.md`, `references/07-review-gates.md`, `scripts/voice-lint.py` per i pattern deterministici, fixture in `fixtures/` |
 | Category entry point, formule generiche, residui assistente | `references/08-anti-patterns.md` | `SKILL.md`, `AGENTS.md`, `02-writing-principles.md`, `07-review-gates.md`, reviewer Voice, `scripts/voice-lint.py`, fixture |
 | Formato di output, colonne, selling block | `references/03-output-contract.md` | locale |
+| Una azione per riga nelle celle e nei props, frasi che spiegano il perche' senza istruire, gesti e pause di chi recita in `Cosa far vedere`, immagine di esempio nei props | `references/03-output-contract.md` sez. "Formattazione delle celle", "Props con lavagna, fogli o schemi" e "Cosa NON va in Note per Editor" | locale |
+| Scala del pubblico nel parlato, prodotto introdotto prima di nominarlo, soglie flessibili nella CTA, on-screen dalla parte di chi guarda e ruolo nei dialoghi | `references/02-writing-principles.md` sez. "Dichiarare la scala del pubblico nel parlato" | locale |
+| Testo on-screen diverso tra hook | `references/08-anti-patterns.md` AP-02 | `scripts/hook-lint.py` e `references/07-review-gates.md` Gate 2 |
 | Comprensibilita' istruzioni produttive, Flesch-Vacca, regole visual/editor | `references/03-output-contract.md` sez. "Comprensibilita'" | locale |
 | Formattazione speciale per un certo format | blocco `Regole di formattazione specifiche` nel format + nota in `03-output-contract.md` | locale |
 | Testata del brief, formattazione delle celle Notion, numeri adattabili | `references/03-output-contract.md` sez. "Testata del brief", "Formattazione delle celle", "Numeri adattabili" | locale |
