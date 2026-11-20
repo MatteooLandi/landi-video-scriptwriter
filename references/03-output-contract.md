@@ -68,12 +68,17 @@ diventano la formattazione standard, da confermare con lui.
   underscore e poi, tra parentesi, `(per editor)`: `Hook4_problemAware (per
   editor)`. Il nome prima della parentesi e' quello che l'editor usa per i file:
   nome del brief piu' nome della variante, tutto con underscore.
-  `[dichiarato: Matteo, 2026-11-20]` Il numero e l'etichetta propri di ogni
-  riga di montaggio sono `[inferito]`. La forma vecchia `Hook 4 (per
-  editor)` resta accettata.
-- La variante `Hook N short` (l'hook accorcia il suo aggancio) non ha ancora un
-  nome con underscore: `da definire con Matteo`. La nota di una variante dice da
-  dove parte o a quale hook assomiglia: `Come Hook 2, ma senza "A Natale ..."`.
+  Ogni riga di montaggio ha un numero nuovo, cosi' il nome del file e' unico, e
+  l'etichetta ricorda il livello o il cluster dell'hook da cui parte; da dove parte
+  lo dice la cella `Cosa devi dire` (`Hook1 + parti da Body 3`).
+  `[dichiarato: Matteo, 2026-11-20]`
+- La forma vecchia `Hook 4 (per editor)` resta accettata dai linter, per i brief gia'
+  scritti. `[inferito: nessuna parola di Matteo sui brief esistenti]`
+- `[dichiarato: Matteo, 2026-11-20]` La versione corta di un hook usa lo stesso
+  nome con `_short` in fondo (`Hook1_problemAware_short`), sempre come ultima
+  aggiunta al nome. Una versione corta solo per l'editor si scrive
+  `Hook1_problemAware_short (per editor)`. La nota di una variante dice da dove
+  parte o a quale hook assomiglia: `Come Hook 2, ma senza "A Natale ..."`.
 - Il testo on-screen sta su una riga a parte, dopo l'istruzione di montaggio.
 - `[dichiarato: Matteo, 2026-11-19]` Una azione per riga. In `Cosa far vedere`, in
   `Note per Editor` e nei props di setup ogni istruzione sta su una riga (`<br />`

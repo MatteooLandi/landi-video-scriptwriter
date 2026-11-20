@@ -3,8 +3,8 @@ fixture:
   format-lint: 0
   hook-lint: 0
 notes: Module dell'hook con etichetta senza spazi per livello di consapevolezza
-       (Hook1_problemAware) e riga solo per l'editor (Hook4_problemAware (per
-       editor)). Stesso brief di 01-ugc-clean con le sole etichette cambiate.
+       (Hook1_problemAware), riga solo per l'editor (Hook4_problemAware (per
+       editor)) e versione corta (Hook1_problemAware_short). Stesso brief di 01-ugc-clean con le sole etichette cambiate.
 ---
 
 # Brief Video - Prodotto Alfa (UGC 30s)
@@ -22,6 +22,7 @@ Target: donna 35-45, prima volta con skincare attiva
 | Hook2_solutionAware | Se anche tu ti stai chiedendo se la crema che usi ti stia solo tamponando il problema, guarda cosa ho notato in due settimane. | Split screen: prima (spenta) vs dopo (luminosa), luce identica. | Testo on-screen: prima vs dopo, 14 giorni |
 | Hook3_productAware | La mia estetista mi aveva detto di non aspettarmi miracoli. Poi e' successo questo. | Video di reazione della persona che si tocca la pelle allo specchio. | Testo on-screen: la mia estetista mi aveva avvisato |
 | Hook4_problemAware (per editor) | Hook1 + parti da Body 3 | - | Come Hook1, poi attacca al Body 3 |
+| Hook1_problemAware_short | - | - | Parti dal Body 1. Testo on-screen: stanca di truccarti ogni mattina? |
 
 ## Tabella 2 - Body Script
 

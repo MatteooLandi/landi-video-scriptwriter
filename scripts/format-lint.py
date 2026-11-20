@@ -66,7 +66,7 @@ MODULE_PATTERN = re.compile(
     # L'hook porta un'etichetta senza spazi, `Hook1_proprietarioStanco` o
     # `Hook1_problemAware` (03-output-contract.md, Module). La forma con spazio e
     # trattino resta accettata per i brief gia' scritti.
-    r"^(Hook\d+_[A-Za-z][A-Za-z0-9]*( \(per editor\))?"
+    r"^(Hook\d+_[A-Za-z][A-Za-z0-9]*(_short)?( \(per editor\))?"
     r"|Hook \d+( \(per editor\))?( [-:] .+)?|Body \d+|CTA)$", re.I
 )
 
@@ -202,8 +202,8 @@ def main(argv):
                 findings.append((
                     row_lineno,
                     f"Module '{module}' fuori pattern "
-                    f"'HookN_etichetta', 'HookN_etichetta (per editor)', 'Hook N' o "
-                    f"'Hook N (per editor)'"
+                    f"'HookN_etichetta', 'HookN_etichetta_short', "
+                    f"'HookN_etichetta (per editor)', 'Hook N' o 'Hook N (per editor)'"
                 ))
 
     # Verifica righe Tabella 2 (Scene Script).

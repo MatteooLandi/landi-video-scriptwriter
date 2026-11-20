@@ -10,7 +10,8 @@ Check duri (finding):
 - Testo on-screen copiato dal parlato (similarity > 0.9)
 - Testo on-screen fuori range 1-14 parole
 - Brand/prodotto nel parlato hook (regola "primi 3s non pubblicità")
-- Ricombinazione senza '(per editor)'
+- Riga extra con nome fuori schema (`HookN_etichetta (per editor)`,
+  `HookN_etichetta_short`)
 
 Check soft (warning):
 - Diversità hook (Jaccard > 0.6 su parole ≥ 4 lettere)
@@ -174,7 +175,8 @@ def main(argv):
         module, said, shown, note = cs[0], cs[1], cs[2], cs[3]
         onscreen = extract_onscreen(note)
         entry = (start + 1 + i, module, said, shown, note, onscreen)
-        if "(per editor)" in module.lower():
+        if ("(per editor)" in module.lower()
+                or re.search(r"_short$", module.strip(), re.I)):
             hook_extra.append(entry)
         else:
             hook_base.append(entry)
@@ -282,12 +284,14 @@ def main(argv):
     # Hook extra (ricombinazione) - naming
     for lineno, module, said, shown, note, onscreen in hook_extra:
         if not re.match(
-                r"^Hook(?: \d+|\d+_[A-Za-z][A-Za-z0-9]*) \(per editor\)$",
+                r"^(?:Hook \d+ \(per editor\)"
+                r"|Hook\d+_[A-Za-z][A-Za-z0-9]*(?:_short)?(?: \(per editor\))?)$",
                 module, re.I):
             findings.append((
                 lineno,
                 f"riga extra '{module}' non segue pattern "
-                f"'HookN_etichetta (per editor)' o 'Hook N (per editor)'"
+                f"'HookN_etichetta_short', 'HookN_etichetta (per editor)' o "
+                f"'Hook N (per editor)'"
             ))
 
     # Override dichiarato dall'utente: i finding sul gate hook restano visibili

@@ -26,16 +26,21 @@ Regola dei numeri:
   `08-etichette-hook-consapevolezza.md`. Eval 19/19.
   `[dichiarato: Matteo, 2026-11-20]` per la forma e i due criteri;
   `[inferito]` per la compatibilita' con la forma vecchia.
+- feat(output-contract): la versione corta di un hook usa lo stesso nome con
+  `_short` in fondo, `Hook1_problemAware_short`, e `short` e' sempre l'ultima
+  aggiunta (`Hook1_problemAware_short (per editor)` se e' anche solo per l'editor).
+  `format-lint.py` e `hook-lint.py` accettano la forma e non la contano tra i tre
+  hook base. Sostituisce `Hook N short`, che i linter rifiutavano.
+  `[dichiarato: Matteo, 2026-11-20]`
 - feat(output-contract): la riga solo per l'editor si scrive col nome del hook con
   underscore e `(per editor)` tra parentesi, `Hook4_problemAware (per editor)`. Il
   nome prima della parentesi e' quello che l'editor usa per i file (nome del brief
   piu' nome della variante, tutto con underscore). `format-lint.py` e
   `hook-lint.py` accettano la forma nuova e la vecchia `Hook 4 (per editor)`.
   Matteo ha scartato la proposta `Hook1_short` e `Hook4_perEditor`.
-  `[dichiarato: Matteo, 2026-11-20]`; il numero e l'etichetta propri di ogni
-  riga di montaggio sono `[inferito]`. La variante `Hook N short` resta
-  senza nome con underscore, `da definire con Matteo`, e i due linter continuano
-  a rifiutarla.
+  Ogni riga di montaggio ha un numero nuovo (nome del file unico) e l'etichetta del
+  hook da cui parte, scelta da Matteo tra due alternative.
+  `[dichiarato: Matteo, 2026-11-20]`
 - docs(output-contract): celle di `Cosa far vedere`, `Note per Editor` e props brevi
   e schematiche, a capo dopo ogni frase, e comprensibili a tutti anche da chi
   legge in fretta (soggetto e oggetto espliciti, si taglia il superfluo e mai il

@@ -374,8 +374,9 @@ Regola di notazione (vale sia per 8a che per 8b):
 2026-11-13]` Nei format a piu' speaker si prepara sempre una versione corta che
 parte da un blocco del body, cosi' chi guarda entra a sfida gia' iniziata.
 L'assenza dell'intro si copre con testo applicato nei primi 3 secondi (la sfida e
-le etichette dei personaggi), senza parlato aggiuntivo. La riga si chiama `Hook N
-(per editor)` e dice da quale body parte e quali blocchi si usano.
+le etichette dei personaggi), senza parlato aggiuntivo. La riga si chiama come l'hook con `_short` in fondo
+(`Hook1_problemAware_short`, `[dichiarato: Matteo, 2026-11-20]`) e dice da quale
+body parte e quali blocchi si usano.
 
 ---
 
