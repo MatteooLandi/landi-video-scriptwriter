@@ -18,6 +18,21 @@ Regola dei numeri:
 ## [Unreleased]
 
 ### Changed
+- feat(output-contract): il Module dell'hook si scrive senza spazi, con l'etichetta
+  in camelCase che dice il criterio del brief: `Hook1_proprietarioStanco` per i
+  cluster di pubblico, `Hook1_problemAware` per i livelli di consapevolezza.
+  `format-lint.py` accetta la forma nuova (`Hook1_` seguito da una sola parola,
+  senza spazi) e continua ad accettare `Hook 1 - proprietario stanco`. Fixture
+  `08-etichette-hook-consapevolezza.md`. Eval 19/19.
+  `[dichiarato: Matteo, 2026-11-20]` per la forma e i due criteri;
+  `[inferito]` per la compatibilita' con la forma vecchia.
+- docs(output-contract): celle di `Cosa far vedere`, `Note per Editor` e props brevi
+  e schematiche, a capo dopo ogni frase, e comprensibili a tutti anche da chi
+  legge in fretta (soggetto e oggetto espliciti, si taglia il superfluo e mai il
+  significato). `[dichiarato: Matteo, 2026-11-20]`
+- docs(output-contract): la regola dei due ruoli (nessuna ripresa del creator in
+  `Note per Editor`) passa da `inferito` a `dichiarato`, confermata da Matteo.
+  `[dichiarato: Matteo, 2026-11-20]`
 - docs(output-contract): una azione per riga nelle celle e nei props; frasi che
   spiegano il perche' senza istruire si eliminano; pause e gesti di chi recita in
   `Cosa far vedere`; immagine di esempio nei props con lavagna o fogli. `AP-02`

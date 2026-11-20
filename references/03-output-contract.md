@@ -72,6 +72,16 @@ diventano la formattazione standard, da confermare con lui.
   `Note per Editor` e nei props di setup ogni istruzione sta su una riga (`<br />`
   tra una e l'altra), con il titolo in grassetto. I paragrafi lunghi non si
   leggono al volo.
+- `[dichiarato: Matteo, 2026-11-20]` Brevi e schematiche. Le celle di `Cosa far
+  vedere` e di `Note per Editor` e i props sono scritti il piu' corti e a elenco
+  possibile: meglio un'istruzione corta di una completa. A capo dopo ogni frase.
+  Creator ed editor non hanno tempo per leggere.
+- `[dichiarato: Matteo, 2026-11-20]` Corte e comprensibili a tutti. Chi legge in
+  fretta deve capire tutto lo stesso: si taglia il superfluo e mai il significato.
+  Le regole su pronomi, sigle e verbi concreti stanno nella sezione
+  "Comprensibilita' istruzioni produttive". `[inferito]` La fascia sopra 90
+  dell'indice di leggibilita' di quella sezione non e' un motivo per allungare una
+  cella: dice solo di controllare che l'istruzione sia completa.
 - `[dichiarato: Matteo, 2026-11-19]` Una frase che spiega il perche' senza dare
   un'istruzione a chi registra o monta (`il cerchio rosso rende visibile il lavoro
   ripetuto`) non si scrive. Se un testo non aggiunge valore, si elimina.
@@ -114,9 +124,19 @@ cambiare senza rompere la scena.
 
 Colonne: **Module | Cosa devi dire | Cosa far vedere | Note per Editor**
 
-- **Module:** identificativo dell'hook con etichetta descrittiva del suo angolo o
-  persona. Esempio: `Hook 1 - proprietario stanco`, `Hook 2 - proprietario con
-  property manager`.
+- **Module:** numero dell'hook e etichetta, scritti senza spazi con `_` in mezzo e
+  l'etichetta in camelCase: `Hook1_proprietarioStanco`. L'etichetta dice il criterio
+  con cui si differenziano gli hook di quel brief. `[dichiarato: Matteo,
+  2026-11-20]`
+  - Hook pensati per cluster di pubblico: l'etichetta nomina il cluster.
+    `Hook1_proprietarioStanco`, `Hook2_proprietarioConPropertyManager`.
+  - Hook basati su livelli di consapevolezza: l'etichetta nomina il livello.
+    `Hook1_problemAware`, `Hook2_solutionAware`, `Hook3_productAware`. I livelli
+    sono quelli di `01-hook-system.md` (unaware, problemAware, solutionAware,
+    productAware, mostAware).
+  - La forma vecchia `Hook 1 - proprietario stanco` resta accettata dal linter per
+    i brief gia' scritti. `[inferito: nessuna parola di Matteo sui brief
+    esistenti]`
 - **Cosa devi dire:** il parlato dell'hook (script, non testo a schermo).
 - **Cosa far vedere:** indicazione visiva per il creator (vedi regole sotto).
   Puo' essere vuota se coincide con quanto ovvio dal parlato.
@@ -233,7 +253,7 @@ Tutto questo e' lavoro dell'editor, va in **"Note per Editor"**.
 Regola pratica: **se non lo puo' fare il creator con la sua camera in quel
 momento, non e' "Cosa far vedere"**.
 
-### Cosa NON va in "Note per Editor" (`inferito`)
+### Cosa NON va in "Note per Editor" (`dichiarato: Matteo, 2026-11-20`)
 
 `Note per Editor` contiene solo azioni in post: selezione e montaggio delle
 clip, testo on-screen, sound design, grafica, transizioni, crop, timing. Tutto
@@ -246,8 +266,12 @@ Esempio. `Riprendi una mano che applica il prodotto, con luce calda e gesto
 lento` va in `Cosa far vedere`. `Abbina questa clip a una macro precedente con
 uno stacco netto` va in `Note per Editor`.
 
+Anche le note per l'editor sono corte e schematiche, a capo dopo ogni frase
+(`[dichiarato: Matteo, 2026-11-20]`, regola completa in "Formattazione delle
+celle").
+
 Base: proposta del 2026-10-22 emersa lavorando su un brief video di un cliente
-(regola vincolante dei due ruoli). Non e' ancora un controllo del linter: da
+(regola vincolante dei due ruoli), confermata da Matteo il 2026-11-20. Non e' ancora un controllo del linter: da
 confermare con Matteo se serve un controllo automatico su luce, inquadratura e
 setting nella colonna editor.
 
