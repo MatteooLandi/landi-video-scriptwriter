@@ -126,6 +126,10 @@ passivo, lettura ad alta voce).
   detta con urlo o molta enfasi, seguita da `!` o da `?` legato a uno shock,
   `02-writing-principles.md` principio 23): va spostata in Note per Editor come
   indicazione di delivery
+- Alternativa a/b lasciata nella cella del parlato ("papi / papa'", due versioni
+  della battuta separate da "oppure" o da una barra): la scelta si fa prima di
+  consegnare, l'altra versione va nelle Note per Editor o si toglie
+  `[inferito, 2026-11-20]`
 - Domande retoriche auto-poste, tranne le tre della lista bianca ("E sai qual è
   il punto?", "E sai qual è la cosa interessante?", "E sai cosa succede?")
 - Puffery / brochure register
@@ -158,6 +162,28 @@ passivo, lettura ad alta voce).
   la giuntura manca (`AP-22`, `10-parlato-ritmo-e-ponti.md` R2)
 - Density complessiva alta
 
+### Passaggio performer (giudizio del reviewer, `inferito`)
+
+Base: la proposta di un progetto cliente del 2026-10-13, nata perche' chi doveva
+doppiare uno script di podcast animato ha corretto tutte le righe di parlato e il
+linter dava zero flag sia sul testo originale sia sul rivisto. Approvato da
+Matteo il 2026-11-20 (`dichiarato`). Non e' un controllo del linter: nessuno
+script vede queste correzioni.
+
+Il reviewer rilegge ogni battuta con la lente di chi la recita e per ogni battuta
+si chiede:
+
+- c'e' un verbo piu' corto, o un verbo che regge direttamente il complemento?
+- i pronomi sono attaccati al verbo ("dammelo", non "dai a me quello")?
+- il presente regge il futuro prossimo ("domani lo compro", non "lo comprero'")?
+- ci sono calchi dall'inglese?
+- un intercalare si ripete (stessa parola di riempimento in piu' battute)?
+- la battuta ripete un'informazione gia' implicita?
+- la parola su cui atterra la battuta e' quella che deve restare in mente?
+
+La ricevuta riporta `Passaggio performer: eseguito su N battute, M riscritte`.
+Il passaggio si aggiunge alla lettura ad alta voce (R10) e non la sostituisce.
+
 ### Warning (passa con label):
 
 - Singolo tell isolato in body (< 3 nella riga)
@@ -170,6 +196,9 @@ passivo, lettura ad alta voce).
 - **Passivo o nominalizzazione nel parlato**: `viene applicato`, `è stato
   studiato`, `la gestione di X comporta`. Warning, perché l'agente davvero
   irrilevante e il registro di personaggio restano legittimi (`AP-23`)
+- **Modali impilati e perifrasi causative nel parlato** ("riesco a vedere" dove
+  basta "vedo", "fa si' che mangi" dove basta "fa mangiare"). Warning del
+  reviewer, non del linter: R8 esteso `[inferito, 2026-11-20]`
 - **Nessun ponte dichiarato tra i blocchi**: nessun blocco dopo Body 1 apre con
   un connettivo di collegamento. Warning documento, non di riga (`AP-22`)
 - **Aforisma sospetto**: due frasi consecutive brevi che finiscono con la stessa

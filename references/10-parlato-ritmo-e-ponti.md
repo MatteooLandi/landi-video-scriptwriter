@@ -215,7 +215,7 @@ montaggio fa il lavoro dell'intonazione. Senza stacco e' cadenza meccanica.
 
 ---
 
-## R8. Passivo e nominale fuori dal parlato
+## R8. Passivo, nominale, modali e perifrasi fuori dal parlato
 
 Le costruzioni passive ("viene applicato", "e' stato studiato") e le
 nominalizzazioni ("la gestione delle scadenze comporta") sono forme scritte.
@@ -234,6 +234,23 @@ male"; "viene applicato" diventa "lo metti".
 **Eccezione.** Il passivo impersonale resta quando l'agente e' davvero ignoto o
 irrilevante, e quando serve il registro tecnico di un personaggio (principio 18
 di `02-writing-principles.md`).
+
+**Estensione a modali e perifrasi causative** (`inferito`, base: proposta di un
+progetto cliente del 2026-10-13, nata dalle correzioni di chi doppia un podcast
+animato; approvata da Matteo il 2026-11-20). Chi recita corregge anche queste
+forme scritte, perche' allungano la battuta senza aggiungere nulla:
+
+- modali volitivi e obbligativi impilati su un altro verbo ("riesco a vedere",
+  "devo riuscire a fare", "voglio poter dire") quando un verbo solo regge la
+  frase ("vedo", "faccio", "dico");
+- perifrasi causative ("fa si' che il bambino mangi", "mette in condizione di
+  scegliere") quando esiste un verbo che regge il complemento ("fa mangiare il
+  bambino", "ti fa scegliere").
+
+Resta il modale che dice una vera necessita' o un vero permesso ("devi firmare
+entro venerdi'") e quello che e' il tic del personaggio. Gli esempi qui sopra
+sono miei: gli esempi reali stanno nel progetto cliente e vanno portati qui
+(`da definire con Matteo`).
 
 ---
 
@@ -283,7 +300,7 @@ conversazione reale? C'e' almeno un marcatore di autenticita' per blocco?
 | Nessun aforisma nel body | frasi corte e simmetriche | R4, a mano |
 | Frasi di lunghezza alternata | dentro il blocco e tra blocchi | R5, warning del linter |
 | Frammenti in serie con stacco dichiarato | Note per Editor | R7, linter |
-| Nessun passivo o nominale nel parlato | ogni riga | R8, warning del linter |
+| Nessun passivo, nominale, modale impilato o perifrasi causativa nel parlato | ogni riga | R8, warning del linter per il passivo, reviewer per il resto |
 | Termini tecnici spiegati | ogni occorrenza | R9 |
 | Lettura ad alta voce eseguita | tutto lo script | R10, riga in ricevuta |
 

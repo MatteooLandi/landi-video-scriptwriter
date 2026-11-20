@@ -429,7 +429,8 @@ mettono distanza tra chi parla e quello che dice. Si riscrive rimettendo chi fa
 la cosa e trasformando il nome nel verbo che contiene ("la gestione comporta"
 diventa "se gestisci male"). Il passivo impersonale resta quando l'agente e'
 davvero irrilevante o quando serve il registro di un personaggio tecnico
-(principio 18). Regola in `references/10-parlato-ritmo-e-ponti.md` R8.
+(principio 18). Regola in `references/10-parlato-ritmo-e-ponti.md` R8, che
+copre anche modali impilati e perifrasi causative (`inferito`, 2026-11-20).
 
 ---
 

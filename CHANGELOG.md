@@ -290,6 +290,15 @@ Regola dei numeri:
 
 ---
 
+- feat(voice): tre punti da proposte di un progetto cliente del 2026-10-13, approvati da
+  Matteo il 2026-11-20 (`dichiarato`, formulazione `inferito`). (1) Passaggio performer nel
+  gate Voice di `07-review-gates.md`: ogni battuta riletta con la lente di chi la recita,
+  riga di ricevuta `Passaggio performer: eseguito su N battute, M riscritte`. (2) R8 di
+  `10-parlato-ritmo-e-ponti.md` esteso a modali impilati e perifrasi causative, warning del
+  reviewer, con richiamo in AP-23. (3) Alternativa a/b lasciata nella cella del parlato:
+  bounce del gate Voice. Nessuna modifica ai linter. La domanda di intake sulla voce dei
+  personaggi esisteva gia' per i podcast animati in `formats/06-podcast-ads.md`.
+
 ## [1.2.0] — 2026-08-27
 
 ### Added
