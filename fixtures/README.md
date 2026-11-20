@@ -20,8 +20,9 @@ Esempi sanitizzati di output "gold standard". Servono a:
 | `04-context-slop.md` | Category entry point implicito, impalcatura generica, residuo assistente, calco EN e trattino medio come punteggiatura | n/a | n/a | ✗ fail | n/a |
 | `05-command-contrast-slop.md` | Impalcatura a comando e falso contrasto nel parlato, con in coda i casi legittimi che devono restare puliti (CTA, istruzione d'uso, obiezione nominata) | n/a | n/a | ✗ fail | n/a |
 | `06-ponti-ritmo-clean.md` | Ponti della lista bianca (R3) e frammento singolo (R7) che devono restare puliti, piu' le righe che generano solo warning di ritmo (aforisma per eco, ritmo piatto, passivo, nominalizzazione) | n/a | n/a | ✓ pass | n/a |
-| `07-contratto-linter-allineati.md` | Module con etichetta, on-screen seguito da istruzioni nella stessa cella, riga `Override: hook:` | ✓ pass | ✓ pass | n/a | n/a |
+| `07-contratto-linter-allineati.md` | Module con etichetta senza spazi, on-screen seguito da istruzioni nella stessa cella, riga `Override: hook:` | ✓ pass | ✓ pass | n/a | n/a |
 | `08-etichette-hook-consapevolezza.md` | Module `Hook1_problemAware`, `Hook2_solutionAware`, `Hook3_productAware` , riga `Hook4_problemAware (per editor)` e versione corta `Hook1_problemAware_short` | ✓ pass | ✓ pass | n/a | n/a |
+| `09-etichetta-vecchia-rifiutata.md` | Module `Hook 1 - proprietario stanco`, forma vecchia con etichetta e spazi, non piu' accettata | ✗ fail | ✓ pass | n/a | n/a |
 
 ## Convenzione
 

@@ -18,11 +18,17 @@ Regola dei numeri:
 ## [Unreleased]
 
 ### Changed
+- feat(format-lint): `Hook1_proprietarioStanco` e' la forma preferibile del Module.
+  `Hook 1` senza etichetta resta accettato e `format-lint.py` lo segnala con un
+  avviso. `Hook 1 - proprietario stanco`, con etichetta e spazi, non e' piu'
+  accettato. Fixture `07` aggiornata, nuova fixture `09` che si aspetta il rifiuto.
+  `[dichiarato: Matteo, 2026-11-20]`; l'avviso come modo di dire "non preferibile"
+  e' `[inferito]`.
 - feat(output-contract): il Module dell'hook si scrive senza spazi, con l'etichetta
   in camelCase che dice il criterio del brief: `Hook1_proprietarioStanco` per i
   cluster di pubblico, `Hook1_problemAware` per i livelli di consapevolezza.
   `format-lint.py` accetta la forma nuova (`Hook1_` seguito da una sola parola,
-  senza spazi) e continua ad accettare `Hook 1 - proprietario stanco`. Fixture
+  senza spazi). Fixture
   `08-etichette-hook-consapevolezza.md`. Eval 19/19.
   `[dichiarato: Matteo, 2026-11-20]` per la forma e i due criteri;
   `[inferito]` per la compatibilita' con la forma vecchia.
@@ -65,7 +71,8 @@ Regola dei numeri:
 ### Fixed
 - fix(format-lint): il Module dell'hook ammette l'etichetta descrittiva prevista
   da `03-output-contract.md` (`Hook 1 - proprietario stanco`). Prima ogni
-  etichetta era un finding. `[inferito: proposta cliente 2026-09-30]`
+  etichetta era un finding. `[inferito: proposta cliente 2026-09-30]` Sostituito il
+  2026-11-20: quella forma con spazi non e' piu' accettata, vedi sotto.
 - fix(hook-lint): il testo on-screen finisce alla prima riga o al primo `<br>`,
   quindi le istruzioni che seguono nella stessa cella non fanno scattare il
   limite di 14 parole. `[inferito: proposta cliente 2026-09-30]`

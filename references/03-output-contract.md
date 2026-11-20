@@ -72,8 +72,8 @@ diventano la formattazione standard, da confermare con lui.
   l'etichetta ricorda il livello o il cluster dell'hook da cui parte; da dove parte
   lo dice la cella `Cosa devi dire` (`Hook1 + parti da Body 3`).
   `[dichiarato: Matteo, 2026-11-20]`
-- La forma vecchia `Hook 4 (per editor)` resta accettata dai linter, per i brief gia'
-  scritti. `[inferito: nessuna parola di Matteo sui brief esistenti]`
+- `Hook 4 (per editor)` senza etichetta resta accettato ma non e' preferibile.
+  `[inferito: stessa regola dell'hook base senza etichetta]`
 - `[dichiarato: Matteo, 2026-11-20]` La versione corta di un hook usa lo stesso
   nome con `_short` in fondo (`Hook1_problemAware_short`), sempre come ultima
   aggiunta al nome. Una versione corta solo per l'editor si scrive
@@ -146,9 +146,10 @@ Colonne: **Module | Cosa devi dire | Cosa far vedere | Note per Editor**
     `Hook1_problemAware`, `Hook2_solutionAware`, `Hook3_productAware`. I livelli
     sono quelli di `01-hook-system.md` (unaware, problemAware, solutionAware,
     productAware, mostAware).
-  - La forma vecchia `Hook 1 - proprietario stanco` resta accettata dal linter per
-    i brief gia' scritti. `[inferito: nessuna parola di Matteo sui brief
-    esistenti]`
+  - `Hook1_proprietarioStanco` e' la forma preferibile. `Hook 1` senza etichetta resta
+    accettato ma non e' preferibile, e il linter lo segnala con un avviso.
+    `Hook 1 - proprietario stanco` non e' piu' accettato. `[dichiarato: Matteo,
+    2026-11-20]`
 - **Cosa devi dire:** il parlato dell'hook (script, non testo a schermo).
 - **Cosa far vedere:** indicazione visiva per il creator (vedi regole sotto).
   Puo' essere vuota se coincide con quanto ovvio dal parlato.

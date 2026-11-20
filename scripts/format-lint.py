@@ -64,10 +64,11 @@ EDITOR_MARKERS = [
 # Naming Module (Tabella 1 e 2).
 MODULE_PATTERN = re.compile(
     # L'hook porta un'etichetta senza spazi, `Hook1_proprietarioStanco` o
-    # `Hook1_problemAware` (03-output-contract.md, Module). La forma con spazio e
-    # trattino resta accettata per i brief gia' scritti.
+    # `Hook1_problemAware` (03-output-contract.md, Module). `Hook 1` senza
+    # etichetta e' accettato ma non preferibile (avviso); `Hook 1 - etichetta`
+    # non e' piu' accettato. [dichiarato: Matteo, 2026-11-20]
     r"^(Hook\d+_[A-Za-z][A-Za-z0-9]*(_short)?( \(per editor\))?"
-    r"|Hook \d+( \(per editor\))?( [-:] .+)?|Body \d+|CTA)$", re.I
+    r"|Hook \d+( \(per editor\))?|Body \d+|CTA)$", re.I
 )
 
 
@@ -204,6 +205,12 @@ def main(argv):
                     f"Module '{module}' fuori pattern "
                     f"'HookN_etichetta', 'HookN_etichetta_short', "
                     f"'HookN_etichetta (per editor)', 'Hook N' o 'Hook N (per editor)'"
+                ))
+            elif re.match(r"^Hook \d+( \(per editor\))?$", module, re.I):
+                warnings.append((
+                    row_lineno,
+                    f"Module '{module}' senza etichetta: accettato, ma e' "
+                    f"preferibile 'HookN_etichetta' (03-output-contract.md)"
                 ))
 
     # Verifica righe Tabella 2 (Scene Script).

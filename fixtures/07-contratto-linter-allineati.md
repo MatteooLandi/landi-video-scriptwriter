@@ -2,7 +2,7 @@
 fixture:
   format-lint: 0
   hook-lint: 0
-notes: Allineamento contratto e linter. Module con etichetta descrittiva,
+notes: Allineamento contratto e linter. Module con etichetta senza spazi,
        testo on-screen seguito da altre istruzioni nella stessa cella (<br>) e
        riga Override sul gate hook per un on-screen volutamente lungo.
 ---
@@ -20,7 +20,7 @@ Target: donna 35-45, prima volta con skincare attiva
 
 | Module | Cosa devi dire | Cosa far vedere | Note per Editor |
 |---|---|---|---|
-| Hook 1 - proprietaria stanca | Ho passato tre anni a nascondere la mia pelle sotto strati di fondotinta. | Selfie ravvicinato, senza trucco, luce naturale del bagno. | Testo on-screen: stanca di truccarti ogni mattina? |
+| Hook1_proprietariaStanca | Ho passato tre anni a nascondere la mia pelle sotto strati di fondotinta. | Selfie ravvicinato, senza trucco, luce naturale del bagno. | Testo on-screen: stanca di truccarti ogni mattina? |
 | Hook 2 | Se anche tu ti stai chiedendo se la crema che usi ti stia solo tamponando il problema, guarda cosa ho notato in due settimane. | Split screen: prima (spenta) vs dopo (luminosa), luce identica. | Testo on-screen: prima vs dopo, 14 giorni<br>Tieni il testo fermo per tutta la durata della battuta e poi fai partire lo split screen con la stessa luce nei due lati dell'inquadratura |
 | Hook 3 | La mia estetista mi aveva detto di non aspettarmi miracoli. Poi e' successo questo. | Video di reazione della persona che si tocca la pelle allo specchio. | Testo on-screen: la mia estetista mi aveva avvisato di non aspettarmi miracoli e poi guarda cosa e' successo davvero |
 
