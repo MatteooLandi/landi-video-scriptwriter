@@ -281,11 +281,13 @@ def main(argv):
 
     # Hook extra (ricombinazione) - naming
     for lineno, module, said, shown, note, onscreen in hook_extra:
-        if not re.match(r"^Hook \d+ \(per editor\)$", module, re.I):
+        if not re.match(
+                r"^Hook(?: \d+|\d+_[A-Za-z][A-Za-z0-9]*) \(per editor\)$",
+                module, re.I):
             findings.append((
                 lineno,
                 f"riga extra '{module}' non segue pattern "
-                f"'Hook N (per editor)'"
+                f"'HookN_etichetta (per editor)' o 'Hook N (per editor)'"
             ))
 
     # Override dichiarato dall'utente: i finding sul gate hook restano visibili

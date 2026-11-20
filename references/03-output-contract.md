@@ -64,8 +64,15 @@ diventano la formattazione standard, da confermare con lui.
   `**Listino fisso** tiene in mano un listino stampato.`
 - Una cella senza contenuto porta un trattino `-`, mai vuota. Succede nelle righe
   di sola variante per l'editor.
-- Le varianti si chiamano `Hook N short` quando l'hook accorcia il suo aggancio e
-  `Hook N (per editor)` quando e' solo montaggio. La nota di una variante dice da
+- Una riga solo per l'editor (variante di montaggio) porta il nome del hook con
+  underscore e poi, tra parentesi, `(per editor)`: `Hook4_problemAware (per
+  editor)`. Il nome prima della parentesi e' quello che l'editor usa per i file:
+  nome del brief piu' nome della variante, tutto con underscore.
+  `[dichiarato: Matteo, 2026-11-20]` Il numero e l'etichetta propri di ogni
+  riga di montaggio sono `[inferito]`. La forma vecchia `Hook 4 (per
+  editor)` resta accettata.
+- La variante `Hook N short` (l'hook accorcia il suo aggancio) non ha ancora un
+  nome con underscore: `da definire con Matteo`. La nota di una variante dice da
   dove parte o a quale hook assomiglia: `Come Hook 2, ma senza "A Natale ..."`.
 - Il testo on-screen sta su una riga a parte, dopo l'istruzione di montaggio.
 - `[dichiarato: Matteo, 2026-11-19]` Una azione per riga. In `Cosa far vedere`, in
@@ -157,6 +164,9 @@ Colonne: **Module | Cosa devi dire | Cosa far vedere | Note per Editor**
 Dopo gli hook reali, puoi aggiungere righe che descrivono **varianti di montaggio**
 combinando un hook con un pezzo di body. Servono all'editor per assemblare
 creative diverse dallo stesso materiale.
+
+Ogni riga si nomina come descritto in "Formattazione delle celle": `Hook4_problemAware
+(per editor)`. Gli esempi qui sotto usano la forma vecchia, ancora accettata.
 
 - `Hook 4 (per editor)` con contenuto `Body 1` = variante che usa quel blocco.
 - `Hook 5 (per editor)` con contenuto `Hook 1 + parti da body 3`.
